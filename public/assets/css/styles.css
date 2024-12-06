@@ -185,6 +185,10 @@ body.dark-theme {
   color: hsl(0, 0%, 15%);
 }
 
+.dark-theme .bx-sun, .dark-theme .nav__shop {
+  color: hsl(0, 0%, 100%);
+}
+
 .dark-theme .scroll-header {
   box-shadow: 0 1px 4px hsla(0, 0%, 4%, .3);
 }
