@@ -125,7 +125,7 @@
     ];
 @endphp
 
-@extends('layouts.master')
+@extends('Users.layouts.master')
 
 @section('title')
 @endsection
@@ -139,7 +139,6 @@
 @section('content')
     <!--==================== MAIN ====================-->
     <main class="main">
-
         <!--==================== HOME ====================-->
         <section class="home" id="home">
             <div class="home__container container grid">
@@ -159,7 +158,6 @@
                         Instagram
                     </a>
                 </div>
-
                 <div class="home__data">
                     <h1 class="home__title">ROLEX <br> Day-Just</h1>
                     <p class="home__description">
@@ -180,7 +178,6 @@
         <!--==================== FEATURED ====================-->
         <section class="featured section container" id="featured">
             <h2 class="section__title">The Clients Favourite</h2>
-
             <div class="featured__container grid">
                 @foreach ($products as $product)
                     <article class="featured__card">
@@ -193,14 +190,12 @@
                             <span class="featured__price">{{ $product['price'] }}</span>
                         </div>
 
-                        <a href="{{route('product', ['slug' => $product['title']])}}" class="button featured__button">Buy Now</a>
+                        <a href="{{ route('product', ['slug' => $product['title']]) }}" class="button featured__button">Buy
+                            Now</a>
                     </article>
                 @endforeach
-
             </div>
         </section>
-
-
         <!--==================== OUR TRUSTED BRANDS ====================-->
         <section class="brands section container" id="brands">
             <h2 class="section__title">Our Trusted Brands</h2>
@@ -210,16 +205,14 @@
                     <article class="brands__card">
                         <img src="{{ asset($brand['image']) }}" alt="{{ $brand['alt'] }}" class="brands__img">
                         <h3 class="brands__title">{{ $brand['title'] }}</h3>
-                        <a href="{{route('brand', ['slug' => $brand['slug']])}}" class="button brands__button">Explore</a>
+                        <a href="{{ route('brand', ['slug' => $brand['slug']]) }}"
+                            class="button brands__button">Explore</a>
                     </article>
                 @endforeach
-
             </div>
         </section>
-
         </div>
         </section>
-
         <!--==================== STORY ====================-->
         <section class="story section container">
             <div class="story__container grid">
@@ -254,11 +247,9 @@
                 </div>
             </div>
         </section>
-
         <!--==================== NEW ARRIVALS ====================-->
         <section class="new section container" id="new">
             <h2 class="section__title">New Arrivals</h2>
-
             <div class="new__container">
                 <div class="swiper new-swiper">
                     <div class="swiper-wrapper">
@@ -275,7 +266,6 @@
 
                             <button class="button new__button">BUY NOW</button>
                         </article>
-
                         <article class="new__card swiper-slide">
                             <span class="new__tag">New</span>
 
@@ -289,7 +279,6 @@
 
                             <button class="button new__button">BUY NOW</button>
                         </article>
-
                         <article class="new__card swiper-slide">
                             <span class="new__tag">New</span>
 
@@ -303,7 +292,6 @@
 
                             <button class="button new__button">BUY NOW</button>
                         </article>
-
                         <article class="new__card swiper-slide">
                             <span class="new__tag">New</span>
 
@@ -317,7 +305,6 @@
 
                             <button class="button new__button">BUY NOW</button>
                         </article>
-
                         <article class="new__card swiper-slide">
                             <span class="new__tag">New</span>
 
@@ -331,7 +318,6 @@
 
                             <button class="button new__button">BUY NOW</button>
                         </article>
-
                         <article class="new__card swiper-slide">
                             <span class="new__tag">New</span>
 
@@ -349,7 +335,6 @@
                 </div>
             </div>
         </section>
-
     </main>
 @endsection
 

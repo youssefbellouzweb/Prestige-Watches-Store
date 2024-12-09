@@ -1,11 +1,11 @@
 <?php
 
-use App\Http\Controllers\Frontend\Brand;
-use App\Http\Controllers\Frontend\Product;
+use App\Http\Controllers\Users\Brand;
+use App\Http\Controllers\Users\Product;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('frontend.welcome');
+    return view('Users.welcome');
 })->name('index');
 
 Route::get('/brand/{slug}', [Brand::class,'show'])->name('brand');

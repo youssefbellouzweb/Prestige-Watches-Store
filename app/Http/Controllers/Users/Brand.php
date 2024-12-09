@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Controllers\Frontend;
+namespace App\Http\Controllers\Users;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class Product extends Controller
+class Brand extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -102,17 +102,13 @@ class Product extends Controller
             ],
         ];
 
-        $product = array_filter($products, function ($item) use ($slug) {
-            return $item['title'] === $slug;
+        $filteredProducts = array_filter($products, function ($product) use ($slug) {
+            return $product['brand_slug'] === $slug;
         });
 
-        if (empty($product)) {
-            abort(404, 'Product not found');
-        }
+        // dd($filteredProducts);
 
-        $product = array_values($product)[0];
-
-        return view('frontend.product', ['product' => $product]);
+        return view('Users.brand', ['products' => $filteredProducts]);
     }
 
     /**
