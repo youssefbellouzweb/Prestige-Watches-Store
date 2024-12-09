@@ -65,7 +65,7 @@
           <span class="featured__price">{{ $product['price'] }}</span>
         </div>
 
-        <a href="{{ asset($product['link']) }}" class="button featured__button">
+        <a href="{{route('product', ['slug' => $product['title']])}}" class="button featured__button">
           Buy Now
         </a>
       </article>

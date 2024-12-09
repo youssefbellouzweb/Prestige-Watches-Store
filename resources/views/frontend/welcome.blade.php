@@ -5,6 +5,8 @@
             'image' => 'assets/img/Cartier/451-o7pwhf3u1vssktw7s9uikiff-Main_2x.webp',
             'alt' => 'Luxury Watch 1',
             'title' => 'CArtier Bleu Ball',
+            'slug' => 'cartier',
+            'brand_slug' => 'cartier',
             'price' => '$15,050',
         ],
         [
@@ -12,6 +14,8 @@
             'image' => 'assets/img/Cartier/451-o7pwhf3u1vssktw7s9uikiff-Main_2x.webp',
             'alt' => 'Luxury Watch 1',
             'title' => 'CArtier Bleu Ball;jnijn',
+            'slug' => 'cartier',
+            'brand_slug' => 'cartier',
             'price' => '$15,05099',
         ],
         [
@@ -19,6 +23,8 @@
             'image' => 'assets/img/Rolex/59-64dbjwtbd3y6580vuf2h85z0-Main_2x.webp',
             'alt' => 'Luxury Watch 2',
             'title' => 'Rolex Yacht-Master II',
+            'slug' => 'rolex',
+            'brand_slug' => 'rolex',
             'price' => '$2,500',
         ],
         [
@@ -26,6 +32,8 @@
             'image' => 'assets/img/Patek/96-ja353olzfc18tscnj0liuihf-Main_2x.webp',
             'alt' => 'Luxury Watch 3',
             'title' => 'Patek Philippe Vintage',
+            'slug' => 'patek',
+            'brand_slug' => 'patek',
             'price' => '22,650',
         ],
         [
@@ -33,6 +41,8 @@
             'image' => 'assets/img/Cartier/451-o7pwhf3u1vssktw7s9uikiff-Main_2x.webp',
             'alt' => 'Luxury Watch 4',
             'title' => 'CArtier Bleu Ball 1',
+            'slug' => 'cartier',
+            'brand_slug' => 'cartier',
             'price' => '$15,050',
         ],
         [
@@ -40,13 +50,17 @@
             'image' => 'assets/img/Rolex/59-64dbjwtbd3y6580vuf2h85z0-Main_2x.webp',
             'alt' => 'Luxury Watch 5',
             'title' => 'Rolex Yacht-Master II 2',
+            'slug' => 'rolex',
+            'brand_slug' => 'rolex',
             'price' => '$2,500',
         ],
         [
             'tag' => 'Sale',
             'image' => 'assets/img/Patek/96-ja353olzfc18tscnj0liuihf-Main_2x.webp',
-            'title' => 'Patek Philippe Vintage',
             'alt' => 'Luxury Watch 6 3',
+            'title' => 'Patek Philippe Vintage',
+            'slug' => 'patek',
+            'brand_slug' => 'patek',
             'price' => '22,650',
         ],
     ];
@@ -56,48 +70,56 @@
             'image' => 'assets/img/Rolex/18975-rolex-logo.png',
             'alt' => 'Rolex',
             'title' => 'Rolex',
+            'slug' => 'rolex',
             'link' => 'brands/Rolex.html',
         ],
         [
             'image' => 'assets/img/Audemars/ Audemars Piguit Logo.png',
             'alt' => 'Audemars Piguit',
             'title' => 'Audemars Piguit',
+            'slug' => 'audemars',
             'link' => '#',
         ],
         [
             'image' => 'assets/img/Richard Mille/6481a7ab9183c6fd9bba1b1a_Frame_76-removebg-preview.png',
             'alt' => 'Richard Mille',
             'title' => 'Richard Mille',
+            'slug' => 'richard',
             'link' => '#',
         ],
         [
             'image' => 'assets/img/Patek/patek-philippe logo.png',
             'alt' => 'Patek Philippe',
             'title' => 'Patek Philippe',
+            'slug' => 'patek',
             'link' => '#',
         ],
         [
             'image' => 'assets/img/Hublot/HUBLOT-LOGO.png',
             'alt' => 'Hublot',
             'title' => 'Hublot',
+            'slug' => 'hublot',
             'link' => '#',
         ],
         [
             'image' => 'assets/img/Tissot/tissot-logo.png',
             'alt' => 'Tissot',
             'title' => 'Tissot',
+            'slug' => 'tissot',
             'link' => '#',
         ],
         [
             'image' => 'assets/img/Frank/Franck-Muller_Logo_Black_Surface-Magazine_560px.png',
             'alt' => 'Frank Muller',
             'title' => 'Frank Muller',
+            'slug' => 'frank',
             'link' => '#',
         ],
         [
             'image' => 'assets/img/Cartier/cartier-2-logo.png',
             'alt' => 'Cartier',
             'title' => 'Cartier',
+            'slug' => 'cartier',
             'link' => '#',
         ],
     ];
@@ -171,7 +193,7 @@
                             <span class="featured__price">{{ $product['price'] }}</span>
                         </div>
 
-                        <button class="button featured__button">Buy Now</button>
+                        <a href="{{route('product', ['slug' => $product['title']])}}" class="button featured__button">Buy Now</a>
                     </article>
                 @endforeach
 
@@ -188,7 +210,7 @@
                     <article class="brands__card">
                         <img src="{{ asset($brand['image']) }}" alt="{{ $brand['alt'] }}" class="brands__img">
                         <h3 class="brands__title">{{ $brand['title'] }}</h3>
-                        <a href="{{ $brand['link'] }}" class="button brands__button">Explore</a>
+                        <a href="{{route('brand', ['slug' => $brand['slug']])}}" class="button brands__button">Explore</a>
                     </article>
                 @endforeach
 

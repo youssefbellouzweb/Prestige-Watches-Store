@@ -211,12 +211,12 @@
             <div class="detail-title">PRODUCT DETAIL</div>
             <div class="detail">
                 <div class="image">
-                    <img src="{{ asset('assets/img/Cartier/451-o7pwhf3u1vssktw7s9uikiff-Main_2x.webp') }}"
+                    <img src="{{ asset($product['image']) }}"
                         alt="Product Image" />
                 </div>
                 <div class="content">
-                    <h1 class="name">Product 01</h1>
-                    <div class="price">200 DH</div>
+                    <h1 class="name">{{$product['title']}}</h1>
+                    <div class="price">{{$product['price']}}</div>
                     <div class="buttons">
                         <button>Check out</button>
                         <button>
@@ -255,7 +255,7 @@
                                 <span class="featured__price">{{ $product['price'] }}</span>
                             </div>
 
-                            <button class="button featured__button">Buy Now</button>
+                            <a href="{{route('product', ['slug' => $product['title']])}}" class="button featured__button">Buy Now</a>
                         </article>
                     @endforeach
 
