@@ -103,7 +103,7 @@ class Product extends Controller
             ],
           ];
 
-          return view('frontend.product', compact('products'));
+          return view('frontend.brand', compact('products'));
     }
 
     /**
