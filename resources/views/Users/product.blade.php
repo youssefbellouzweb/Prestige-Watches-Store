@@ -1,10 +1,12 @@
 @php
-    $products = [
+    $watches = [
         [
             'tag' => 'Sale',
             'image' => 'assets/img/Cartier/451-o7pwhf3u1vssktw7s9uikiff-Main_2x.webp',
             'alt' => 'Luxury Watch 1',
             'title' => 'CArtier Bleu Ball',
+            'slug' => 'cartier',
+            'brand_slug' => 'cartier',
             'price' => '$15,050',
         ],
         [
@@ -12,6 +14,8 @@
             'image' => 'assets/img/Cartier/451-o7pwhf3u1vssktw7s9uikiff-Main_2x.webp',
             'alt' => 'Luxury Watch 1',
             'title' => 'CArtier Bleu Ball;jnijn',
+            'slug' => 'cartier',
+            'brand_slug' => 'cartier',
             'price' => '$15,05099',
         ],
         [
@@ -19,6 +23,8 @@
             'image' => 'assets/img/Rolex/59-64dbjwtbd3y6580vuf2h85z0-Main_2x.webp',
             'alt' => 'Luxury Watch 2',
             'title' => 'Rolex Yacht-Master II',
+            'slug' => 'rolex',
+            'brand_slug' => 'rolex',
             'price' => '$2,500',
         ],
         [
@@ -26,6 +32,8 @@
             'image' => 'assets/img/Patek/96-ja353olzfc18tscnj0liuihf-Main_2x.webp',
             'alt' => 'Luxury Watch 3',
             'title' => 'Patek Philippe Vintage',
+            'slug' => 'patek',
+            'brand_slug' => 'patek',
             'price' => '22,650',
         ],
         [
@@ -33,6 +41,8 @@
             'image' => 'assets/img/Cartier/451-o7pwhf3u1vssktw7s9uikiff-Main_2x.webp',
             'alt' => 'Luxury Watch 4',
             'title' => 'CArtier Bleu Ball 1',
+            'slug' => 'cartier',
+            'brand_slug' => 'cartier',
             'price' => '$15,050',
         ],
         [
@@ -40,13 +50,17 @@
             'image' => 'assets/img/Rolex/59-64dbjwtbd3y6580vuf2h85z0-Main_2x.webp',
             'alt' => 'Luxury Watch 5',
             'title' => 'Rolex Yacht-Master II 2',
+            'slug' => 'rolex',
+            'brand_slug' => 'rolex',
             'price' => '$2,500',
         ],
         [
             'tag' => 'Sale',
             'image' => 'assets/img/Patek/96-ja353olzfc18tscnj0liuihf-Main_2x.webp',
-            'title' => 'Patek Philippe Vintage',
             'alt' => 'Luxury Watch 6 3',
+            'title' => 'Patek Philippe Vintage',
+            'slug' => 'patek',
+            'brand_slug' => 'patek',
             'price' => '22,650',
         ],
     ];
@@ -82,7 +96,7 @@
         }
 
         .detail .image img {
-            width: 300px;
+            width: fit-content;
             height: 500px;
         }
 
@@ -209,53 +223,61 @@
     <main class="main">
         <div class="detail-container">
             <div class="detail-title">PRODUCT DETAIL</div>
-            <div class="detail">
-                <div class="image">
-                    <img src="{{ asset($product['image']) }}"
-                        alt="Product Image" />
-                </div>
-                <div class="content">
-                    <h1 class="name">{{$product['title']}}</h1>
-                    <div class="price">{{$product['price']}}</div>
-                    <div class="buttons">
-                        <button>Check out</button>
-                        <button>
-                            Add to cart
-                            <span>
-                                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                    fill="none" viewBox="0 0 24 24">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                        stroke-width="2"
-                                        d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312" />
-                                </svg>
-                            </span>
-                        </button>
+            @if ($product)
+                <div class="detail">
+                    <div class="image">
+                        <img src="{{ asset($product['image']) }}" alt="Product Image" />
                     </div>
-                    <div class="description">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi illum dolorem beatae eius voluptatem
-                        nulla similique culpa animi reprehenderit distinctio, itaque sed eaque earum sit aperiam. Dolores
-                        dolorum enim minima.
+                    <div class="content">
+                        <h1 class="name">{{ $product['title'] }}</h1>
+                        <div class="price">{{ $product['price'] }}</div>
+                        <div class="buttons">
+                            <button>Check out</button>
+                            <button>
+                                Add to cart
+                                <span>
+                                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        fill="none" viewBox="0 0 24 24">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312" />
+                                    </svg>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="description">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi illum dolorem beatae eius
+                            voluptatem
+                            nulla similique culpa animi reprehenderit distinctio, itaque sed eaque earum sit aperiam.
+                            Dolores
+                            dolorum enim minima.
+                        </div>
                     </div>
                 </div>
-            </div>
+            @else
+                <div>Not Found</div>
+            @endif
             {{-- <div class="title">SIMILAR PRODUCTS</div>
             <div class="listProduct"></div> --}}
             <section class="featured section container" id="featured">
                 <h2 class="section__title">The Clients Favourite</h2>
 
                 <div class="featured__container grid">
-                    @foreach ($products as $product)
+                    @foreach ($watches as $watche)
                         <article class="featured__card">
-                            <span class="featured__tag">{{ $product['tag'] }}</span>
+                            <span class="featured__tag">{{ $watche['tag'] }}</span>
 
-                            <img src="{{ asset($product['image']) }}" alt="{{ $product['alt'] }}" class="featured__img">
+                            <img src="{{ asset($watche['image']) }}" alt="{{ $watche['alt'] }}" class="featured__img">
 
                             <div class="featured__data">
-                                <h3 class="featured__title">{{ $product['title'] }}</h3>
-                                <span class="featured__price">{{ $product['price'] }}</span>
+                                <h3 class="featured__title">{{ $watche['title'] }}</h3>
+                                <span class="featured__price">{{ $watche['price'] }}</span>
                             </div>
 
-                            <a href="{{route('product', ['slug' => $product['title']])}}" class="button featured__button">Buy Now</a>
+                            <a href="{{ route('product', ['brand_slug' => $watche['brand_slug'], 'slug' => $watche['title']]) }}"
+                                class="button featured__button">
+                                Buy Now
+                            </a>
                         </article>
                     @endforeach
 

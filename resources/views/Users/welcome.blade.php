@@ -123,6 +123,63 @@
             'link' => '#',
         ],
     ];
+
+    $watches = [
+        [
+                'tag' => 'New',
+                'image' => 'assets/img/Richard Mille/1447-ge4sxovdxjg3plv9jrrxt6cz-Main_2x.webp',
+                'alt' => 'Longines Rose Watch',
+                'title' => 'RM-035',
+                'slug' => 'richard',
+                'brand_slug' => 'richard',
+                'price' => '$163,000',
+            ],
+            [
+                'tag' => 'New',
+                'image' => 'assets/img/Patek/106-8soyprb5zryt8moy5l06rmpu-Main_2x.webp',
+                'alt' => 'Jazzmaster Watch',
+                'title' => 'Nautilus',
+                'slug' => 'patek',
+                'brand_slug' => 'patek',
+                'price' => '$13.400',
+            ],
+            [
+                'tag' => 'New',
+                'image' => 'assets/img/Audemars/1173-lq97x3l1dfip4btg2b40kbu5-Main_2x.webp',
+                'alt' => 'Dreyfuss Gold Watch',
+                'title' => 'Royal Oak',
+                'slug' => 'audemars',
+                'brand_slug' => 'audemars',
+                'price' => '$55.000',
+            ],
+            [
+                'tag' => 'New',
+                'image' => 'assets/img/Cartier/165-jy40bbyj1hl8m7ohu4hfuigh-Main_2x.webp',
+                'alt' => 'Portuguese Rose Watch',
+                'title' => 'Bleu-Ball',
+                'slug' => 'cartier',
+                'brand_slug' => 'cartier',
+                'price' => '$15.900',
+            ],
+            [
+                'tag' => 'New',
+                'image' => 'assets/img/Hublot/1064-nqwd5o8wcf5bvegiuv7oxv75-Main_2x.webp',
+                'alt' => 'Portuguese Rose Watch',
+                'title' => 'Classical Fusion',
+                'slug' => 'hublot',
+                'brand_slug' => 'hublot',
+                'price' => '$29.000',
+            ],
+            [
+                'tag' => 'New',
+                'image' => 'assets/img/Frank/521-xls43y5bn68ewg6t4qpzzkpb-Main_2x.webp',
+                'alt' => 'Portuguese Rose Watch',
+                'title' => 'Drems Colors',
+                'slug' => 'frank',
+                'brand_slug' => 'frank',
+                'price' => '$700.000',
+            ],
+    ];
 @endphp
 
 @extends('Users.layouts.master')
@@ -190,7 +247,8 @@
                             <span class="featured__price">{{ $product['price'] }}</span>
                         </div>
 
-                        <a href="{{ route('product', ['slug' => $product['title']]) }}" class="button featured__button">Buy
+                        <a href="{{ route('product', ['brand_slug' => $product['brand_slug'], 'slug' => $product['title']]) }}" class="button featured__button">
+                            Buy
                             Now</a>
                     </article>
                 @endforeach
@@ -253,84 +311,22 @@
             <div class="new__container">
                 <div class="swiper new-swiper">
                     <div class="swiper-wrapper">
-                        <article class="new__card swiper-slide">
-                            <span class="new__tag">New</span>
+                        @foreach ($watches as $watch)
+                            <article class="new__card swiper-slide">
+                                <span class="new__tag">{{ $watch['tag'] }}</span>
 
-                            <img src="{{ asset('assets/img/Richard Mille/1447-ge4sxovdxjg3plv9jrrxt6cz-Main_2x.webp') }}"
-                                alt="Longines Rose Watch" class="new__img">
+                                <img src="{{ asset($watch['image']) }}" alt="{{ $watch['alt'] }}" class="new__img">
 
-                            <div class="new__data">
-                                <h3 class="new__title">RM-035</h3>
-                                <span class="new__price">$163,000</span>
-                            </div>
+                                <div class="new__data">
+                                    <h3 class="new__title">{{ $watch['title'] }}</h3>
+                                    <span class="new__price">{{ $watch['price'] }}</span>
+                                </div>
 
-                            <button class="button new__button">BUY NOW</button>
-                        </article>
-                        <article class="new__card swiper-slide">
-                            <span class="new__tag">New</span>
-
-                            <img src="{{ asset('assets/img/Patek/106-8soyprb5zryt8moy5l06rmpu-Main_2x.webp') }}"
-                                alt="Jazzmaster Watch" class="new__img">
-
-                            <div class="new__data">
-                                <h3 class="new__title">Nautilus</h3>
-                                <span class="new__price">$13.400</span>
-                            </div>
-
-                            <button class="button new__button">BUY NOW</button>
-                        </article>
-                        <article class="new__card swiper-slide">
-                            <span class="new__tag">New</span>
-
-                            <img src="{{ asset('assets/img/Audemars/1173-lq97x3l1dfip4btg2b40kbu5-Main_2x.webp') }}"
-                                alt="Dreyfuss Gold Watch" class="new__img">
-
-                            <div class="new__data">
-                                <h3 class="new__title">Royal Oak</h3>
-                                <span class="new__price">$55.000</span>
-                            </div>
-
-                            <button class="button new__button">BUY NOW</button>
-                        </article>
-                        <article class="new__card swiper-slide">
-                            <span class="new__tag">New</span>
-
-                            <img src="{{ asset('assets/img/Cartier/165-jy40bbyj1hl8m7ohu4hfuigh-Main_2x.webp') }}"
-                                alt="Portuguese Rose Watch" class="new__img">
-
-                            <div class="new__data">
-                                <h3 class="new__title">Bleu-Ball</h3>
-                                <span class="new__price">$15.900</span>
-                            </div>
-
-                            <button class="button new__button">BUY NOW</button>
-                        </article>
-                        <article class="new__card swiper-slide">
-                            <span class="new__tag">New</span>
-
-                            <img src="{{ asset('assets/img/Hublot/1064-nqwd5o8wcf5bvegiuv7oxv75-Main_2x.webp') }}"
-                                alt="Portuguese Rose Watch" class="new__img">
-
-                            <div class="new__data">
-                                <h3 class="new__title">Classical Fusion</h3>
-                                <span class="new__price">$29.000</span>
-                            </div>
-
-                            <button class="button new__button">BUY NOW</button>
-                        </article>
-                        <article class="new__card swiper-slide">
-                            <span class="new__tag">New</span>
-
-                            <img src="{{ asset('assets/img/Frank/521-xls43y5bn68ewg6t4qpzzkpb-Main_2x.webp') }}"
-                                alt="Portuguese Rose Watch" class="new__img">
-
-                            <div class="new__data">
-                                <h3 class="new__title">Drems Colors</h3>
-                                <span class="new__price">$700.000</span>
-                            </div>
-
-                            <button class="button new__button">BUY NOW</button>
-                        </article>
+                                <a href="{{ route('product', ['brand_slug' => $product['brand_slug'], 'slug' => $product['title']]) }}" class="button featured__button">
+                                    BUY NOW
+                                </a>
+                            </article>
+                        @endforeach
                     </div>
                 </div>
             </div>

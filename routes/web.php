@@ -10,4 +10,4 @@ Route::get('/', function () {
 
 Route::get('/brand/{slug}', [Brand::class,'show'])->name('brand');
 
-Route::get('/product/{slug}', [Product::class,'show'])->name('product');
+Route::get('/brand/product/{brand_slug}/{slug}', [Product::class, 'show'])->name('product');
