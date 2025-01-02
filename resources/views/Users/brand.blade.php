@@ -8,7 +8,6 @@
 
 @section('style')
     <style>
-        /* Add this to your existing CSS or within <style> tags */
         .hero-video {
             width: 100%;
             height: calc(100vh - var(--header-height));
