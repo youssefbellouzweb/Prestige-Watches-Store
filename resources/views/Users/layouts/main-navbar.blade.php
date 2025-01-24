@@ -1,8 +1,9 @@
 <!--==================== HEADER ====================-->
 <header class="header" id="header">
     <nav class="nav container">
-        <a href="{{route("index")}}" class="nav__logo">
+        <a href="{{route("home")}}" class="nav__logo">
             <i class='bx bxs-watch nav__logo-icon'></i> Prestige Watches
+            {{-- <img class="logo-img" src="{{asset("images/prestige_watches_store 1.jpg")}}" alt=""> --}}
         </a>
 
         <div class="nav__menu" id="nav-menu">

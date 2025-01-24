@@ -5,39 +5,14 @@ namespace App\Http\Controllers\Users;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class Product extends Controller
+class Home extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        //
-    }
-
-    /**
-     * Show the form for creating a new resource.
-     */
-    public function create()
-    {
-        //
-    }
-
-    /**
-     * Store a newly created resource in storage.
-     */
-    public function store(Request $request)
-    {
-        //
-    }
-
-    /**
-     * Display the specified resource.
-     */
-    public function show(string $brand_slug, string $slug)
-    {
-
-        $watches = [
+        $products = [
             [
                 'tag' => 'Sale',
                 'image' => 'assets/img/Cartier/451-o7pwhf3u1vssktw7s9uikiff-Main_2x.webp',
@@ -103,61 +78,66 @@ class Product extends Controller
             ],
         ];
 
-        $products = [
+        $brands = [
             [
-                'tag' => 'Sale',
-                'image' => 'assets/img/Cartier/451-o7pwhf3u1vssktw7s9uikiff-Main_2x.webp',
-                'alt' => 'Luxury Watch 1',
-                'title' => 'CArtier Bleu Ball',
-                'slug' => 'cartier',
-                'brand_slug' => 'cartier',
-                'price' => '$15,050',
-            ],
-            [
-                'tag' => 'Sale t',
-                'image' => 'assets/img/Cartier/451-o7pwhf3u1vssktw7s9uikiff-Main_2x.webp',
-                'alt' => 'Luxury Watch 1',
-                'title' => 'CArtier Bleu Ball;jnijn',
-                'slug' => 'cartier',
-                'brand_slug' => 'cartier',
-                'price' => '$15,05099',
-            ],
-            [
-                'tag' => 'Sale',
-                'image' => 'assets/img/Rolex/59-64dbjwtbd3y6580vuf2h85z0-Main_2x.webp',
-                'alt' => 'Luxury Watch 2',
-                'title' => 'Rolex Yacht-Master II',
+                'image' => 'assets/img/Rolex/18975-rolex-logo.png',
+                'alt' => 'Rolex',
+                'title' => 'Rolex',
                 'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '$2,500',
+                'link' => 'brands/Rolex.html',
             ],
             [
-                'tag' => 'Sale',
-                'image' => 'assets/img/Patek/96-ja353olzfc18tscnj0liuihf-Main_2x.webp',
-                'alt' => 'Luxury Watch 3',
-                'title' => 'Patek Philippe Vintage',
+                'image' => 'assets/img/Audemars/ Audemars Piguit Logo.png',
+                'alt' => 'Audemars Piguit',
+                'title' => 'Audemars Piguit',
+                'slug' => 'audemars',
+                'link' => '#',
+            ],
+            [
+                'image' => 'assets/img/Richard Mille/6481a7ab9183c6fd9bba1b1a_Frame_76-removebg-preview.png',
+                'alt' => 'Richard Mille',
+                'title' => 'Richard Mille',
+                'slug' => 'richard',
+                'link' => '#',
+            ],
+            [
+                'image' => 'assets/img/Patek/patek-philippe logo.png',
+                'alt' => 'Patek Philippe',
+                'title' => 'Patek Philippe',
                 'slug' => 'patek',
-                'brand_slug' => 'patek',
-                'price' => '22,650',
+                'link' => '#',
             ],
             [
-                'tag' => 'Sale',
-                'image' => 'assets/img/Cartier/451-o7pwhf3u1vssktw7s9uikiff-Main_2x.webp',
-                'alt' => 'Luxury Watch 4',
-                'title' => 'CArtier Bleu Ball 1',
+                'image' => 'assets/img/Hublot/HUBLOT-LOGO.png',
+                'alt' => 'Hublot',
+                'title' => 'Hublot',
+                'slug' => 'hublot',
+                'link' => '#',
+            ],
+            [
+                'image' => 'assets/img/Tissot/tissot-logo.png',
+                'alt' => 'Tissot',
+                'title' => 'Tissot',
+                'slug' => 'tissot',
+                'link' => '#',
+            ],
+            [
+                'image' => 'assets/img/Frank/Franck-Muller_Logo_Black_Surface-Magazine_560px.png',
+                'alt' => 'Frank Muller',
+                'title' => 'Frank Muller',
+                'slug' => 'frank',
+                'link' => '#',
+            ],
+            [
+                'image' => 'assets/img/Cartier/cartier-2-logo.png',
+                'alt' => 'Cartier',
+                'title' => 'Cartier',
                 'slug' => 'cartier',
-                'brand_slug' => 'cartier',
-                'price' => '$15,050',
+                'link' => '#',
             ],
-            [
-                'tag' => 'Sale',
-                'image' => 'assets/img/Rolex/59-64dbjwtbd3y6580vuf2h85z0-Main_2x.webp',
-                'alt' => 'Luxury Watch 5',
-                'title' => 'Rolex Yacht-Master II 2',
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '$2,500',
-            ],
+        ];
+
+        $watches = [
             [
                 'tag' => 'New',
                 'image' => 'assets/img/Richard Mille/1447-ge4sxovdxjg3plv9jrrxt6cz-Main_2x.webp',
@@ -214,13 +194,31 @@ class Product extends Controller
             ],
         ];
 
-        $product = array_filter($products, function ($item) use ($brand_slug, $slug) {
-            return strtolower($item['title']) === strtolower($slug);
-        });
+        return view('Users.welcome',['watches' => $watches, 'brands' => $brands, 'products' => $products]);
+    }
 
-        $product = array_values($product)[0];
+    /**
+     * Show the form for creating a new resource.
+     */
+    public function create()
+    {
+        //
+    }
 
-        return view('Users.product', ['product' => $product, 'watches' => $watches]);
+    /**
+     * Store a newly created resource in storage.
+     */
+    public function store(Request $request)
+    {
+        //
+    }
+
+    /**
+     * Display the specified resource.
+     */
+    public function show(string $id)
+    {
+        //
     }
 
     /**

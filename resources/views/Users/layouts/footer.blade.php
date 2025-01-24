@@ -6,11 +6,11 @@
             <ul class="footer__list">
                 <li>Rabat, Morocco</li>
                 <li>Rabat</li>
-                <li>+123-456-7890</li>
+                <li>+212-61-456-7890</li>
             </ul>
         </div>
 
-        <div class="footer__content">
+        {{-- <div class="footer__content">
             <h3 class="footer__title">About Us</h3>
             <ul class="footer__links">
                 <li>
@@ -26,9 +26,9 @@
                     <a href="#" class="footer__link">Privacy Policy</a>
                 </li>
             </ul>
-        </div>
+        </div> --}}
 
-        <div class="footer__content">
+        {{-- <div class="footer__content">
             <h3 class="footer__title">Products</h3>
             <ul class="footer__links">
                 <li>
@@ -44,7 +44,7 @@
                     <a href="#" class="footer__link">Accessories</a>
                 </li>
             </ul>
-        </div>
+        </div> --}}
 
         <div class="footer__content">
             <h3 class="footer__title">Follow Us</h3>
