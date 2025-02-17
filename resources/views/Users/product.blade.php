@@ -4,219 +4,186 @@
 @endsection
 
 @section('style-online')
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 @endsection
 
 @section('style')
+    <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}" />
     <style>
-        .detail-container {
-            width: 900px;
-            max-width: 90vw;
-            margin: auto;
-            padding-top: 100px;
+        /* Form Section Styles */
+        .form-section {
+            margin-top: 30px;
+            padding: 30px;
+            border-radius: 15px;
+            background: linear-gradient(135deg, #f8f8f8, #e7e7e7);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-section h2 {
+            font-size: 25px;
+            margin-bottom: 20px;
+            color: #222;
+            font-family: "Merriweather", serif;
             text-align: center;
         }
 
-        .detail-title {
-            font-size: xx-large;
-            padding: 20px 0;
-        }
-
-        .detail {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 50px;
-            text-align: left;
-        }
-
-        .detail .image img {
-            width: fit-content;
-            height: 500px;
-        }
-
-        .detail .image {
-            position: relative;
-        }
-
-        .detail .image::before {
-            position: absolute;
-            width: 300px;
-            height: 300px;
-            content: '';
-            background-color: #94817733;
-            z-index: -1;
-            border-radius: 190px 100px 170px 180px;
-            -webkit-border-radius: 190px 100px 170px 180px;
-            -moz-border-radius: 190px 100px 170px 180px;
-            -ms-border-radius: 190px 100px 170px 180px;
-            -o-border-radius: 190px 100px 170px 180px;
-            left: calc(50% - 150px);
-            top: 50px;
-        }
-
-        .detail .name {
-            font-size: xx-large;
-            padding: 40px 0 0 0;
-            margin: 0 0 10px 0;
-        }
-
-        .detail .price {
-            font-weight: bold;
-            font-size: x-large;
-            letter-spacing: 7px;
-            margin-bottom: 20px;
-        }
-
-        .detail .buttons {
+        .form-section form {
             display: flex;
+            flex-direction: column;
             gap: 20px;
-            margin-bottom: 20px;
         }
 
-        .detail .buttons button {
-            background-color: #eee;
-            border: none;
+        .form-section label {
+            font-size: 16px;
+            color: #555;
+            font-weight: bold;
+            font-family: "Merriweather", serif;
+        }
+
+        .form-section input {
+            padding: 15px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background: #fff;
+            box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.05);
+            transition: border-color 0.3s, box-shadow 0.3s;
+            font-family: "Merriweather", serif;
+        }
+
+        .form-section input:focus {
+            border-color: #007bff;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+            outline: none;
+        }
+
+        .form-section button {
             padding: 15px 20px;
-            border-radius: 20px;
-            -webkit-border-radius: 20px;
-            -moz-border-radius: 20px;
-            -ms-border-radius: 20px;
-            -o-border-radius: 20px;
-            font-family: Poppins;
-            font-size: large;
+            font-size: 18px;
+            color: #fff;
+            background: linear-gradient(135deg, #007bff, #0056b3);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.3s;
+            font-family: "Merriweather", serif;
+            align-self: center;
         }
 
-        .detail .buttons svg {
-            width: 15px;
+        .form-section button:hover {
+            background: linear-gradient(135deg, #0056b3, #003d80);
+            transform: translateY(-2px);
         }
 
-        .detail .buttons span {
-            background-color: #555454;
-            width: 30px;
-            height: 30px;
+        .form-radio {
             display: flex;
-            justify-content: center;
-            align-items: center;
-            border-radius: 50%;
-            -webkit-border-radius: 50%;
-            -moz-border-radius: 50%;
-            -ms-border-radius: 50%;
-            -o-border-radius: 50%;
-            margin-left: 20px;
-            color: #eee;
+            flex-direction: column;
         }
 
-        .detail .buttons button:nth-child(2) {
-            background-color: #2f2f2f;
-            color: #eee;
+        .form-radio div {
+            width: 35%;
             display: flex;
-            justify-content: center;
             align-items: center;
-            box-shadow: 0 10px 20px #2f2f2f77;
-        }
-
-        .detail .description {
-            font-weight: 300;
-        }
-
-        @media screen and (max-width: 992px) {
-            .detail {
-                grid-template-columns: 40% 1fr;
-            }
-        }
-
-        @media screen and (max-width: 768px) {
-            .detail {
-                grid-template-columns: 1fr;
-                text-align: center;
-            }
-
-            .detail .image img {
-                width: unset;
-                height: 40vh;
-            }
-
-            .detail .name {
-                font-size: x-large;
-                margin: 0;
-            }
-
-            .detail .buttons button {
-                font-size: small;
-            }
-
-            .detail .buttons {
-                justify-content: center;
-            }
+            justify-content: space-between;
         }
     </style>
 @endsection
 
 @section('content')
-    <!--==================== MAIN ====================-->
     <main class="main">
         <div class="detail-container">
-            <div class="detail-title">PRODUCT DETAIL</div>
-            @if ($product)
-                <div class="detail">
-                    <div class="image">
-                        <img src="{{ asset($product['image']) }}" alt="Product Image" />
+            <div class="detail-row">
+                <div class="detail-col-2">
+                    <img src="{{ asset($product['image']) }}" class="detail-product-image" id="emphasisPicture" />
+                    <div class="detail-smallImg detail-product-image">
+                        @if (!empty($product['images']))
+                            @foreach ($product['images'] as $image)
+                                <div class="detail-col-4">
+                                    <img src="{{ asset($image) }}" class="smallpictures {{ $loop->first ? 'active' : '' }}"
+                                        alt="Product Image" />
+                                </div>
+                            @endforeach
+                        @else
+                            <div>Not Found</div>
+                        @endif
                     </div>
-                    <div class="content">
-                        <h1 class="name">{{ $product['title'] }}</h1>
-                        <div class="price">{{ $product['price'] }}</div>
-                        <div class="buttons">
-                            <button>Check out</button>
-                            <button>
-                                Add to cart
-                                <span>
-                                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                        fill="none" viewBox="0 0 24 24">
-                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                            stroke-width="2"
-                                            d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312" />
-                                    </svg>
-                                </span>
+                </div>
+                <div class="detail-col-2">
+                    <small class="detail-companyName">{{ $product['title'] }}</small>
+                    <div class="detail-price">
+                        <span class="detail-productValue">{{ $product['price'] }}DH</span>
+                        {{-- <span class="detail-percentage">50%</span> --}}
+                    </div>
+                    {{-- <span class="detail-totalValue">$250.00</span> --}}
+                    <div class="detail-buttonsRow">
+                        <div class="detail-increment">
+                            <img src="{{ asset('images/icon-minus.svg') }}" id="minus" />
+                            <input type="number" name="totalItems" id="totalItems" value="1" min="1" />
+                            <img src="{{ asset('images/icon-plus.svg') }}" id="plus" />
+                        </div>
+                        {{-- <div class="detail-callToAction">
+                            <button id="btn">
+                                <i class="fa-solid fa-cart-shopping"></i> Add to cart
                             </button>
-                        </div>
-                        <div class="description">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi illum dolorem beatae eius
-                            voluptatem
-                            nulla similique culpa animi reprehenderit distinctio, itaque sed eaque earum sit aperiam.
-                            Dolores
-                            dolorum enim minima.
-                        </div>
+                        </div> --}}
+                    </div>
+                    <!-- New Form Section -->
+                    <div class="form-section">
+                        <h2>Order Information</h2>
+                        <form id="orderForm">
+                            <label for="name">Nom et Prénom:</label>
+                            <input type="text" id="name" name="name" required />
+                            <label for="phone">Numéro de Téléphone:</label>
+                            <input type="tel" id="phone" name="phone" required />
+                            <label for="address">Adresse:</label>
+                            <input type="text" id="address" name="address" required />
+                            <label for="ville">Ville:</label>
+                            <input type="text" id="ville" name="ville" required />
+                            <input type="hidden" id="name_product" name="name_product" value="{{ $product['title'] }}" />
+                            <input type="hidden" id="price" name="price" value="{{ $product['price'] }}" />
+                            <input type="hidden" id="price_packaging" name="price_packaging" value="{{ $product['price_packaging'] }}" />
+                            <div class="form-radio">
+                                <div>
+                                    <input type="radio" id="sans_emballage" name="emballage" value="sans_emballage">
+                                    <label for="sans_emballage">sans emballage</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="avec_emballage" name="emballage" value="avec_emballage">
+                                    <label for="avec_emballage">avec emballage</label>
+                                </div>
+                            </div>
+                            <button type="button" id="formSubmitBtn">Buy Now</button>
+                        </form>
                     </div>
                 </div>
-            @else
-                <div>Not Found</div>
-            @endif
-            {{-- <div class="title">SIMILAR PRODUCTS</div>
-            <div class="listProduct"></div> --}}
-            <section class="featured section container" id="featured">
-                <h2 class="section__title">The Clients Favourite</h2>
-
-                <div class="featured__container grid">
-                    @foreach ($watches as $watche)
-                        <article class="featured__card">
-                            <span class="featured__tag">{{ $watche['tag'] }}</span>
-
-                            <img src="{{ asset($watche['image']) }}" alt="{{ $watche['alt'] }}" class="featured__img">
-
-                            <div class="featured__data">
-                                <h3 class="featured__title">{{ $watche['title'] }}</h3>
-                                <span class="featured__price">{{ $watche['price'] }}</span>
-                            </div>
-
-                            <a href="{{ route('product', ['brand_slug' => $watche['brand_slug'], 'slug' => $watche['title']]) }}"
-                                class="button featured__button">
-                                Buy Now
-                            </a>
-                        </article>
-                    @endforeach
-
-                </div>
-            </section>
+            </div>
         </div>
+        <section class="featured section container" id="featured">
+            <h2 class="section__title">The Clients Favourite</h2>
+
+            <div class="featured__container grid">
+                @foreach ($watches as $watche)
+                    <article class="featured__card">
+                        <span class="featured__tag">{{ $watche['tag'] }}</span>
+
+                        <img src="{{ asset($watche['image']) }}" alt="{{ $watche['alt'] }}" class="featured__img">
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">{{ $watche['title'] }}</h3>
+                            <span class="featured__price">{{ $watche['price'] }}DH</span>
+                        </div>
+
+                        <a href="{{ route('product', ['brand_slug' => $watche['brand_slug'], 'slug' => $watche['title']]) }}"
+                            class="button featured__button">
+                            Buy Now
+                        </a>
+                    </article>
+                @endforeach
+
+            </div>
+        </section>
     </main>
 @endsection
 
@@ -224,4 +191,83 @@
 @endsection
 
 @section('js')
+    <script src="{{ asset('assets/js/script.js') }}"></script>
+    <script>
+        // document
+        //     .getElementById("formSubmitBtn")
+        //     .addEventListener("click", function() {
+        //         const name = document.getElementById("name").value;
+        //         const phone = document.getElementById("phone").value;
+        //         const address = document.getElementById("address").value;
+        //         const ville = document.getElementById("ville").value;
+        //         // const name_product = document.getElementById("name_product").value;
+        //         // const price = document.getElementById("price").value;
+        //         // const plus = document.getElementById('plus');
+        //         // const minus = document.getElementById('minus');
+        //         // const totalItems = document.getElementById('totalItems');
+
+        //         // plus.addEventListener('click', () => totalItems.value = Math.max(1, ++totalItems.value));
+        //         // minus.addEventListener('click', () => totalItems.value = Math.max(1, --totalItems.value));
+
+        //         const message =
+        //             `Nom et Prénom: ${name}\nNuméro de Téléphone: ${phone}\nAdresse: ${address}\nCity: ${ville}\nProduct Name: ${name_product}\nPrice: ${price}\nI am interested in the Rolex Datejust Oyster Perpetual Acier 41`;
+        //         const whatsappUrl = `https://wa.me/+212772083043?text=${encodeURIComponent(
+        //   message
+        // )}`;
+        //         window.location.href = whatsappUrl;
+        //     });
+
+        // document
+        //     .getElementById("formSubmitBtn")
+        //     .addEventListener("click", function() {
+        //         const name = document.getElementById("name").value;
+        //         const phone = document.getElementById("phone").value;
+        //         const address = document.getElementById("address").value;
+        //         const ville = document.getElementById("ville").value;
+        //         const name_product = document.getElementById("name_product").value;
+        //         const price = document.getElementById("price").value;
+        //         const plus = document.getElementById('plus');
+        //         const minus = document.getElementById('minus');
+        //         const totalItems = document.getElementById('totalItems');
+
+        //         plus.addEventListener('click', () => totalItems.value = Math.max(1, ++totalItems.value));
+        //         minus.addEventListener('click', () => totalItems.value = Math.max(1, --totalItems.value));
+
+        //         // استخدم totalItems.value بشكل صحيح
+        //         const quantity = totalItems.value;
+        //         const totalPrice = price * quantity;
+
+        //         const message =
+        //             `Nom et Prénom: ${name}\nNuméro de Téléphone: ${phone}\nAdresse: ${address}\nVille: ${ville}\nProduct Name: ${name_product}\nPrice: ${price}\nQuantity: ${quantity}\nTotal Price: ${totalPrice}\nI am interested in the Rolex Datejust Oyster Perpetual Acier 41`;
+
+        //         const whatsappUrl = `https://wa.me/+212772083043?text=${encodeURIComponent(message)}`;
+        //         window.location.href = whatsappUrl;
+        //     });
+
+        // document.getElementById("formSubmitBtn").addEventListener("click", function() {
+        //     const name = document.getElementById("name").value;
+        //     const phone = document.getElementById("phone").value;
+        //     const address = document.getElementById("address").value;
+        //     const ville = document.getElementById("ville").value;
+        //     const name_product = document.getElementById("name_product").value;
+        //     const price = document.getElementById("price").value;
+        //     const totalItems = document.getElementById('totalItems').value;
+
+        //     // تأكد من أن الكمية صحيحة
+        //     if (!totalItems || totalItems < 1) {
+        //         alert("Please enter a valid quantity.");
+        //         return;
+        //     }
+
+        //     const totalPrice = price * totalItems;
+
+        //     const message =
+        //         `Nom et Prénom: ${name}\nNuméro de Téléphone: ${phone}\nAdresse: ${address}\nVille: ${ville}\nProduct Name: ${name_product}\nPrice: ${price}\nQuantity: ${totalItems}\nTotal Price: ${totalPrice}`;
+
+        //     const whatsappUrl = `https://wa.me/+212772083043?text=${encodeURIComponent(message)}`;
+        //     window.location.href = whatsappUrl;
+        // });
+    </script>
 @endsection
+
+{{-- +212622314644 --}}

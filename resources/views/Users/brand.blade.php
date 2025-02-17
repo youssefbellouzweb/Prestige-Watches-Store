@@ -38,7 +38,7 @@
     <main class="main">
         <section class="video-section">
             <video class="hero-video" autoplay muted loop>
-                <source src="{{ asset('assets/img/Rolex/videoplayback.mp4') }}" type="video/mp4">
+                <source src="{{ asset($brand['video']) }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
             <div class="hero-content">
@@ -61,7 +61,7 @@
 
                             <div class="featured__data">
                                 <h3 class="featured__title">{{ $product['title'] }}</h3>
-                                <span class="featured__price">{{ $product['price'] }}</span>
+                                <span class="featured__price">{{ $product['price'] }}DH</span>
                             </div>
 
                             <a href="{{ route('product', ['brand_slug' => $product['brand_slug'], 'slug' => $product['title']]) }}" class="button featured__button">

@@ -210,6 +210,10 @@ body.dark-theme {
     color: white;
 }
 
+.dark-theme .bx-grid-alt {
+    color: white;
+}
+
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
     max-width: 1024px;

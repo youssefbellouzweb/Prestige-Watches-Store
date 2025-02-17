@@ -16,34 +16,28 @@
         <section class="home" id="home">
             <div class="home__container container grid">
                 <div class="home__img-bg">
-                    <img src="{{ asset('assets/img/Rolex/m128238-0118_drp-upright-bba-with-shadow.png') }}"
-                        alt="New Watch Collection" class="home__img">
+                    <img src="{{ asset($product['image']) }}" alt="New Watch Collection" class="home__img">
                 </div>
 
                 <div class="home__social">
-                    <a href="https://www.facebook.com/prestigewatches" target="_blank" class="home__social-link">
-                        Facebook
-                    </a>
-                    <a href="https://twitter.com/prestigewatches" target="_blank" class="home__social-link">
-                        Twitter
-                    </a>
                     <a href="https://www.instagram.com/prestigewatches" target="_blank" class="home__social-link">
                         Instagram
                     </a>
                 </div>
                 <div class="home__data">
-                    <h1 class="home__title">ROLEX <br> Day-Just</h1>
+                    <h1 class="home__title">ROLEX<br>{{ $product['title'] }}</h1>
                     <p class="home__description">
                         Discover the latest arrival of the new imported watches of the Day-Just series,
                         featuring a modern and resistant design.
                     </p>
-                    <span class="home__price">$12345</span>
+                    <span class="home__price">{{ $product['price'] }}DH</span>
 
                     <div class="home__btns">
                         <a href="#featured" class="button button--gray button--small">
                             Discover
                         </a>
-                        <button class="button home__button">Buy NOW </button>
+                        <a href="{{ route('product', ['brand_slug' => $product['brand_slug'], 'slug' => $product['slug']]) }}"
+                            class="button home__button">Buy NOW </a>
                     </div>
                 </div>
             </div>
@@ -52,18 +46,15 @@
         <section class="featured section container" id="featured">
             <h2 class="section__title">The Clients Favourite</h2>
             <div class="featured__container grid">
-                @foreach ($products as $product)
+                @foreach ($features as $feature)
                     <article class="featured__card">
-                        <span class="featured__tag">{{ $product['tag'] }}</span>
-
-                        <img src="{{ asset($product['image']) }}" alt="{{ $product['alt'] }}" class="featured__img">
-
+                        <span class="featured__tag">{{ $feature['tag'] }}</span>
+                        <img src="{{ asset($feature['image']) }}" alt="{{ $feature['alt'] }}" class="featured__img">
                         <div class="featured__data">
-                            <h3 class="featured__title">{{ $product['title'] }}</h3>
-                            <span class="featured__price">{{ $product['price'] }}</span>
+                            <h3 class="featured__title">{{ $feature['title'] }}</h3>
+                            <span class="featured__price">{{ $feature['price'] }}DH</span>
                         </div>
-
-                        <a href="{{ route('product', ['brand_slug' => $product['brand_slug'], 'slug' => $product['title']]) }}"
+                        <a href="{{ route('product', ['brand_slug' => $feature['brand_slug'], 'slug' => $feature['title']]) }}"
                             class="button featured__button">
                             Buy
                             Now</a>
@@ -116,8 +107,8 @@
                 </div>
 
                 <div class="story__images">
-                    <img src="{{ asset('assets/img/Patek/92-617kgslvugtkeemb2w74ftzo-Main_2x.webp') }}" alt=""
-                        class="story__img">
+                    <img src="{{ asset('assets/img/Rolex/date just acier/rolex-datejust-white-arabic-dial-steel-yellow-gold-mens-watch-16233-65560_4caff.jpg') }}"
+                        alt="" class="story__img">
                     <div class="story__square"></div>
                 </div>
             </div>
@@ -135,11 +126,12 @@
                         <img src="{{ asset($product['image']) }}" alt="{{ $product['alt'] }}" class="products__img">
 
                         <h3 class="products__title">{{ $product['title'] }}</h3>
-                        <span class="products__price">{{ $product['price'] }}</span>
+                        <span class="products__price">{{ $product['price'] }}DH</span>
 
-                        <button class="products__button">
+                        <a href="{{ route('product', ['brand_slug' => $product['brand_slug'], 'slug' => $product['title']]) }}"
+                            class="products__button">
                             <i class='bx bx-shopping-bag'></i>
-                        </button>
+                        </a>
                     </article>
                 @endforeach
 
@@ -159,7 +151,7 @@
 
                                 <div class="new__data">
                                     <h3 class="new__title">{{ $watch['title'] }}</h3>
-                                    <span class="new__price">{{ $watch['price'] }}</span>
+                                    <span class="new__price">{{ $watch['price'] }}DH</span>
                                 </div>
 
                                 <a href="{{ route('product', ['brand_slug' => $product['brand_slug'], 'slug' => $product['title']]) }}"
@@ -170,25 +162,6 @@
                         @endforeach
                     </div>
                 </div>
-            </div>
-        </section>
-        <section class="newsletter section container" id="contact">
-            <div class="newsletter__bg grid">
-                <div>
-                    <h2 class="newsletter__title">Subscribe Our <br> Newsletter</h2>
-                    <p class="newsletter__description">
-                        Don't miss out on your discounts. Subscribe to our email
-                        newsletter to get the best offers, discounts, coupons,
-                        gifts and much more.
-                    </p>
-                </div>
-
-                <form action="" class="newsletter__subscribe">
-                    <input type="email" placeholder="Enter your email" class="newsletter__input">
-                    <button class="button">
-                        SUBSCRIBE
-                    </button>
-                </form>
             </div>
         </section>
     </main>
