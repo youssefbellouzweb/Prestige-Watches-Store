@@ -1,0 +1,12 @@
+# Exported from Render on 2025-02-18T13:16:29Z
+databases:
+- name: prestige_watches_store
+  databaseName: prestige_watches_store
+  user: prestige_watches_store_user
+  plan: free
+  region: frankfurt
+  ipAllowList:
+  - source: 0.0.0.0/0
+    description: everywhere
+  postgresMajorVersion: "16"
+version: "1"
