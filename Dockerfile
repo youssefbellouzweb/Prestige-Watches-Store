@@ -1,20 +1,19 @@
+# Dockerfile for PHP service
 FROM php:8.2-fpm
 
 # تثبيت الحزم المطلوبة
 RUN apt-get update && apt-get install -y \
-    nginx \
-    unzip \
-    git \
-    curl \
     libpq-dev \
-    && docker-php-ext-install pdo pdo_pgsql
+    && docker-php-ext-install pdo pdo_pgsql \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
 
-# نسخ الملفات إلى الحاوية
+# نسخ ملفات المشروع إلى الحاوية
 WORKDIR /var/www
 COPY . .
 
-# إعداد التصاريح الصحيحة
-RUN chmod -R 777 /var/www/storage /var/www/bootstrap/cache
+# إعداد التصاريح
+RUN chmod -R 775 /var/www/storage /var/www/bootstrap/cache
 
-# تشغيل خدمات Nginx و PHP-FPM عند بدء التشغيل
-CMD ["sh", "-c", "nginx && php-fpm"]
+# تشغيل PHP-FPM
+CMD ["php-fpm"]
