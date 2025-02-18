@@ -12,7 +12,8 @@ services:
     environment:
       APP_ENV: production
       APP_DEBUG: false
-      APP_KEY: your_app_key
+      # تعيين APP_KEY بعد التوليد من خلال `php artisan key:generate`
+      APP_KEY: base64:your_actual_app_key
       DB_CONNECTION: pgsql
       DB_HOST: db
       DB_PORT: 5432

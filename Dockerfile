@@ -19,18 +19,21 @@ COPY . .
 # تثبيت حزم Laravel
 RUN composer install --no-dev --optimize-autoloader
 
-# إعطاء الأذونات المناسبة للمجلدات
-RUN chmod -R 777 storage bootstrap/cache
+# تعيين أذونات المجلدات المناسبة
+RUN chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache
 RUN chown -R www-data:www-data /var/www/html
-
-# تعيين DocumentRoot لمجلد `public`
-RUN sed -i 's|/var/www/html|/var/www/html/public|g' /etc/apache2/sites-available/000-default.conf
 
 # إنشاء رابط التخزين
 RUN php artisan storage:link || true
 
-# تنفيذ ترحيل قاعدة البيانات إذا لزم الأمر
+# توليد APP_KEY في بيئة البناء
+RUN php artisan key:generate --force
+
+# تشغيل ترحيلات قاعدة البيانات في بيئة البناء
 RUN php artisan migrate --force || true
+
+# تعيين DocumentRoot لمجلد `public`
+RUN sed -i 's|/var/www/html|/var/www/html/public|g' /etc/apache2/sites-available/000-default.conf
 
 # تشغيل Apache
 CMD ["apache2-foreground"]
