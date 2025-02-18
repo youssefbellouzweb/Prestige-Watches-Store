@@ -12,6 +12,12 @@ RUN apt-get update && apt-get install -y \
 # نسخ ملفات المشروع إلى الحاوية
 COPY . .
 
+# نسخ ملف البيئة الافتراضي
+RUN cp .env.example .env
+
+# إعطاء الصلاحيات لمجلدات Laravel المهمة
+RUN chmod -R 777 storage bootstrap/cache
+
 # تثبيت Composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
