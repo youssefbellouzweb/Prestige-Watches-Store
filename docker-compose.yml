@@ -1,39 +1,22 @@
 version: '3.8'
 
 services:
-  php:
-    build: .
-    container_name: my_php
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
     volumes:
       - .:/var/www
-    depends_on:
-      - db
-    command: >
-      sh -c "chmod -R 775 storage bootstrap/cache &&
-             chown -R www-data:www-data storage bootstrap/cache &&
-             php artisan cache:clear &&
-             php artisan config:clear &&
-             php artisan route:clear &&
-             php artisan migrate --force &&
-             php-fpm"
+    expose:
+      - "9000"  # منفذ PHP-FPM
 
-  nginx:
-    image: nginx:latest
-    container_name: my_nginx
+  web:
+    image: nginx:alpine
     ports:
-      - "80:80"
+      - "80:80"     # HTTP
+      - "443:443"   # HTTPS
     volumes:
-      - .:/var/www
       - ./nginx.conf:/etc/nginx/nginx.conf
+      - .:/var/www
     depends_on:
-      - php
-
-  db:
-    image: postgres:latest
-    container_name: my_postgres
-    environment:
-      POSTGRES_DB: ${DB_DATABASE}
-      POSTGRES_USER: ${DB_USERNAME}
-      POSTGRES_PASSWORD: ${DB_PASSWORD}
-    ports:
-      - "5432:5432"
+      - app
