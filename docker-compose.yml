@@ -9,7 +9,9 @@ services:
     depends_on:
       - db
     command: >
-      sh -c "php artisan cache:clear &&
+      sh -c "chmod -R 775 storage bootstrap/cache &&
+             chown -R www-data:www-data storage bootstrap/cache &&
+             php artisan cache:clear &&
              php artisan config:clear &&
              php artisan route:clear &&
              php artisan migrate --force &&
