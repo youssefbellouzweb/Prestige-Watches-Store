@@ -16,7 +16,7 @@
         <section class="home" id="home">
             <div class="home__container container grid">
                 <div class="home__img-bg">
-                    <img src="{{ asset($product['image']) }}" alt="New Watch Collection" class="home__img">
+                    <img src="{{ secure_asset($product['image']) }}" alt="New Watch Collection" class="home__img">
                 </div>
 
                 <div class="home__social">
@@ -49,7 +49,7 @@
                 @foreach ($features as $feature)
                     <article class="featured__card">
                         <span class="featured__tag">{{ $feature['tag'] }}</span>
-                        <img src="{{ asset($feature['image']) }}" alt="{{ $feature['alt'] }}" class="featured__img">
+                        <img src="{{ secure_asset($feature['image']) }}" alt="{{ $feature['alt'] }}" class="featured__img">
                         <div class="featured__data">
                             <h3 class="featured__title">{{ $feature['title'] }}</h3>
                             <span class="featured__price">{{ $feature['price'] }}DH</span>
@@ -69,7 +69,7 @@
             <div class="brands__container grid">
                 @foreach ($brands as $brand)
                     <article class="brands__card">
-                        <img src="{{ asset($brand['image']) }}" alt="{{ $brand['alt'] }}" class="brands__img">
+                        <img src="{{ secure_asset($brand['image']) }}" alt="{{ $brand['alt'] }}" class="brands__img">
                         <h3 class="brands__title">{{ $brand['title'] }}</h3>
                         <a href="{{ route('brand', ['slug' => $brand['slug']]) }}"
                             class="button brands__button">Explore</a>
@@ -107,7 +107,7 @@
                 </div>
 
                 <div class="story__images">
-                    <img src="{{ asset('assets/img/Rolex/date just acier/rolex-datejust-white-arabic-dial-steel-yellow-gold-mens-watch-16233-65560_4caff.jpg') }}"
+                    <img src="{{ secure_asset('assets/img/Rolex/date just acier/rolex-datejust-white-arabic-dial-steel-yellow-gold-mens-watch-16233-65560_4caff.jpg') }}"
                         alt="" class="story__img">
                     <div class="story__square"></div>
                 </div>
@@ -123,7 +123,7 @@
 
                 @foreach ($products as $product)
                     <article class="products__card">
-                        <img src="{{ asset($product['image']) }}" alt="{{ $product['alt'] }}" class="products__img">
+                        <img src="{{ secure_asset($product['image']) }}" alt="{{ $product['alt'] }}" class="products__img">
 
                         <h3 class="products__title">{{ $product['title'] }}</h3>
                         <span class="products__price">{{ $product['price'] }}DH</span>
@@ -147,7 +147,7 @@
                             <article class="new__card swiper-slide">
                                 <span class="new__tag">{{ $watch['tag'] }}</span>
 
-                                <img src="{{ asset($watch['image']) }}" alt="{{ $watch['alt'] }}" class="new__img">
+                                <img src="{{ secure_asset($watch['image']) }}" alt="{{ $watch['alt'] }}" class="new__img">
 
                                 <div class="new__data">
                                     <h3 class="new__title">{{ $watch['title'] }}</h3>
