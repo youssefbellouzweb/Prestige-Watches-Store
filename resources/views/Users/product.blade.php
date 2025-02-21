@@ -145,10 +145,10 @@
                             <input type="hidden" id="price" name="price" value="{{ $product['price'] }}" />
                             <input type="hidden" id="price_packaging" name="price_packaging" value="{{ $product['price_packaging'] }}" />
                             <div class="form-radio">
-                                <div>
+                                {{-- <div>
                                     <input type="radio" id="sans_emballage" name="emballage" value="sans_emballage">
                                     <label for="sans_emballage">sans emballage</label>
-                                </div>
+                                </div> --}}
                                 <div>
                                     <input type="radio" id="avec_emballage" name="emballage" value="avec_emballage">
                                     <label for="avec_emballage">avec emballage</label>

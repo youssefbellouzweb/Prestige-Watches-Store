@@ -133,198 +133,6 @@ class Product extends Controller
                 'brand_slug' => 'rolex',
                 'price' => '800',
                 'price_packaging' => '950',
-            ],
-            [
-                'tag' => 'Sale',
-                'image' => 'assets/img/Rolex/Daytona Vert et Gold/johnmayer4.jpg',
-                'alt' => 'Daytona Vert et Gold',
-                'title' => 'Daytona Vert et Gold',
-                'images' => [
-                    "assets/img/Rolex/Daytona Vert et Gold/johnmayer4.jpg",
-                    "assets/img/Rolex/Daytona Vert et Gold/johnmayer3.jpg",
-                    "assets/img/Rolex/Daytona Vert et Gold/johnmayer5.jpg",
-                    "assets/img/Rolex/Daytona Vert et Gold/johnmayer7.jpg",
-                ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '800',
-                'price_packaging' => '950',
-            ],
-            [
-                'tag' => 'Sale',
-                'image' => 'assets/img/Rolex/GMT Master II Black Gray Bruce Wayne/rolex-gmt-master-ii-black-gray-bruce-wayne-bezel-steel-mens-watch-126710-unworn-67930_b6c8e.jpg',
-                'alt' => 'GMT Master II Black Gray Bruce Wayne',
-                'title' => 'GMT Master II Black Gray Bruce Wayne',
-                'images' => [
-                    "assets/img/Rolex/GMT Master II Black Gray Bruce Wayne/rolex-gmt-master-ii-black-gray-bruce-wayne-bezel-steel-mens-watch-126710-unworn-67930_b6c8e.jpg",
-                    "assets/img/Rolex/GMT Master II Black Gray Bruce Wayne/rolex-gmt-master-ii-black-gray-bruce-wayne-bezel-steel-mens-watch-126710-unworn-67930_07e03.jpg",
-                    "assets/img/Rolex/GMT Master II Black Gray Bruce Wayne/rolex-gmt-master-ii-black-gray-bruce-wayne-bezel-steel-mens-watch-126710-unworn-67930_e0a22.jpg",
-                    "assets/img/Rolex/GMT Master II Black Gray Bruce Wayne/rolex-gmt-master-ii-black-gray-bruce-wayne-bezel-steel-mens-watch-126710-unworn-67930_3fbe7.jpg",
-                ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '750',
-                'price_packaging' => '900',
-            ],
-            [
-                'tag' => 'Sale',
-                'image' => 'assets/img/Rolex/Gmt Master Pepsi/rolex-gmt-master-ii-blue-red-pepsi-bezel-steel-mens-watch-126710-61839_109eb.jpg',
-                'alt' => 'Gmt Master Pepsi',
-                'title' => 'Gmt Master Pepsi',
-                'images' => [
-                    "assets/img/Rolex/Gmt Master Pepsi/rolex-gmt-master-ii-blue-red-pepsi-bezel-steel-mens-watch-126710-61839_109eb.jpg",
-                    "assets/img/Rolex/Gmt Master Pepsi/rolex-gmt-master-ii-blue-red-pepsi-bezel-steel-mens-watch-126710-61839_30328.jpg",
-                    "assets/img/Rolex/Gmt Master Pepsi/rolex-gmt-master-ii-blue-red-pepsi-bezel-steel-mens-watch-126710-61839_a3136.jpg",
-                    "assets/img/Rolex/Gmt Master Pepsi/rolex-gmt-master-ii-blue-red-pepsi-bezel-steel-mens-watch-126710-61839_bd8b7.jpg",
-                ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '750',
-                'price_packaging' => '900',
-            ],
-            [
-                'tag' => 'Sale',
-                'image' => 'assets/img/Rolex/Gmt Master Root Beer/rolex-gmt-master-ii-root-beer-steel-rose-gold-mens-watch-126711-65127_63849.jpg',
-                'alt' => 'Gmt Master Root Beer',
-                'title' => 'Gmt Master Root Beer',
-                'images' => [
-                    "assets/img/Rolex/Gmt Master Root Beer/rolex-gmt-master-ii-root-beer-steel-rose-gold-mens-watch-126711-65127_63849.jpg",
-                    "assets/img/Rolex/Gmt Master Root Beer/rolex-gmt-master-ii-root-beer-steel-rose-gold-mens-watch-126711-65127_c438c.jpg",
-                    "assets/img/Rolex/Gmt Master Root Beer/rolex-gmt-master-ii-root-beer-steel-rose-gold-mens-watch-126711-65127_b461e.jpg",
-                    "assets/img/Rolex/Gmt Master Root Beer/rolex-gmt-master-ii-root-beer-steel-rose-gold-mens-watch-126711-65127_cf67d.jpg",
-                ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '750',
-                'price_packaging' => '900',
-            ],
-            [
-                'tag' => 'Sale',
-                'image' => 'assets/img/Rolex/Milgauss Bleu/rolex-milgauss-blue-dial-green-crystal-steel-mens-watch-116400gv-box-card-66232_0729c.jpg',
-                'alt' => 'Milgauss Bleu',
-                'title' => 'Milgauss Bleu',
-                'images' => [
-                    "assets/img/Rolex/Milgauss Bleu/rolex-milgauss-blue-dial-green-crystal-steel-mens-watch-116400gv-box-card-66232_0729c.jpg",
-                    "assets/img/Rolex/Milgauss Bleu/rolex-milgauss-blue-dial-green-crystal-steel-mens-watch-116400gv-box-card-66232_16298.jpg",
-                    "assets/img/Rolex/Milgauss Bleu/rolex-milgauss-blue-dial-green-crystal-steel-mens-watch-116400gv-box-card-66232_64eed.jpg",
-                    "assets/img/Rolex/Milgauss Bleu/rolex-milgauss-blue-dial-green-crystal-steel-mens-watch-116400gv-box-card-66232_0f431.jpg",
-                ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '750',
-                'price_packaging' => '900',
-            ],
-            [
-                'tag' => 'Sale',
-                'image' => 'assets/img/Rolex/Rolex Daytona Oysterflex choco dial no/69758925-51c2-4a60-9289-87c4ebc72d14.jpeg',
-                'alt' => 'Rolex Daytona Oysterflex choco dial no',
-                'title' => 'Rolex Daytona Oysterflex choco dial no',
-                'images' => [
-                    "assets/img/Rolex/Rolex Daytona Oysterflex choco dial no/69758925-51c2-4a60-9289-87c4ebc72d14.jpeg",
-                    "assets/img/Rolex/Rolex Daytona Oysterflex choco dial no/67277210-e710-4fd1-81c0-21c0eb6071bb.jpeg",
-                    "assets/img/Rolex/Rolex Daytona Oysterflex choco dial no/69758925-51c2-4a60-9289-87c4ebc72d14.jpeg",
-                    "assets/img/Rolex/Rolex Daytona Oysterflex choco dial no/14a05850-7fd2-4abf-95ce-09bfe413163c.jpeg",
-                ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '800',
-                'price_packaging' => '950',
-            ],
-            [
-                'tag' => 'Sale',
-                'image' => 'assets/img/Rolex/Rolex Daytona Oysterflex Ghost No/eb74f269-c3fe-46ef-926f-f5291b5e6aa5.jpeg',
-                'alt' => 'Rolex Daytona Oysterflex Ghost No',
-                'title' => 'Rolex Daytona Oysterflex Ghost No',
-                'images' => [
-                    "assets/img/Rolex/Rolex Daytona Oysterflex Ghost No/eb74f269-c3fe-46ef-926f-f5291b5e6aa5.jpeg",
-                    "assets/img/Rolex/Rolex Daytona Oysterflex Ghost No/f198a12c-62f5-44a2-baaa-ec627d2659f1.jpeg",
-                    "assets/img/Rolex/Rolex Daytona Oysterflex Ghost No/f5076173-5566-43c1-a66f-fca7179740e9.jpeg",
-                    "assets/img/Rolex/Rolex Daytona Oysterflex Ghost No/fb59d113-8662-4041-8e5e-7054b1db90a0.jpeg",
-                ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '800',
-                'price_packaging' => '950',
-            ],
-            [
-                'tag' => 'Sale',
-                'image' => 'assets/img/Rolex/submariner black/rolex-submariner-nondate-ceramic-bezel-steel-mens-watch-114060-box-card-67975_22596.jpg',
-                'alt' => 'submariner black',
-                'title' => 'submariner black',
-                'images' => [
-                    "assets/img/Rolex/submariner black/rolex-submariner-nondate-ceramic-bezel-steel-mens-watch-114060-box-card-67975_22596.jpg",
-                    "assets/img/Rolex/submariner black/rolex-submariner-nondate-ceramic-bezel-steel-mens-watch-114060-box-card-67975_7bc9b.jpg",
-                    "assets/img/Rolex/submariner black/rolex-submariner-nondate-ceramic-bezel-steel-mens-watch-114060-box-card-67975_34371.jpg",
-                    "assets/img/Rolex/submariner black/rolex-submariner-nondate-ceramic-bezel-steel-mens-watch-114060-box-card-67975_a5b6a.jpg",
-                ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '750',
-                'price_packaging' => '900',
-            ],
-            [
-                'tag' => 'Sale',
-                'image' => 'assets/img/Rolex/Submariner Hulk/rolex-submariner-hulk-green-dial-steel-mens-watch-116610lv-box-card-65895_260b9.jpg',
-                'alt' => 'Submariner Hulk',
-                'title' => 'Submariner Hulk',
-                'images' => [
-                    "assets/img/Rolex/Submariner Hulk/rolex-submariner-hulk-green-dial-steel-mens-watch-116610lv-box-card-65895_260b9.jpg",
-                    "assets/img/Rolex/Submariner Hulk/rolex-submariner-hulk-green-dial-steel-mens-watch-116610lv-box-card-65895_5cc06.jpg",
-                    "assets/img/Rolex/Submariner Hulk/rolex-submariner-hulk-green-dial-steel-mens-watch-116610lv-box-card-65895_c7fb6.jpg",
-                    "assets/img/Rolex/Submariner Hulk/rolex-submariner-hulk-green-dial-steel-mens-watch-116610lv-box-card-65895_ae283.jpg",
-                ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '750',
-                'price_packaging' => '900',
-            ],
-            [
-                'tag' => 'Sale',
-                'image' => 'assets/img/Rolex/Yaacht master oysterflex/rolex-yachtmaster-40mm-rose-gold-oysterflex-bracelet-mens-watch-116655-box-card-67506_1fc42.jpg',
-                'alt' => 'Yaacht master oysterflex',
-                'title' => 'Yaacht master oysterflex',
-                'images' => [
-                    "assets/img/Rolex/Yaacht master oysterflex/rolex-yachtmaster-40mm-rose-gold-oysterflex-bracelet-mens-watch-116655-box-card-67506_1fc42.jpg",
-                    "assets/img/Rolex/Yaacht master oysterflex/rolex-yachtmaster-40mm-rose-gold-oysterflex-bracelet-mens-watch-116655-box-card-67506_1e37d.jpg",
-                    "assets/img/Rolex/Yaacht master oysterflex/rolex-yachtmaster-40mm-rose-gold-oysterflex-bracelet-mens-watch-116655-box-card-67506_84df0.jpg",
-                    "assets/img/Rolex/Yaacht master oysterflex/rolex-yachtmaster-40mm-rose-gold-oysterflex-bracelet-mens-watch-116655-box-card-67506_9ae1b.jpg",
-                ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '750',
-                'price_packaging' => '900',
-            ],
-            [
-                'tag' => 'Sale',
-                'image' => 'assets/img/Rolex/yacht master blure/rolex-yachtmaster-steel-platinum-bezel-blue-dial-mens-watch-116622-card-66860_345a7.jpg',
-                'alt' => 'yacht master blure',
-                'title' => 'yacht master blure',
-                'images' => [
-                    "assets/img/Rolex/yacht master blure/rolex-yachtmaster-steel-platinum-bezel-blue-dial-mens-watch-116622-card-66860_345a7.jpg",
-                    "assets/img/Rolex/yacht master blure/rolex-yachtmaster-steel-platinum-bezel-blue-dial-mens-watch-116622-card-66860_532fe_md.jpg",
-                    "assets/img/Rolex/yacht master blure/rolex-yachtmaster-steel-platinum-bezel-blue-dial-mens-watch-116622-card-66860_eaf58_md.jpg",
-                    "assets/img/Rolex/yacht master blure/rolex-yachtmaster-steel-platinum-bezel-blue-dial-mens-watch-116622-card-66860_57f86_md.jpg",
-                ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '750',
-                'price_packaging' => '900',
-            ],
-            [
-                'tag' => 'Sale',
-                'image' => 'assets/img/Rolex/yacht master grey/rolex-yachtmaster-rhodium-dial-steel-platinum-mens-watch-116622-box-card-64534_1b346.jpg',
-                'alt' => 'yacht master grey',
-                'title' => 'yacht master grey',
-                'images' => [
-                    "assets/img/Rolex/yacht master grey/rolex-yachtmaster-rhodium-dial-steel-platinum-mens-watch-116622-box-card-64534_1b346.jpg",
-                    "assets/img/Rolex/yacht master grey/rolex-yachtmaster-rhodium-dial-steel-platinum-mens-watch-116622-box-card-64534_2b37d.jpg",
-                    "assets/img/Rolex/yacht master grey/rolex-yachtmaster-rhodium-dial-steel-platinum-mens-watch-116622-box-card-64534_9dda2.jpg",
-                    "assets/img/Rolex/yacht master grey/rolex-yachtmaster-rhodium-dial-steel-platinum-mens-watch-116622-box-card-64534_48e52.jpg",
-                ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '750',
-                'price_packaging' => '900',
             ]
         ];
 
@@ -376,7 +184,8 @@ class Product extends Controller
                 'brand_slug' => 'cartier',
                 'price' => '850',
                 'price_packaging' => '999',
-            ],[
+            ],
+            [
                 'tag' => 'Sale',
                 'image' => 'assets/img/Cartier/TAnk black/royalmontre.com-1738957560146/w1242_tpadding12-2022-03-05T173405.416.jpg',
                 'alt' => 'Tank black',
@@ -394,12 +203,12 @@ class Product extends Controller
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/Audemars/offshore diver chr/velvera.ma-1738958058425/montre-homme-ap-royal-oak-offshore-diver-chronograph-velvera-ma-1.png',
+                'image' => 'assets/img/Audemars/offshore diver chr/velvera.ma-1738958058425/montre-homme-ap-royal-oak-offshore-diver-chronograph-velvera-ma-1-removebg-preview.png',
                 'alt' => 'offshore diver chr',
                 'title' => 'offshore diver chr',
                 'slug' => 'audemars',
                 'images' => [
-                    "assets/img/Audemars/offshore diver chr/velvera.ma-1738958058425/montre-homme-ap-royal-oak-offshore-diver-chronograph-velvera-ma-1.png",
+                    "assets/img/Audemars/offshore diver chr/velvera.ma-1738958058425/montre-homme-ap-royal-oak-offshore-diver-chronograph-velvera-ma-1-removebg-preview.png",
                     "assets/img/Audemars/offshore diver chr/velvera.ma-1738958058425/montre-homme-ap-royal-oak-offshore-diver-chronograph-velvera-ma-3.png",
                     "assets/img/Audemars/offshore diver chr/velvera.ma-1738958058425/montre-homme-ap-royal-oak-offshore-diver-chronograph-velvera-ma-4.png",
                     "assets/img/Audemars/offshore diver chr/velvera.ma-1738958058425/montre-homme-ap-royal-oak-offshore-diver-chronograph-velvera-ma-5.png",
@@ -514,8 +323,8 @@ class Product extends Controller
             [
                 'tag' => 'Sale',
                 'image' => 'assets/img/Patek/Patek Philippe 5270 1R-001/Patek Philippe 5270 1R-001.jpeg',
-                'alt' => 'Patek Philippe Grand Complications Perpetual Calendar Chronograph 5270/1R-001',
-                'title' => 'Patek Philippe Grand Complications Perpetual Calendar Chronograph 5270/1R-001',
+                'alt' => 'Patek Philippe Grand Complications Perpetual Calendar Chronograph doré',
+                'title' => 'Patek Philippe Grand Complications Perpetual Calendar Chronograph doré',
                 'slug' => 'patek',
                 'images' => [
                     "assets/img/Patek/Patek Philippe 5270 1R-001/Patek Philippe 5270 1R-001.jpeg",
@@ -530,8 +339,8 @@ class Product extends Controller
             [
                 'tag' => 'Sale',
                 'image' => 'assets/img/Patek/Patek Philippe 5270G-001/Patek Philippe 5270G-001.jpeg',
-                'alt' => 'Patek Philippe Grand Complications Perpetual Calendar Chronograph 5270G-001',
-                'title' => 'Patek Philippe Grand Complications Perpetual Calendar Chronograph 5270G-001',
+                'alt' => 'Patek Philippe Grand Complications Perpetual Calendar Chronograph noir',
+                'title' => 'Patek Philippe Grand Complications Perpetual Calendar Chronograph noir',
                 'slug' => 'patek',
                 'images' => [
                     "assets/img/Patek/Patek Philippe 5270G-001/Patek Philippe 5270G-001.jpeg",
@@ -545,9 +354,19 @@ class Product extends Controller
             ],
             [
                 'tag' => 'Sale',
+                'image' => 'assets/img/Patek/Patek Philippe 5270G-001/Patek Philippe 5270G-001 1.jpeg',
+                'alt' => 'Patek Philippe Grand Complications noir',
+                'title' => 'Patek Philippe Grand Complications noir',
+                'slug' => 'patek',
+                'brand_slug' => 'patek',
+                'price' => '435',
+                'price_packaging' => '600',
+            ],
+            [
+                'tag' => 'Sale',
                 'image' => 'assets/img/Patek/Patek Philippe 5270P-001/Patek Philippe 5270P-001.jpeg',
-                'alt' => '⁠Patek Philippe Grand Complications Perpetual Calendar Chronograph 5270P-001',
-                'title' => '⁠Patek Philippe Grand Complications Perpetual Calendar Chronograph 5270P-001',
+                'alt' => '⁠Patek Philippe Grand Complications Perpetual Calendar Chronograph brun',
+                'title' => '⁠Patek Philippe Grand Complications Perpetual Calendar Chronograph brun',
                 'slug' => 'patek',
                 'images' => [
                     "assets/img/Patek/Patek Philippe 5270P-001/Patek Philippe 5270P-001.jpeg",
@@ -555,6 +374,16 @@ class Product extends Controller
                     "assets/img/Patek/Patek Philippe 5270P-001/Patek Philippe 5270P-001 02.jpeg",
                     "assets/img/Patek/Patek Philippe 5270P-001/Patek Philippe 5270P-001 03.jpeg",
                 ],
+                'brand_slug' => 'patek',
+                'price' => '435',
+                'price_packaging' => '600',
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/Patek/Patek Philippe 5270P-001/Patek Philippe 5270P-001 1.jpeg',
+                'alt' => '⁠Patek Philippe Grand Complications brun',
+                'title' => '⁠Patek Philippe Grand Complications brun',
+                'slug' => 'patek',
                 'brand_slug' => 'patek',
                 'price' => '435',
                 'price_packaging' => '600',
@@ -571,6 +400,16 @@ class Product extends Controller
                     "assets/img/Patek/Patek Philippe 5270R-001/Patek Philippe 5270R-001 01.jpeg",
                     "assets/img/Patek/Patek Philippe 5270R-001/Patek Philippe 5270R-001 02.jpeg",
                 ],
+                'brand_slug' => 'patek',
+                'price' => '435',
+                'price_packaging' => '600',
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/Patek/Patek Philippe 5270R-001/Patek Philippe 5270R-001.jpeg',
+                'alt' => 'Patek Philippe Grand Complications 5270R-001',
+                'title' => 'Patek Philippe Grand Complications 5270R-001',
+                'slug' => 'patek',
                 'brand_slug' => 'patek',
                 'price' => '435',
                 'price_packaging' => '600',
@@ -1154,12 +993,12 @@ class Product extends Controller
         ];
 
         $product = array_filter($products, function ($item) use ($brand_slug, $slug) {
-            return strtolower($item['title']) === strtolower($slug);
+            return strtolower($item['title']) === strtolower(string: $slug);
         });
 
-        $product = array_values($product)[0];
-
         // dd($product);
+
+        $product = array_values($product)[0];
 
         return view('Users.product', ['product' => $product, 'watches' => $watches]);
     }

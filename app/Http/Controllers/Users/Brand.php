@@ -84,7 +84,8 @@ class Brand extends Controller
                 'brand_slug' => 'cartier',
                 'price' => '850',
                 'price_packaging' => '999',
-            ],[
+            ],
+            [
                 'tag' => 'Sale',
                 'image' => 'assets/img/Cartier/TAnk black/royalmontre.com-1738957560146/w1242_tpadding12-2022-03-05T173405.416.jpg',
                 'alt' => 'Tank black',
@@ -102,12 +103,12 @@ class Brand extends Controller
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/Audemars/offshore diver chr/velvera.ma-1738958058425/montre-homme-ap-royal-oak-offshore-diver-chronograph-velvera-ma-1.png',
+                'image' => 'assets/img/Audemars/offshore diver chr/velvera.ma-1738958058425/montre-homme-ap-royal-oak-offshore-diver-chronograph-velvera-ma-1-removebg-preview.png',
                 'alt' => 'offshore diver chr',
                 'title' => 'offshore diver chr',
                 'slug' => 'audemars',
                 'images' => [
-                    "assets/img/Audemars/offshore diver chr/velvera.ma-1738958058425/montre-homme-ap-royal-oak-offshore-diver-chronograph-velvera-ma-1.png",
+                    "assets/img/Audemars/offshore diver chr/velvera.ma-1738958058425/montre-homme-ap-royal-oak-offshore-diver-chronograph-velvera-ma-1-removebg-preview.png",
                     "assets/img/Audemars/offshore diver chr/velvera.ma-1738958058425/montre-homme-ap-royal-oak-offshore-diver-chronograph-velvera-ma-3.png",
                     "assets/img/Audemars/offshore diver chr/velvera.ma-1738958058425/montre-homme-ap-royal-oak-offshore-diver-chronograph-velvera-ma-4.png",
                     "assets/img/Audemars/offshore diver chr/velvera.ma-1738958058425/montre-homme-ap-royal-oak-offshore-diver-chronograph-velvera-ma-5.png",
@@ -222,8 +223,8 @@ class Brand extends Controller
             [
                 'tag' => 'Sale',
                 'image' => 'assets/img/Patek/Patek Philippe 5270 1R-001/Patek Philippe 5270 1R-001.jpeg',
-                'alt' => 'Patek Philippe Grand Complications Perpetual Calendar Chronograph 5270/1R-001',
-                'title' => 'Patek Philippe Grand Complications Perpetual Calendar Chronograph 5270/1R-001',
+                'alt' => 'Patek Philippe Grand Complications Perpetual Calendar Chronograph doré',
+                'title' => 'Patek Philippe Grand Complications Perpetual Calendar Chronograph doré',
                 'slug' => 'patek',
                 'images' => [
                     "assets/img/Patek/Patek Philippe 5270 1R-001/Patek Philippe 5270 1R-001.jpeg",
@@ -238,8 +239,8 @@ class Brand extends Controller
             [
                 'tag' => 'Sale',
                 'image' => 'assets/img/Patek/Patek Philippe 5270G-001/Patek Philippe 5270G-001.jpeg',
-                'alt' => 'Patek Philippe Grand Complications Perpetual Calendar Chronograph 5270G-001',
-                'title' => 'Patek Philippe Grand Complications Perpetual Calendar Chronograph 5270G-001',
+                'alt' => 'Patek Philippe Grand Complications Perpetual Calendar Chronograph noir',
+                'title' => 'Patek Philippe Grand Complications Perpetual Calendar Chronograph noir',
                 'slug' => 'patek',
                 'images' => [
                     "assets/img/Patek/Patek Philippe 5270G-001/Patek Philippe 5270G-001.jpeg",
@@ -253,9 +254,19 @@ class Brand extends Controller
             ],
             [
                 'tag' => 'Sale',
+                'image' => 'assets/img/Patek/Patek Philippe 5270G-001/Patek Philippe 5270G-001 1.jpeg',
+                'alt' => 'Patek Philippe Grand Complications noir',
+                'title' => 'Patek Philippe Grand Complications noir',
+                'slug' => 'patek',
+                'brand_slug' => 'patek',
+                'price' => '435',
+                'price_packaging' => '600',
+            ],
+            [
+                'tag' => 'Sale',
                 'image' => 'assets/img/Patek/Patek Philippe 5270P-001/Patek Philippe 5270P-001.jpeg',
-                'alt' => '⁠Patek Philippe Grand Complications Perpetual Calendar Chronograph 5270P-001',
-                'title' => '⁠Patek Philippe Grand Complications Perpetual Calendar Chronograph 5270P-001',
+                'alt' => '⁠Patek Philippe Grand Complications Perpetual Calendar Chronograph brun',
+                'title' => '⁠Patek Philippe Grand Complications Perpetual Calendar Chronograph brun',
                 'slug' => 'patek',
                 'images' => [
                     "assets/img/Patek/Patek Philippe 5270P-001/Patek Philippe 5270P-001.jpeg",
@@ -263,6 +274,16 @@ class Brand extends Controller
                     "assets/img/Patek/Patek Philippe 5270P-001/Patek Philippe 5270P-001 02.jpeg",
                     "assets/img/Patek/Patek Philippe 5270P-001/Patek Philippe 5270P-001 03.jpeg",
                 ],
+                'brand_slug' => 'patek',
+                'price' => '435',
+                'price_packaging' => '600',
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/Patek/Patek Philippe 5270P-001/Patek Philippe 5270P-001 1.jpeg',
+                'alt' => '⁠Patek Philippe Grand Complications brun',
+                'title' => '⁠Patek Philippe Grand Complications brun',
+                'slug' => 'patek',
                 'brand_slug' => 'patek',
                 'price' => '435',
                 'price_packaging' => '600',
@@ -279,6 +300,16 @@ class Brand extends Controller
                     "assets/img/Patek/Patek Philippe 5270R-001/Patek Philippe 5270R-001 01.jpeg",
                     "assets/img/Patek/Patek Philippe 5270R-001/Patek Philippe 5270R-001 02.jpeg",
                 ],
+                'brand_slug' => 'patek',
+                'price' => '435',
+                'price_packaging' => '600',
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/Patek/Patek Philippe 5270R-001/Patek Philippe 5270R-001.jpeg',
+                'alt' => 'Patek Philippe Grand Complications 5270R-001',
+                'title' => 'Patek Philippe Grand Complications 5270R-001',
+                'slug' => 'patek',
                 'brand_slug' => 'patek',
                 'price' => '435',
                 'price_packaging' => '600',

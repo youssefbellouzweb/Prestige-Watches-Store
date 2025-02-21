@@ -25,7 +25,7 @@
                     </a>
                 </div>
                 <div class="home__data">
-                    <h1 class="home__title">ROLEX<br>{{ $product['title'] }}</h1>
+                    <h1 class="home__title">Audemars<br>{{ $product['title'] }}</h1>
                     <p class="home__description">
                         Discover the latest arrival of the new imported watches of the Day-Just series,
                         featuring a modern and resistant design.
@@ -36,7 +36,7 @@
                         <a href="#featured" class="button button--gray button--small">
                             Discover
                         </a>
-                        <a href="{{ route('product', ['brand_slug' => $product['brand_slug'], 'slug' => $product['slug']]) }}"
+                        <a href="{{ route('product', ['brand_slug' => $product['brand_slug'], 'slug' => $product['title']]) }}"
                             class="button home__button">Buy NOW </a>
                     </div>
                 </div>

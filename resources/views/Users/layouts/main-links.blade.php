@@ -10,7 +10,7 @@
 
 <!--=============== SWIPER CSS ===============-->
 <link rel="stylesheet" href="{{secure_asset('assets/css/swiper-bundle.min.css')}}">
-
+{{-- secure_asset --}}
 <!--=============== CSS ===============-->
 <link rel="stylesheet" href="{{secure_asset('assets/css/styles.css')}}">
 
