@@ -42,19 +42,31 @@
             font-family: "Merriweather", serif;
         }
 
-        .form-section input {
+        .form-div {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .form-section .form-div input {
             padding: 15px;
             font-size: 16px;
             border: 1px solid #ddd;
             border-radius: 5px;
+            width: 90%;
             background: #fff;
             box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.05);
             transition: border-color 0.3s, box-shadow 0.3s;
             font-family: "Merriweather", serif;
         }
 
-        .form-section input:focus {
-            border-color: #007bff;
+        .form-section .form-div i {
+            color: hsl(26, 100%, 55%);
+        }
+
+        .form-section .form-div input:focus {
+            border-color: hsl(26, 100%, 55%);
             box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
             outline: none;
         }
@@ -63,7 +75,7 @@
             padding: 15px 20px;
             font-size: 18px;
             color: #fff;
-            background: linear-gradient(135deg, #007bff, #0056b3);
+            background: linear-gradient(135deg, hsl(26, 100%, 61%), hsl(26, 100%, 55%));
             border: none;
             border-radius: 5px;
             cursor: pointer;
@@ -133,22 +145,26 @@
                     <div class="form-section">
                         <h2>Order Information</h2>
                         <form id="orderForm">
-                            <label for="name">Nom et Prénom:</label>
-                            <input type="text" id="name" name="name" required />
-                            <label for="phone">Numéro de Téléphone:</label>
-                            <input type="tel" id="phone" name="phone" required />
-                            <label for="address">Adresse:</label>
-                            <input type="text" id="address" name="address" required />
-                            <label for="ville">Ville:</label>
-                            <input type="text" id="ville" name="ville" required />
+                            <div class="form-div">
+                                <i class="fa-regular fa-user"></i>
+                                <input type="text" id="name" name="name" placeholder="Nom et Prénom" required />
+                            </div>
+                            <div class="form-div">
+                                <i class="fa-solid fa-phone"></i>
+                                <input type="tel" id="phone" name="phone" placeholder="Numéro de Téléphone" required />
+                            </div>
+                            <div class="form-div">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <input type="text" id="address" name="address" placeholder="Adresse" required />
+                            </div>
+                            <div class="form-div">
+                                <i class="fa-solid fa-building"></i>
+                                <input type="text" id="ville" name="ville" placeholder="Ville" required />
+                            </div>
                             <input type="hidden" id="name_product" name="name_product" value="{{ $product['title'] }}" />
                             <input type="hidden" id="price" name="price" value="{{ $product['price'] }}" />
                             <input type="hidden" id="price_packaging" name="price_packaging" value="{{ $product['price_packaging'] }}" />
                             <div class="form-radio">
-                                {{-- <div>
-                                    <input type="radio" id="sans_emballage" name="emballage" value="sans_emballage">
-                                    <label for="sans_emballage">sans emballage</label>
-                                </div> --}}
                                 <div>
                                     <input type="radio" id="avec_emballage" name="emballage" value="avec_emballage">
                                     <label for="avec_emballage">avec emballage</label>
@@ -192,82 +208,4 @@
 
 @section('js')
     <script src="{{ secure_asset('assets/js/script.js') }}"></script>
-    <script>
-        // document
-        //     .getElementById("formSubmitBtn")
-        //     .addEventListener("click", function() {
-        //         const name = document.getElementById("name").value;
-        //         const phone = document.getElementById("phone").value;
-        //         const address = document.getElementById("address").value;
-        //         const ville = document.getElementById("ville").value;
-        //         // const name_product = document.getElementById("name_product").value;
-        //         // const price = document.getElementById("price").value;
-        //         // const plus = document.getElementById('plus');
-        //         // const minus = document.getElementById('minus');
-        //         // const totalItems = document.getElementById('totalItems');
-
-        //         // plus.addEventListener('click', () => totalItems.value = Math.max(1, ++totalItems.value));
-        //         // minus.addEventListener('click', () => totalItems.value = Math.max(1, --totalItems.value));
-
-        //         const message =
-        //             `Nom et Prénom: ${name}\nNuméro de Téléphone: ${phone}\nAdresse: ${address}\nCity: ${ville}\nProduct Name: ${name_product}\nPrice: ${price}\nI am interested in the Rolex Datejust Oyster Perpetual Acier 41`;
-        //         const whatsappUrl = `https://wa.me/+212772083043?text=${encodeURIComponent(
-        //   message
-        // )}`;
-        //         window.location.href = whatsappUrl;
-        //     });
-
-        // document
-        //     .getElementById("formSubmitBtn")
-        //     .addEventListener("click", function() {
-        //         const name = document.getElementById("name").value;
-        //         const phone = document.getElementById("phone").value;
-        //         const address = document.getElementById("address").value;
-        //         const ville = document.getElementById("ville").value;
-        //         const name_product = document.getElementById("name_product").value;
-        //         const price = document.getElementById("price").value;
-        //         const plus = document.getElementById('plus');
-        //         const minus = document.getElementById('minus');
-        //         const totalItems = document.getElementById('totalItems');
-
-        //         plus.addEventListener('click', () => totalItems.value = Math.max(1, ++totalItems.value));
-        //         minus.addEventListener('click', () => totalItems.value = Math.max(1, --totalItems.value));
-
-        //         // استخدم totalItems.value بشكل صحيح
-        //         const quantity = totalItems.value;
-        //         const totalPrice = price * quantity;
-
-        //         const message =
-        //             `Nom et Prénom: ${name}\nNuméro de Téléphone: ${phone}\nAdresse: ${address}\nVille: ${ville}\nProduct Name: ${name_product}\nPrice: ${price}\nQuantity: ${quantity}\nTotal Price: ${totalPrice}\nI am interested in the Rolex Datejust Oyster Perpetual Acier 41`;
-
-        //         const whatsappUrl = `https://wa.me/+212772083043?text=${encodeURIComponent(message)}`;
-        //         window.location.href = whatsappUrl;
-        //     });
-
-        // document.getElementById("formSubmitBtn").addEventListener("click", function() {
-        //     const name = document.getElementById("name").value;
-        //     const phone = document.getElementById("phone").value;
-        //     const address = document.getElementById("address").value;
-        //     const ville = document.getElementById("ville").value;
-        //     const name_product = document.getElementById("name_product").value;
-        //     const price = document.getElementById("price").value;
-        //     const totalItems = document.getElementById('totalItems').value;
-
-        //     // تأكد من أن الكمية صحيحة
-        //     if (!totalItems || totalItems < 1) {
-        //         alert("Please enter a valid quantity.");
-        //         return;
-        //     }
-
-        //     const totalPrice = price * totalItems;
-
-        //     const message =
-        //         `Nom et Prénom: ${name}\nNuméro de Téléphone: ${phone}\nAdresse: ${address}\nVille: ${ville}\nProduct Name: ${name_product}\nPrice: ${price}\nQuantity: ${totalItems}\nTotal Price: ${totalPrice}`;
-
-        //     const whatsappUrl = `https://wa.me/+212772083043?text=${encodeURIComponent(message)}`;
-        //     window.location.href = whatsappUrl;
-        // });
-    </script>
 @endsection
-
-{{-- +212622314644 --}}

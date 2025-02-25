@@ -6,13 +6,13 @@
             <ul class="footer__list">
                 <li>Rabat, Morocco</li>
                 <li>Rabat</li>
-                <li>+212-61-456-7890</li>
+                <li>+212-66-666-6666</li>
             </ul>
         </div>
         <div class="footer__content">
             <h3 class="footer__title">Follow Us</h3>
             <ul class="footer__social">
-                <a href="https://www.instagram.com/prestigewatches" target="_blank" class="footer__social-link">
+                <a href="#" target="_blank" class="footer__social-link">
                     <i class='bx bxl-instagram'></i>
                 </a>
             </ul>

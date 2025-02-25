@@ -20,7 +20,7 @@
                 </div>
 
                 <div class="home__social">
-                    <a href="https://www.instagram.com/prestigewatches" target="_blank" class="home__social-link">
+                    <a href="#" target="_blank" class="home__social-link">
                         Instagram
                     </a>
                 </div>
