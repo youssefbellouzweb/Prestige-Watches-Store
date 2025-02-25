@@ -19,7 +19,7 @@
         </div>
     </div>
 
-    <span class="footer__copy">&#169; 2025 Prestige Watches. All rights reserved</span>
+    <span class="footer__copy">&#169; 2025 Watches. All rights reserved</span>
 </footer>
 
 <!--=============== SCROLL UP ===============-->
