@@ -2,7 +2,7 @@
 <header class="header" id="header">
     <nav class="nav container">
         <a href="{{route("home")}}" class="nav__logo">
-            <i class='bx bxs-watch nav__logo-icon'></i> Watches
+            <i class='bx bxs-watch nav__logo-icon'></i> Prestige Watches
         </a>
 
         <div class="nav__menu" id="nav-menu">
