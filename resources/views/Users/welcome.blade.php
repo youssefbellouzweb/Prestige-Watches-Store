@@ -25,7 +25,7 @@
                     </a>
                 </div>
                 <div class="home__data">
-                    <h1 class="home__title">Audemars<br>{{ $product['title'] }}</h1>
+                    <h1 class="home__title">{{ $product['brand_slug'] }}<br>{{ $product['title'] }}</h1>
                     <p class="home__description">
                         Discover the latest arrival of the new imported watches of the Day-Just series,
                         featuring a modern and resistant design.
@@ -107,7 +107,7 @@
                 </div>
 
                 <div class="story__images">
-                    <img src="{{ secure_asset('assets/img/Rolex/date just acier/rolex-datejust-white-arabic-dial-steel-yellow-gold-mens-watch-16233-65560_4caff.jpg') }}"
+                    <img src="{{ secure_asset($product['image']) }}"
                         alt="" class="story__img">
                     <div class="story__square"></div>
                 </div>
