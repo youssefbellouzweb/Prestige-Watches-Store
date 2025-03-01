@@ -65,18 +65,19 @@ class Home extends Controller
 
         $product = [
             'tag' => 'Sale',
-            'image' => 'assets/img/cartier/Cartier Skeleton Argenté/1_32658058-3t6w4us8nrtxqb5b6w8dzapg-Zoom.jpg',
-            'alt' => 'Cartier Skeleton Argenté',
-            'title' => 'Cartier Skeleton Argenté',
+            'image' => 'assets/img/rolex/Daytona Cosmographe gris 116518LN/daytonagris2.png',
+            'alt' => 'Daytona Cosmographe gris 116518LN',
+            'title' => 'Daytona Cosmographe gris 116518LN',
             'images' => [
-                "assets/img/cartier/Cartier Skeleton Argenté/1_32658058-3t6w4us8nrtxqb5b6w8dzapg-Zoom.jpg",
-                "assets/img/cartier/Cartier Skeleton Argenté/2_32658058-lpm2x82cklhwhwbt5a8dfm8s-Zoom.jpg",
-                "assets/img/cartier/Cartier Skeleton Argenté/3_32658058-0d606j7kjx82wrx3tk9s5h1j-Zoom.jpg"
+                "assets/img/rolex/Daytona Cosmographe gris 116518LN/daytonagris2.png",
+                "assets/img/rolex/Daytona Cosmographe gris 116518LN/r13.jpg",
+                "assets/img/rolex/Daytona Cosmographe gris 116518LN/daytonagris5.png",
+                "assets/img/rolex/Daytona Cosmographe gris 116518LN/daytonagris1.png",
             ],
-            'slug' => 'cartier',
-            'brand_slug' => 'cartier',
-            'price' => '850',
-            'price_packaging' => '999',
+            'slug' => 'rolex',
+            'brand_slug' => 'rolex',
+            'price' => '750',
+            'price_packaging' => '900',
         ];
 
         $products = [
