@@ -14,5 +14,5 @@
 <!--=============== CSS ===============-->
 <link rel="stylesheet" href="{{secure_asset('assets/css/styles.css')}}">
 
-<title>Responsive watches website - @yield("title")</title>
+<title>watches website - @yield("title")</title>
 @yield("style")
