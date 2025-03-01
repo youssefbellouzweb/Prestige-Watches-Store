@@ -124,6 +124,7 @@
                 </div>
                 <div class="detail-col-2">
                     <small class="detail-companyName">{{ $product['title'] }}</small>
+                    <p>{{ $product['description'] }}</p>
                     <div class="detail-price">
                         <span class="detail-productValue">{{ $product['price'] }}DH</span>
                         {{-- <span class="detail-percentage">50%</span> --}}

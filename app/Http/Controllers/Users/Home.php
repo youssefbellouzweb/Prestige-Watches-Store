@@ -96,6 +96,7 @@ class Home extends Controller
                 'brand_slug' => 'audemars',
                 'price' => '850',
                 'price_packaging' => '999',
+                'description' => 'Un véritable chef-d’œuvre horloger, la Royal Oak est une montre iconique au design audacieux et intemporel. Elle se distingue par sa lunette octogonale vissée, inspirée des hublots de navire, et son bracelet intégré qui offre un confort inégalé. Conçue pour allier sport et élégance, elle est dotée d’un mouvement mécanique de haute précision.'
             ],
             [
                 'tag' => 'Sale',
@@ -112,6 +113,7 @@ class Home extends Controller
                 'brand_slug' => 'audemars',
                 'price' => '850',
                 'price_packaging' => '999',
+                'description' => 'Ce modèle de 41 mm arbore un cadran blanc épuré qui accentue son raffinement. Il conserve les codes esthétiques de la Royal Oak avec son boîtier en acier inoxydable, sa lunette octogonale et ses vis apparentes. Parfait pour ceux qui recherchent une montre à la fois sobre et luxueuse, elle est idéale pour toutes les occasions.'
             ],
             [
                 'tag' => 'Sale',
@@ -128,6 +130,7 @@ class Home extends Controller
                 'brand_slug' => 'audemars',
                 'price' => '850',
                 'price_packaging' => '999',
+                'description' => 'Une montre conçue pour l’exploration sous-marine, cette Offshore Diver est équipée d’un chronographe précis et d’une résistance à l’eau exceptionnelle. Son cadran jaune vibrant, associé à un boîtier robuste de 44 mm, lui confère un caractère dynamique et audacieux. Idéale pour les passionnés de plongée et d’aventure.'
             ],
             [
                 'tag' => 'Sale',
@@ -144,6 +147,7 @@ class Home extends Controller
                 'brand_slug' => 'audemars',
                 'price' => '850',
                 'price_packaging' => '999',
+                'description' => 'Un modèle qui allie haute horlogerie et savoir-faire artistique. Grâce à son cadran ajouré, il dévoile avec finesse la mécanique complexe de son mouvement automatique. Les finitions argentées ajoutent une touche d’élégance, faisant de cette montre un choix parfait pour les connaisseurs en quête d’exclusivité.'
             ],
             [
                 'tag' => 'Sale',
@@ -160,6 +164,7 @@ class Home extends Controller
                 'brand_slug' => 'audemars',
                 'price' => '850',
                 'price_packaging' => '999',
+                'description' => 'Cette version noire du chronographe Audemars Piguet incarne la puissance et le style moderne. Son boîtier raffiné, associé à un cadran sombre avec des compteurs chronographiques, en fait une montre idéale pour les amateurs de montres sportives haut de gamme. Son allure sobre et sophistiquée lui permet de s’adapter à toutes les tenues.'
             ],
             [
                 'tag' => 'Sale',
@@ -176,6 +181,7 @@ class Home extends Controller
                 'brand_slug' => 'audemars',
                 'price' => '850',
                 'price_packaging' => '999',
+                'description' => 'Une montre qui symbolise le luxe et le raffinement avec son boîtier et son bracelet en or rose 18 carats. Son design emblématique et son mouvement automatique en font une pièce d’exception, parfaite pour ceux qui souhaitent affirmer leur élégance avec une montre à la présence imposante et intemporelle.'
             ],
             [
                 'tag' => 'Sale',
@@ -192,6 +198,7 @@ class Home extends Controller
                 'brand_slug' => 'audemars',
                 'price' => '850',
                 'price_packaging' => '999',
+                'description' => 'Dotée d’un boîtier robuste de 44 mm et d’une résistance à l’eau jusqu’à 300 mètres, cette montre est idéale pour les amateurs de plongée et d’activités nautiques. Son cadran vert profond apporte une touche unique et dynamique, tout en conservant la sophistication propre à la collection Offshore.'
             ],
             [
                 'tag' => 'Sale',
@@ -208,6 +215,7 @@ class Home extends Controller
                 'brand_slug' => 'audemars',
                 'price' => '850',
                 'price_packaging' => '999',
+                'description' => 'Un modèle qui incarne la sobriété et l’élégance. Son cadran noir contrastant avec les index luminescents assure une lisibilité optimale. La lunette octogonale emblématique et le bracelet en acier intégré lui confèrent un design raffiné et intemporel.'
             ],
             [
                 'tag' => 'Sale',
@@ -222,6 +230,7 @@ class Home extends Controller
                 'brand_slug' => 'audemars',
                 'price' => '850',
                 'price_packaging' => '999',
+                'description' => 'Cette version full black de l’Offshore Diver se distingue par son look audacieux et moderne. Conçue pour résister aux conditions extrêmes, elle offre une lisibilité parfaite sous l’eau grâce à ses index luminescents et son affichage précis. Une montre parfaite pour les amateurs de montres de sport de luxe.'
             ],
             [
                 'tag' => 'Sale',
@@ -238,6 +247,7 @@ class Home extends Controller
                 'brand_slug' => 'audemars',
                 'price' => '850',
                 'price_packaging' => '999',
+                'description' => 'Une œuvre d’ingénierie horlogère remarquable. Son cadran squelette met en valeur la double roue d’échappement, une innovation qui améliore la précision du mouvement. Son boîtier en acier et ses finitions raffinées en font une montre d’exception pour les passionnés d’horlogerie fine.'
             ],
             [
                 'tag' => 'Sale',
@@ -254,6 +264,7 @@ class Home extends Controller
                 'brand_slug' => 'audemars',
                 'price' => '850',
                 'price_packaging' => '999',
+                'description' => 'Un chronographe élégant et fonctionnel doté d’un boîtier en acier inoxydable de 41 mm. Ses sous-cadrans équilibrés et son mouvement automatique en font un choix idéal pour les amateurs de montres sportives haut de gamme. Parfaite pour allier performance et sophistication au quotidien.'
             ],
             [
                 'tag' => 'Sale',
@@ -270,6 +281,7 @@ class Home extends Controller
                 'brand_slug' => 'audemars',
                 'price' => '850',
                 'price_packaging' => '999',
+                'description' => 'Un modèle au cadran blanc avec des sous-compteurs noirs, inspiré des célèbres montres « Panda ». Son design distinctif, combiné à la robustesse du boîtier en acier et au bracelet intégré, en fait une montre très prisée par les collectionneurs et amateurs de chronographes sportifs.'
             ],
             [
                 'tag' => 'Sale',
@@ -286,6 +298,7 @@ class Home extends Controller
                 'brand_slug' => 'audemars',
                 'price' => '850',
                 'price_packaging' => '999',
+                'description' => 'Conçue pour l’action, cette montre de plongée est équipée d’un chronographe précis et d’un cadran bleu profond qui évoque l’océan. Son boîtier en acier inoxydable et son étanchéité élevée en font un choix parfait pour les passionnés de sports nautiques et de montres techniques.'
             ],
             [
                 'tag' => 'Sale',
@@ -302,6 +315,7 @@ class Home extends Controller
                 'brand_slug' => 'hublot',
                 'price' => '850',
                 'price_packaging' => '999',
+                'description' => 'Un modèle classique et raffiné qui incarne l’élégance intemporelle. Son cadran noir profond, associé à un boîtier en céramique ou en titane, confère à cette montre une allure sophistiquée et polyvalente. Elle est idéale pour ceux qui recherchent une montre sobre et luxueuse à la fois.'
             ],
             [
                 'tag' => 'Sale',
@@ -318,6 +332,7 @@ class Home extends Controller
                 'brand_slug' => 'hublot',
                 'price' => '750',
                 'price_packaging' => '900',
+                'description' => 'Cette version en vert profond apporte une touche d’originalité à l’iconique Classic Fusion. Son design épuré et contemporain en fait une montre parfaite pour les amateurs d’élégance moderne. Son cadran soleillé capte la lumière et lui donne une profondeur unique.'
             ],
             [
                 'tag' => 'Sale',
@@ -334,6 +349,7 @@ class Home extends Controller
                 'brand_slug' => 'hublot',
                 'price' => '750',
                 'price_packaging' => '900',
+                'description' => 'Véritable emblème de la marque, la Big Bang incarne l’esprit audacieux de Hublot avec son design puissant et sa technologie de pointe. Dotée d’un boîtier robuste et de matériaux innovants, elle est conçue pour les passionnés de montres sportives haut de gamme. Son allure dynamique et sa mécanique de précision en font une montre prisée par les amateurs d’horlogerie moderne.'
             ],
             [
                 'tag' => 'Sale',
@@ -349,6 +365,7 @@ class Home extends Controller
                 'brand_slug' => 'hublot',
                 'price' => '750',
                 'price_packaging' => '900',
+                'description' => 'Inspirée du monde du sport automobile, cette montre arbore un design dynamique qui évoque la vitesse et la performance. Son cadran épuré et son boîtier léger en font une pièce idéale pour les amateurs de sensations fortes et de montres à l’allure sportive.'
             ],
             [
                 'tag' => 'Sale',
@@ -365,6 +382,7 @@ class Home extends Controller
                 'brand_slug' => 'hublot',
                 'price' => '750',
                 'price_packaging' => '900',
+                'description' => 'Une alliance parfaite entre élégance et confort. Son boîtier en titane ultra-léger garantit une sensation de légèreté au poignet, tandis que son cadran bleu vibrant apporte une touche de modernité et de distinction. Un choix idéal pour ceux qui recherchent une montre à la fois robuste et raffinée.'
             ],
             [
                 'tag' => 'Sale',
@@ -380,6 +398,7 @@ class Home extends Controller
                 'brand_slug' => 'hublot',
                 'price' => '750',
                 'price_packaging' => '900',
+                'description' => 'Avec son cadran jaune éclatant, cette montre audacieuse se distingue par son design vibrant et énergique. Elle incarne l’esprit novateur de Hublot, parfait pour ceux qui veulent une montre qui attire tous les regards. Son boîtier élégant met en valeur son style unique.'
             ],
             [
                 'tag' => 'Sale',
@@ -396,6 +415,7 @@ class Home extends Controller
                 'brand_slug' => 'hublot',
                 'price' => '750',
                 'price_packaging' => '900',
+                'description' => 'Un modèle qui associe la légèreté du titane à l’élégance d’un cadran vert sophistiqué. Son design minimaliste et ses finitions haut de gamme en font une montre incontournable pour les amateurs de montres contemporaines et distinctives.'
             ],
             [
                 'tag' => 'Sale',
@@ -412,6 +432,7 @@ class Home extends Controller
                 'brand_slug' => 'hublot',
                 'price' => '750',
                 'price_packaging' => '900',
+                'description' => 'Une pièce d’exception qui marie le prestige de l’or King Gold 18 carats à la profondeur d’un cadran bleu intense. Ce contraste saisissant confère à cette montre une allure royale et somptueuse, idéale pour ceux qui recherchent une montre de luxe au design raffiné.'
             ],
             [
                 'tag' => 'Sale',
@@ -428,6 +449,7 @@ class Home extends Controller
                 'brand_slug' => 'richardmille',
                 'price' => '850',
                 'price_packaging' => '999',
+                'description' => 'Une montre sportive emblématique au design audacieux, dotée d’un boîtier au style architectural unique et de touches jaunes vives qui lui confèrent une allure dynamique et moderne. Son mouvement automatique sophistiqué et son cadran squelette témoignent du savoir-faire exceptionnel de la maison Richard Mille.'
             ],
             [
                 'tag' => 'Sale',
@@ -444,6 +466,7 @@ class Home extends Controller
                 'brand_slug' => 'richardmille',
                 'price' => '850',
                 'price_packaging' => '999',
+                'description' => 'Un modèle qui incarne la fusion parfaite entre esthétique et haute technologie. Son boîtier noir robuste, associé à un cadran complexe aux détails raffinés, met en avant le caractère avant-gardiste de la marque. Conçue pour les passionnés d’horlogerie à la recherche d’une montre alliant performance et élégance discrète.'
             ],
             [
                 'tag' => 'Sale',
@@ -460,6 +483,7 @@ class Home extends Controller
                 'brand_slug' => 'richardmille',
                 'price' => '850',
                 'price_packaging' => '999',
+                'description' => 'Une variation luxueuse du modèle précédent, où l’or remplace le titane pour un rendu plus prestigieux. Cette montre allie sophistication et excellence mécanique, avec un mouvement de chronographe de haute précision logé dans un boîtier en or raffiné. Une pièce d’exception pour ceux qui recherchent l’exclusivité.'
             ],
             [
                 'tag' => 'Sale',
@@ -476,6 +500,7 @@ class Home extends Controller
                 'brand_slug' => 'richardmille',
                 'price' => '850',
                 'price_packaging' => '999',
+                'description' => 'Une version élégante et contemporaine qui se distingue par son coloris gris sophistiqué. Son design technique et sa finition impeccable en font un modèle incontournable pour les amateurs de montres haut de gamme au style raffiné.'
             ],
             [
                 'tag' => 'Sale',
@@ -492,6 +517,7 @@ class Home extends Controller
                 'brand_slug' => 'cartier',
                 'price' => '850',
                 'price_packaging' => '999',
+                'description' =>  "Un modèle élégant de la collection Santos avec un cadran bleu profond. Ce design classique, associé à une touche moderne, incarne l'élégance et la sophistication, parfait pour ceux qui recherchent une montre à la fois intemporelle et distinctive."
             ],
             [
                 'tag' => 'Sale',
@@ -508,6 +534,7 @@ class Home extends Controller
                 'brand_slug' => 'cartier',
                 'price' => '850',
                 'price_packaging' => '999',
+                'description' => "Une montre élégante de la collection Santos avec un design carré aux bords doux. Elle présente un cadran bleu qui apporte une touche moderne au design classique, avec un bracelet en acier inoxydable. Elle combine parfaitement luxe et fonctionnalité, en faisant un choix idéal pour les amateurs de montres haut de gamme."
             ],
             [
                 'tag' => 'Sale',
@@ -523,6 +550,7 @@ class Home extends Controller
                 'brand_slug' => 'cartier',
                 'price' => '850',
                 'price_packaging' => '999',
+                'description' => 'Une montre au design ouvert qui révèle la mécanique intérieure, offrant une vue imprenable sur le mouvement. Les touches argentées ajoutent un éclat subtil à ce modèle innovant, idéal pour les amateurs de montres transparentes et mécaniques.'
             ],
             [
                 'tag' => 'Sale',
@@ -539,6 +567,7 @@ class Home extends Controller
                 'brand_slug' => 'cartier',
                 'price' => '850',
                 'price_packaging' => '999',
+                'description' => "Un modèle classique de la collection Tank, avec un cadran noir sophistiqué. Ce modèle symbolise l'élégance à la française, avec son design épuré et sa forme rectangulaire iconique qui le rend immédiatement reconnaissable."
             ],
             [
                 'tag' => 'Sale',
@@ -555,6 +584,7 @@ class Home extends Controller
                 'brand_slug' => 'cartier',
                 'price' => '850',
                 'price_packaging' => '999',
+                'description' => "Un modèle Skeleton avec un boîtier bicolore, combinant l'or et l'argent, pour un contraste élégant. Ce design unique met en avant le mouvement de la montre tout en offrant un look luxueux et raffiné."
             ],
             [
                 'tag' => 'Sale',
@@ -571,6 +601,7 @@ class Home extends Controller
                 'brand_slug' => 'cartier',
                 'price' => '850',
                 'price_packaging' => '999',
+                'description' => "Une montre inspirée des lignes élégantes des voitures de luxe, offrant une forme arrondie et une esthétique sophistiquée. Ce modèle allie design automobile et horlogerie de précision, parfait pour ceux qui apprécient les détails raffinés et l'innovation."
             ],
             [
                 'tag' => 'Sale',
@@ -587,6 +618,7 @@ class Home extends Controller
                 'brand_slug' => 'cartier',
                 'price' => '850',
                 'price_packaging' => '999',
+                'description' => "Un modèle iconique de Cartier avec un bracelet intégré. Ce design unique est à la fois chic et confortable, offrant un style raffiné tout en conservant l'esprit sportif de la collection Santos."
             ],
             [
                 'tag' => 'Sale',
@@ -603,6 +635,7 @@ class Home extends Controller
                 'brand_slug' => 'cartier',
                 'price' => '850',
                 'price_packaging' => '999',
+                'description' => "Une version classique de la Santos avec un cadran blanc pur, offrant un style intemporel. Ce modèle conserve l'élégance de la collection tout en apportant une touche de simplicité et de luminosité."
             ],
             [
                 'tag' => 'Sale',
@@ -616,6 +649,7 @@ class Home extends Controller
                 'brand_slug' => 'tissot',
                 'price' => '750',
                 'price_packaging' => '900',
+                'description' => "Un garde-temps élégant qui fusionne le classique et le moderne, doté d’un cadran noir raffiné et d’un bracelet intégré en acier inoxydable. Équipée du mouvement automatique Powermatic 80, cette montre offre une réserve de marche exceptionnelle allant jusqu'à 80 heures, garantissant une précision et une fiabilité remarquables. Son design épuré et sa polyvalence en font une pièce idéale pour toutes les occasions, alliant confort et sophistication."
             ],
             [
                 'tag' => 'Sale',
@@ -630,6 +664,7 @@ class Home extends Controller
                 'brand_slug' => 'tissot',
                 'price' => '750',
                 'price_packaging' => '900',
+                'description' => "Ce modèle séduit par son cadran bleu intense, apportant une touche contemporaine au design intemporel de la collection PRX. Son boîtier en acier inoxydable brossé, associé à une finition soignée, reflète l'excellence du savoir-faire horloger suisse. Étanche jusqu'à 100 mètres, cette montre est un choix parfait pour les amateurs de montres élégantes et fonctionnelles, offrant un équilibre parfait entre esthétique et performance."
             ],
             [
                 'tag' => 'Sale',
@@ -643,6 +678,7 @@ class Home extends Controller
                 'brand_slug' => 'tissot',
                 'price' => '750',
                 'price_packaging' => '900',
+                'description' => "Avec son cadran vert profond, ce modèle affirme un style audacieux et raffiné. Inspirée du design emblématique des années 70, cette montre arbore un boîtier fin et un bracelet intégré qui épousent parfaitement le poignet. Son mouvement Powermatic 80 assure une autonomie prolongée, tandis que le verre saphir antirayures garantit une lisibilité optimale et une résistance accrue aux chocs du quotidien. Un choix idéal pour ceux qui recherchent une montre distinctive, à la fois vintage et contemporaine."
             ],
             [
                 'tag' => 'Sale',
@@ -656,6 +692,7 @@ class Home extends Controller
                 'brand_slug' => 'tissot',
                 'price' => '750',
                 'price_packaging' => '900',
+                'description' => "Élégante et lumineuse, cette édition arbore un cadran blanc immaculé qui incarne à la perfection le raffinement minimaliste. Son bracelet en acier inoxydable et son boîtier aux lignes épurées offrent une allure sophistiquée et intemporelle. Grâce à son mouvement automatique Powermatic 80, cette montre assure une précision exceptionnelle et un confort optimal pour une utilisation quotidienne. Son design raffiné en fait une pièce de choix pour les amateurs de montres qui allient modernité et tradition horlogère suisse."
             ],
             [
                 'tag' => 'Sale',
@@ -672,6 +709,7 @@ class Home extends Controller
                 'brand_slug' => 'patekphilippe',
                 'price' => '850',
                 'price_packaging' => '1000',
+                'description' => "L'une des montres les plus emblématiques et convoitées au monde, la Nautilus combine à la perfection un design élégant et un caractère sportif. Dotée d’un cadran rond à huit côtés et d’un bracelet métallique intégré, elle reflète une touche de luxe intemporel tout en restant suffisamment polyvalente pour s’adapter à toutes les occasions. Son style unique et sa qualité exceptionnelle en font une montre de collection très prisée des connaisseurs."
             ],
             [
                 'tag' => 'Sale',
@@ -688,6 +726,7 @@ class Home extends Controller
                 'brand_slug' => 'patekphilippe',
                 'price' => '850',
                 'price_packaging' => '1000',
+                'description' => "Ce modèle incarne la fusion parfaite entre la haute performance et l’élégance, avec un cadran bleu éclatant qui ajoute une touche dynamique à son allure. Le bracelet en caoutchouc de haute qualité assure confort et flexibilité, faisant de cette montre un choix privilégié pour les amateurs de sports nautiques et les aventuriers, tout en restant sophistiquée pour les occasions les plus élégantes."
             ],
             [
                 'tag' => 'Sale',
@@ -702,6 +741,7 @@ class Home extends Controller
                 'brand_slug' => 'patekphilippe',
                 'price' => '850',
                 'price_packaging' => '1000',
+                'description' => "Une montre sportive et élégante en acier inoxydable, dotée d’un cadran noir embossé et d’un chronographe flyback. Son bracelet en composite résistant à l’eau renforce son allure dynamique et moderne."
             ],
             [
                 'tag' => 'Sale',
@@ -718,6 +758,7 @@ class Home extends Controller
                 'brand_slug' => 'patekphilippe',
                 'price' => '850',
                 'price_packaging' => '1000',
+                'description' => "Une version en or blanc de l’Aquanaut Chronographe, offrant un cadran bleu sophistiqué et un design raffiné. Son boîtier luxueux et son bracelet en caoutchouc apportent une combinaison parfaite entre élégance et performance."
             ],
             [
                 'tag' => 'Sale',
@@ -734,22 +775,7 @@ class Home extends Controller
                 'brand_slug' => 'patekphilippe',
                 'price' => '850',
                 'price_packaging' => '1000',
-            ],
-            [
-                'tag' => 'Sale',
-                'image' => 'assets/img/patekphilippe/Patek Philippe/4_patek11_17274e7a-e57d-4170-80b2-facd84d1b94e.jpg',
-                'alt' => 'Patek Philippe',
-                'title' => 'Patek Philippe',
-                'images' => [
-                    "assets/img/patekphilippe/Patek Philippe/4_patek11_17274e7a-e57d-4170-80b2-facd84d1b94e.jpg",
-                    "assets/img/patekphilippe/Patek Philippe/5_BASE_LUX_REF_20.png",
-                    "assets/img/patekphilippe/Patek Philippe/3_patek16_c58ed6f0-78a1-4e4d-9a2a-33c8583f1911.jpg",
-                    "assets/img/patekphilippe/Patek Philippe/2_patek12_7bbb4770-9fc2-4404-b990-1976d5424b83.jpg",
-                ],
-                'slug' => 'patekphilippe',
-                'brand_slug' => 'patekphilippe',
-                'price' => '850',
-                'price_packaging' => '1000',
+                'description' => "Édition rare de la célèbre Nautilus, le Vert Dial se distingue par son cadran vert vibrant et audacieux, tout en préservant l’essence de son design classique. Ce modèle, unique en son genre, attire les regards par son style moderne et audacieux, tout en restant fidèle à l'héritage et à l'élégance intemporelle de la collection Nautilus."
             ],
             [
                 'tag' => 'Sale',
@@ -766,6 +792,7 @@ class Home extends Controller
                 'brand_slug' => 'patekphilippe',
                 'price' => '850',
                 'price_packaging' => '1000',
+                'description' => "Une montre au style distinctif avec un cadran marron raffiné et un bracelet en caoutchouc assorti. Son design sportif et luxueux en fait un choix parfait pour les amateurs d'élégance contemporaine."
             ],
             [
                 'tag' => 'Sale',
@@ -782,6 +809,7 @@ class Home extends Controller
                 'brand_slug' => 'patekphilippe',
                 'price' => '850',
                 'price_packaging' => '1000',
+                'description' => "Une version emblématique de la Nautilus, avec un cadran blanc épuré qui accentue son allure sophistiquée. Son boîtier en acier et son bracelet intégré assurent un confort et une élégance intemporels."
             ],
             [
                 'tag' => 'Sale',
@@ -798,10 +826,11 @@ class Home extends Controller
                 'brand_slug' => 'patekphilippe',
                 'price' => '850',
                 'price_packaging' => '1000',
+                'description' => "Un modèle sportif et moderne avec un cadran noir texturé et un bracelet en composite ultra-résistant. Son look sobre et puissant en fait une montre idéale pour les aventuriers et les amateurs de design raffiné."
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/patekphilippe/Patek Philippe Nautilus blanc/5_BASELUXREF_30.png',
+                'image' => 'assets/img/rolex/Montre Datejust 41 Blanc Jubilé Pour Homme/ROLEX126334_891a437c-c86a-45d5-9a36-eafcd95d89fc.jpg',
                 'alt' => 'Montre Datejust 41 Blanc Jubilé Pour Homme',
                 'title' => 'Montre Datejust 41 Blanc Jubilé Pour Homme',
                 'images' => [
@@ -814,6 +843,7 @@ class Home extends Controller
                 'brand_slug' => 'rolex',
                 'price' => '750',
                 'price_packaging' => '900',
+                'description' => "Un modèle élégant de la collection Datejust, avec un cadran blanc épuré et un bracelet Jubilé distinctif, alliant le design classique et une touche de modernité. Cette montre incarne la sophistication intemporelle, parfaite pour ceux qui recherchent à la fois l'élégance et la performance."
             ],
             [
                 'tag' => 'Sale',
@@ -830,6 +860,7 @@ class Home extends Controller
                 'brand_slug' => 'rolex',
                 'price' => '750',
                 'price_packaging' => '900',
+                'description' => "Une montre iconique dotée d'un cadran bi-couleur rouge et bleu, un hommage aux voyageurs du monde entier. Avec sa fonction de double fuseau horaire, elle permet une précision optimale pour les aventuriers, tout en arborant un design distinctif qui la rend immédiatement reconnaissable."
             ],
             [
                 'tag' => 'Sale',
@@ -846,6 +877,7 @@ class Home extends Controller
                 'brand_slug' => 'rolex',
                 'price' => '750',
                 'price_packaging' => '900',
+                'description' => "Un autre modèle du GMT-Master II, cette fois avec un bracelet Jubilé en acier inoxydable, offrant une allure élégante et sportive. Parfait pour les passionnés de voyage qui recherchent une montre de luxe alliant confort et fonctionnalité."
             ],
             [
                 'tag' => 'Sale',
@@ -862,6 +894,7 @@ class Home extends Controller
                 'brand_slug' => 'rolex',
                 'price' => '750',
                 'price_packaging' => '900',
+                'description' => "Une montre prestigieuse qui affiche le jour et la date, avec un cadran blanc raffiné. Le Day-Date est un choix incontournable pour les amateurs de montres haut de gamme, alliant élégance et sophistication pour des occasions formelles ou informelles."
             ],
             [
                 'tag' => 'Sale',
@@ -878,6 +911,7 @@ class Home extends Controller
                 'brand_slug' => 'rolex',
                 'price' => '750',
                 'price_packaging' => '900',
+                'description' => "Probablement une référence au modèle GMT-Master II bleu et noir, surnommé Batman. Avec son design élégant et contemporain, ce modèle est une expression parfaite du luxe sportif, idéal pour les amateurs de voyages et les aventuriers."
             ],
             [
                 'tag' => 'Sale',
@@ -894,6 +928,7 @@ class Home extends Controller
                 'brand_slug' => 'rolex',
                 'price' => '750',
                 'price_packaging' => '900',
+                'description' => "Le même design classique que le Datejust, mais avec un cadran noir, offrant un look plus audacieux et luxueux. Ce modèle est l'incarnation du raffinement et de la puissance, idéal pour ceux qui veulent se démarquer."
             ],
             [
                 'tag' => 'Sale',
@@ -910,6 +945,7 @@ class Home extends Controller
                 'brand_slug' => 'rolex',
                 'price' => '750',
                 'price_packaging' => '900',
+                'description' => "Un modèle exceptionnel de la collection Day-Date, fabriqué en platine pur, un matériau rare et précieux. Ce modèle incarne le summum de la luxe Rolex, offrant une montre d'une beauté époustouflante et d'une qualité inégalée."
             ],
             [
                 'tag' => 'Sale',
@@ -926,6 +962,7 @@ class Home extends Controller
                 'brand_slug' => 'rolex',
                 'price' => '750',
                 'price_packaging' => '900',
+                'description' => "Une montre nautique de luxe avec un diamètre de 44mm et un cadre en or. Ce modèle est conçu pour les passionnés de navigation et d'aventure en mer, alliant performance et style raffiné."
             ],
             [
                 'tag' => 'Sale',
@@ -942,6 +979,7 @@ class Home extends Controller
                 'brand_slug' => 'rolex',
                 'price' => '750',
                 'price_packaging' => '900',
+                "description" => "Un modèle emblématique de la Submariner, avec un cadran vert vibrant, surnommé Hulk. Il se distingue par sa robustesse et son allure audacieuse, étant l'un des modèles les plus convoités parmi les passionnés de plongée."
             ],
             [
                 'tag' => 'Sale',
@@ -958,6 +996,7 @@ class Home extends Controller
                 'brand_slug' => 'rolex',
                 'price' => '750',
                 'price_packaging' => '900',
+                "description" => "Un modèle élégant avec un cadran bleu profond et un diamètre de 36mm, offrant un design sophistiqué et une élégance inégalée. Parfait pour ceux qui recherchent une montre à la fois compacte et luxueuse."
             ],
             [
                 'tag' => 'Sale',
@@ -974,6 +1013,7 @@ class Home extends Controller
                 'brand_slug' => 'rolex',
                 'price' => '750',
                 'price_packaging' => '900',
+                "description" => "Une montre sportive conçue pour les passionnés de navigation, avec des caractéristiques avancées et un design raffiné. Ce modèle combine haute performance et style pour les amateurs d'aventures maritimes."
             ],
             [
                 'tag' => 'Sale',
@@ -988,8 +1028,9 @@ class Home extends Controller
                 ],
                 'slug' => 'rolex',
                 'brand_slug' => 'rolex',
-                'price' => '750',
-                'price_packaging' => '900',
+                'price' => '800',
+                'price_packaging' => '950',
+                'description' => "Un modèle emblématique de la Daytona, avec un cadran blanc qui équilibre élégance et performance sportive. Ce modèle est un incontournable pour les passionnés de chronographes et ceux qui recherchent une montre de haute précision."
             ],
             [
                 'tag' => 'Sale',
@@ -1006,6 +1047,7 @@ class Home extends Controller
                 'brand_slug' => 'rolex',
                 'price' => '750',
                 'price_packaging' => '900',
+                'description' => "Un design audacieux qui associe l'or et le cadran noir pour une apparence élégante et affirmée. Ce modèle incarne le luxe et la puissance, parfait pour les amateurs de montres au caractère fort."
             ],
             [
                 'tag' => 'Sale',
@@ -1020,8 +1062,9 @@ class Home extends Controller
                 ],
                 'slug' => 'rolex',
                 'brand_slug' => 'rolex',
-                'price' => '750',
-                'price_packaging' => '900',
+                'price' => '800',
+                'price_packaging' => '950',
+                'description' => "Une montre sophistiquée avec un cadran gris et des détails en or. Ce modèle est idéal pour ceux qui recherchent un équilibre parfait entre l'élégance intemporelle et la performance sportive."
             ],
             [
                 'tag' => 'Sale',
@@ -1038,6 +1081,7 @@ class Home extends Controller
                 'brand_slug' => 'rolex',
                 'price' => '750',
                 'price_packaging' => '900',
+                'description' => "Un modèle rare de Datejust avec un cadran vert séduisant, parfait pour ceux qui souhaitent une montre qui se distingue des autres. Un choix audacieux et unique pour les connaisseurs."
             ],
             [
                 'tag' => 'Sale',
@@ -1054,6 +1098,7 @@ class Home extends Controller
                 'brand_slug' => 'rolex',
                 'price' => '750',
                 'price_packaging' => '900',
+                'description' => "Spécialement conçue pour les ingénieurs et scientifiques, cette montre est dotée d'une haute résistance magnétique et d’un cadran bleu. Un modèle innovant, parfait pour ceux qui cherchent à combiner technologie et style."
             ],
             [
                 'tag' => 'Sale',
@@ -1070,6 +1115,7 @@ class Home extends Controller
                 'brand_slug' => 'rolex',
                 'price' => '750',
                 'price_packaging' => '900',
+                'description' => "Un modèle sophistiqué inspiré de la célèbre Wimbledon, alliant un design élégant et des éléments sportifs. Ce modèle est un hommage aux traditions tout en restant contemporain et stylé."
             ],
             [
                 'tag' => 'Sale',
@@ -1086,6 +1132,7 @@ class Home extends Controller
                 'brand_slug' => 'rolex',
                 'price' => '750',
                 'price_packaging' => '900',
+                'description' => "Un autre modèle de la GMT-Master II avec un cadran bleu et noir, surnommé Batman, conçu pour les voyageurs. Ce modèle est apprécié pour sa fonctionnalité et son design frappant."
             ],
             [
                 'tag' => 'Sale',
@@ -1102,6 +1149,7 @@ class Home extends Controller
                 'brand_slug' => 'rolex',
                 'price' => '750',
                 'price_packaging' => '900',
+                'description' => "Une montre luxueuse conçue pour les voyageurs internationaux, avec une fonction de double fuseau horaire et un calendrier annuel unique en son genre. Ce modèle est parfait pour ceux qui mènent une vie active et nécessitent une montre pratique et sophistiquée."
             ],
             [
                 'tag' => 'Sale',
@@ -1118,6 +1166,7 @@ class Home extends Controller
                 'brand_slug' => 'rolex',
                 'price' => '750',
                 'price_packaging' => '900',
+                'description' => "Un modèle intemporel qui allie sophistication et polyvalence. Avec son affichage de la date et son design emblématique, elle reste un choix incontournable pour toutes les occasions."
             ],
             [
                 'tag' => 'Sale',
@@ -1132,8 +1181,9 @@ class Home extends Controller
                 ],
                 'slug' => 'rolex',
                 'brand_slug' => 'rolex',
-                'price' => '750',
-                'price_packaging' => '900',
+                'price' => '800',
+                'price_packaging' => '950',
+                "description" => "Un modèle de la Daytona en or, alliant performance et esthétique de haute qualité. Ce modèle incarne l'excellence de Rolex et est parfait pour ceux qui recherchent une montre de prestige."
             ],
             [
                 'tag' => 'Sale',
@@ -1150,6 +1200,7 @@ class Home extends Controller
                 'brand_slug' => 'rolex',
                 'price' => '750',
                 'price_packaging' => '900',
+                'description' => "Un modèle classique de la Submariner, avec un cadran noir intemporel, conçu pour les plongeurs professionnels et amateurs. Il combine robustesse et style, et est l'un des modèles les plus populaires de la collection Rolex."
             ],
             [
                 'tag' => 'Sale',
@@ -1165,6 +1216,7 @@ class Home extends Controller
                 'brand_slug' => 'rolex',
                 'price' => '750',
                 'price_packaging' => '900',
+                'description' => "Symbole d’élégance et de prestige, cette montre affiche le jour et la date en toutes lettres. Disponible en métaux précieux comme l’or et le platine, elle incarne le raffinement absolu."
             ],
             [
                 'tag' => 'Sale',
@@ -1181,6 +1233,7 @@ class Home extends Controller
                 'brand_slug' => 'rolex',
                 'price' => '750',
                 'price_packaging' => '900',
+                'description' => "Un modèle élégant et raffiné avec un cadran gris, combinant sophistication et modernité. C'est un choix idéal pour l'homme moderne à la recherche d'une montre polyvalente et luxueuse."
             ],
             [
                 'tag' => 'Sale',
@@ -1197,6 +1250,7 @@ class Home extends Controller
                 'brand_slug' => 'rolex',
                 'price' => '750',
                 'price_packaging' => '900',
+                "description" => "Une autre version de la Submariner avec un cadran vert, représentant à la fois la puissance et le luxe dans un design sportif. Ce modèle est parfait pour les amateurs de plongée à la recherche de robustesse et d’élégance."
             ]
         ];
 
