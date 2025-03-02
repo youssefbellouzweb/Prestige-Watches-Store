@@ -20,18 +20,6 @@ document.addEventListener("DOMContentLoaded", () => {
             const numberphone = +212716456227;
 
             for(i = 0; i < emballages.length; i++) {
-                // if (emballages[i].checked && emballages[i].value == "sans_emballage") {
-                //     // alert(emballages[i].value)
-                //     const message = `Nom et Prénom: ${name}\nNuméro de Téléphone: ${phone}\nAdresse: ${address}\nCity: ${ville}\nProduct Name: ${name_product}\nPrice: ${price}\nQuantity: ${parseInt(
-                //         totalItems
-                //     )}\nPrix Total: ${
-                //         parseFloat(price) * parseInt(totalItems)
-                //     }DH\n`;
-                //     const whatsappUrl = `https://wa.me/${numberphone}?text=${encodeURIComponent(
-                //         message
-                //     )}`;
-                //     window.location.href = whatsappUrl;
-                // }
                 if (emballages[i].checked && emballages[i].value == "avec_emballage") {
                     // alert(emballages[i].value)
                     const message = `Nom et Prénom: ${name}\nNuméro de Téléphone: ${phone}\nAdresse: ${address}\nCity: ${ville}\nProduct Name: ${name_product}\nPrice: ${price_packaging}\nQuantity: ${parseInt(

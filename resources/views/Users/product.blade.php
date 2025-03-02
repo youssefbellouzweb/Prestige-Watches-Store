@@ -97,6 +97,7 @@
         .form-radio div {
             width: 50%;
             display: flex;
+            gap: 10px;
             align-items: center;
             justify-content: space-between;
         }
@@ -167,7 +168,7 @@
                             <input type="hidden" id="price_packaging" name="price_packaging" value="{{ $product['price_packaging'] }}" />
                             <div class="form-radio">
                                 <div>
-                                    <input type="radio" id="avec_emballage" name="emballage" value="avec_emballage">
+                                    <input type="checkbox" id="avec_emballage" name="emballage" value="avec_emballage">
                                     <label for="avec_emballage">avec emballage</label>
                                 </div>
                             </div>
