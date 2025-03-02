@@ -15,51 +15,54 @@ class Home extends Controller
         $features = [
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/rolex/Daytona Cosmographe gris 116518LN/daytonagris2.png',
-                'alt' => 'Daytona Cosmographe gris 116518LN',
-                'title' => 'Daytona Cosmographe gris 116518LN',
+                'image' => 'assets/img/audemars/Audemars Piguet Royal Oak/4_BASELUXREF_45.png',
+                'alt' => 'Audemars Piguet Royal Oak',
+                'title' => 'Audemars Piguet Royal Oak',
                 'images' => [
-                    "assets/img/rolex/Daytona Cosmographe gris 116518LN/daytonagris2.png",
-                    "assets/img/rolex/Daytona Cosmographe gris 116518LN/r13.jpg",
-                    "assets/img/rolex/Daytona Cosmographe gris 116518LN/daytonagris5.png",
-                    "assets/img/rolex/Daytona Cosmographe gris 116518LN/daytonagris1.png",
+                    "assets/img/audemars/Audemars Piguet Royal Oak/2_ap5_55aad9ca-1c41-4c2b-bea0-4149db28a709.jpg",
+                    "assets/img/audemars/Audemars Piguet Royal Oak/4_BASELUXREF_45.png",
+                    "assets/img/audemars/Audemars Piguet Royal Oak/1_ap4_10358e30-d297-4d36-be19-c15cd6cd0e73.jpg",
+                    "assets/img/audemars/Audemars Piguet Royal Oak/3_ap3.jpg",
                 ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '750',
-                'price_packaging' => '900',
+                'slug' => 'audemars',
+                'brand_slug' => 'audemars',
+                'price' => '850',
+                'price_packaging' => '999',
+                'description' => 'Un véritable chef-d’œuvre horloger, la Royal Oak est une montre iconique au design audacieux et intemporel. Elle se distingue par sa lunette octogonale vissée, inspirée des hublots de navire, et son bracelet intégré qui offre un confort inégalé. Conçue pour allier sport et élégance, elle est dotée d’un mouvement mécanique de haute précision.'
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/rolex/datejust fond vert 41mm/3_126300-green-jub-126300-0020-3-510x680.webp',
-                'alt' => 'datejust fond vert 41mm',
-                'title' => 'datejust fond vert 41mm',
+                'image' => 'assets/img/audemars/Audemars Royal Oak Fond Blanc 41mm Homme/5_Lady_Dior_My_ABC_26.png',
+                'alt' => 'Audemars Royal Oak Fond Blanc 41mm',
+                'title' => 'Audemars Royal Oak Fond Blanc 41mm',
                 'images' => [
-                    "assets/img/rolex/datejust fond vert 41mm/3_126300-green-jub-126300-0020-3-510x680.webp",
-                    "assets/img/rolex/datejust fond vert 41mm/4_126300-green-jub-126300-0020-2-510x680.webp",
-                    "assets/img/rolex/datejust fond vert 41mm/5_BASELUXMMOMENT_2.jpg",
-                    "assets/img/rolex/datejust fond vert 41mm/1_126300-green-jub-126300-0020-5-510x680.webp",
+                    "assets/img/audemars/Audemars Royal Oak Fond Blanc 41mm Homme/3_ap4_a82162a6-8bcb-43f7-bb5a-09726aaf6057.jpg",
+                    "assets/img/audemars/Audemars Royal Oak Fond Blanc 41mm Homme/2_ap4_a82162a6-8bcb-43f7-bb5a-09726aaf6057.jpg",
+                    "assets/img/audemars/Audemars Royal Oak Fond Blanc 41mm Homme/1_apwhite2.jpg",
+                    "assets/img/audemars/Audemars Royal Oak Fond Blanc 41mm Homme/4_ap5_8ad7e66b-9fe2-4354-b5d3-1bf7f546aa1d.jpg",
                 ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '750',
-                'price_packaging' => '900',
+                'slug' => 'audemars',
+                'brand_slug' => 'audemars',
+                'price' => '850',
+                'price_packaging' => '999',
+                'description' => 'Un modèle raffiné avec un cadran blanc lumineux, incarnant le savoir-faire et l’excellence horlogère.'
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/rolex/Milgauss Fond Bleu 116400GV/4_milgaussblue4.jpg',
-                'alt' => 'Milgauss Fond Bleu 116400GV',
-                'title' => 'Milgauss Fond Bleu 116400GV',
+                'image' => 'assets/img/audemars/Audemars Offshore Diver Chronographe 44 mm Jaune/1_Lady_Dior_My_ABC_27.png',
+                'alt' => 'Audemars Offshore Diver Chronographe 44 mm Jaune',
+                'title' => 'Audemars Offshore Diver Chronographe 44 mm Jaune',
                 'images' => [
-                    "assets/img/rolex/Milgauss Fond Bleu 116400GV/4_milgaussblue4.jpg",
-                    "assets/img/rolex/Milgauss Fond Bleu 116400GV/2_milgaussblue1.jpg",
-                    "assets/img/rolex/Milgauss Fond Bleu 116400GV/1_milgaussblue2.jpg",
-                    "assets/img/rolex/Milgauss Fond Bleu 116400GV/5_milgaussblue2.jpg",
+                    "assets/img/audemars/Audemars Offshore Diver Chronographe 44 mm Jaune/1_Lady_Dior_My_ABC_27.png",
+                    "assets/img/audemars/Audemars Offshore Diver Chronographe 44 mm Jaune/3_photo1632404285.jpg",
+                    "assets/img/audemars/Audemars Offshore Diver Chronographe 44 mm Jaune/5_audemarsjaune1.jpg",
+                    "assets/img/audemars/Audemars Offshore Diver Chronographe 44 mm Jaune/4_audemarsjaune.jpg",
                 ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '750',
-                'price_packaging' => '900',
+                'slug' => 'audemars',
+                'brand_slug' => 'audemars',
+                'price' => '850',
+                'price_packaging' => '999',
+                'description' => 'Une montre conçue pour l’exploration sous-marine, cette Offshore Diver est équipée d’un chronographe précis et d’une résistance à l’eau exceptionnelle. Son cadran jaune vibrant, associé à un boîtier robuste de 44 mm, lui confère un caractère dynamique et audacieux. Idéale pour les passionnés de plongée et d’aventure.'
             ]
         ];
 
@@ -83,7 +86,7 @@ class Home extends Controller
         $products = [
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/audemars/Audemars Piguet Royal Oak/2_ap5_55aad9ca-1c41-4c2b-bea0-4149db28a709.jpg',
+                'image' => 'assets/img/audemars/Audemars Piguet Royal Oak/4_BASELUXREF_45.png',
                 'alt' => 'Audemars Piguet Royal Oak',
                 'title' => 'Audemars Piguet Royal Oak',
                 'images' => [
@@ -100,9 +103,9 @@ class Home extends Controller
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/audemars/Audemars Royal Oak Fond Blanc 41mm Homme/3_ap4_a82162a6-8bcb-43f7-bb5a-09726aaf6057.jpg',
-                'alt' => 'Audemars Royal Oak Fond Blanc 41mm Homme',
-                'title' => 'Audemars Royal Oak Fond Blanc 41mm Homme',
+                'image' => 'assets/img/audemars/Audemars Royal Oak Fond Blanc 41mm Homme/5_Lady_Dior_My_ABC_26.png',
+                'alt' => 'Audemars Royal Oak Fond Blanc 41mm',
+                'title' => 'Audemars Royal Oak Fond Blanc 41mm',
                 'images' => [
                     "assets/img/audemars/Audemars Royal Oak Fond Blanc 41mm Homme/3_ap4_a82162a6-8bcb-43f7-bb5a-09726aaf6057.jpg",
                     "assets/img/audemars/Audemars Royal Oak Fond Blanc 41mm Homme/2_ap4_a82162a6-8bcb-43f7-bb5a-09726aaf6057.jpg",
@@ -113,7 +116,7 @@ class Home extends Controller
                 'brand_slug' => 'audemars',
                 'price' => '850',
                 'price_packaging' => '999',
-                'description' => 'Ce modèle de 41 mm arbore un cadran blanc épuré qui accentue son raffinement. Il conserve les codes esthétiques de la Royal Oak avec son boîtier en acier inoxydable, sa lunette octogonale et ses vis apparentes. Parfait pour ceux qui recherchent une montre à la fois sobre et luxueuse, elle est idéale pour toutes les occasions.'
+                'description' => 'Un modèle raffiné avec un cadran blanc lumineux, incarnant le savoir-faire et l’excellence horlogère.'
             ],
             [
                 'tag' => 'Sale',
@@ -168,7 +171,7 @@ class Home extends Controller
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/audemars/Audemars Piguet Royal Oak rose gold/5_image_23f37430-d809-41a9-b323-baa185478b86.jpg',
+                'image' => 'assets/img/audemars/Audemars Piguet Royal Oak rose gold/1_BASELUXREF_97190428-d13f-4dc9-8338-8a0bc569bb7a.jpg',
                 'alt' => 'Audemars Piguet Royal Oak rose gold',
                 'title' => 'Audemars Piguet Royal Oak rose gold',
                 'images' => [
@@ -203,8 +206,8 @@ class Home extends Controller
             [
                 'tag' => 'Sale',
                 'image' => 'assets/img/audemars/Audemars Royal Oak Fond Noir 41mm Homme/5_apnoir2.png',
-                'alt' => 'Audemars Royal Oak Fond Noir 41mm Homme',
-                'title' => 'Audemars Royal Oak Fond Noir 41mm Homme',
+                'alt' => 'Audemars Royal Oak Fond Noir 41mm',
+                'title' => 'Audemars Royal Oak Fond Noir 41mm',
                 'images' => [
                     "assets/img/audemars/Audemars Royal Oak Fond Noir 41mm Homme/5_apnoir2.png",
                     "assets/img/audemars/Audemars Royal Oak Fond Noir 41mm Homme/2_ap2_716fb77f-2b54-442b-a46f-ca68283886c9.jpg",
@@ -215,7 +218,7 @@ class Home extends Controller
                 'brand_slug' => 'audemars',
                 'price' => '850',
                 'price_packaging' => '999',
-                'description' => 'Un modèle qui incarne la sobriété et l’élégance. Son cadran noir contrastant avec les index luminescents assure une lisibilité optimale. La lunette octogonale emblématique et le bracelet en acier intégré lui confèrent un design raffiné et intemporel.'
+                'description' => 'Une montre élégante avec un cadran noir profond, offrant un contraste saisissant et un style moderne.'
             ],
             [
                 'tag' => 'Sale',
@@ -252,8 +255,8 @@ class Home extends Controller
             [
                 'tag' => 'Sale',
                 'image' => 'assets/img/audemars/Montre Homme Audemars Royal Oak Chronographe 41mm 26320ST.OO.1220ST/5_audemarsfdbleu.jpg',
-                'alt' => 'Montre Homme Audemars Royal Oak Chronographe 41mm 26320ST.OO.1220ST',
-                'title' => 'Montre Homme Audemars Royal Oak Chronographe 41mm 26320ST.OO.1220ST',
+                'alt' => 'Montre Audemars Royal Oak Chronographe 41mm 26320ST.OO.1220ST',
+                'title' => 'Montre Audemars Royal Oak Chronographe 41mm 26320ST.OO.1220ST',
                 'images' => [
                     "assets/img/audemars/Montre Homme Audemars Royal Oak Chronographe 41mm 26320ST.OO.1220ST/5_audemarsfdbleu.jpg",
                     "assets/img/audemars/Montre Homme Audemars Royal Oak Chronographe 41mm 26320ST.OO.1220ST/4_audemarsfdbleu4.jpg",
@@ -264,7 +267,7 @@ class Home extends Controller
                 'brand_slug' => 'audemars',
                 'price' => '850',
                 'price_packaging' => '999',
-                'description' => 'Un chronographe élégant et fonctionnel doté d’un boîtier en acier inoxydable de 41 mm. Ses sous-cadrans équilibrés et son mouvement automatique en font un choix idéal pour les amateurs de montres sportives haut de gamme. Parfaite pour allier performance et sophistication au quotidien.'
+                'description' => 'Un chronographe sportif et prestigieux, reconnaissable à son boîtier octogonal et son design intemporel.'
             ],
             [
                 'tag' => 'Sale',
@@ -370,8 +373,8 @@ class Home extends Controller
             [
                 'tag' => 'Sale',
                 'image' => 'assets/img/hublot/Hublot Hublot Classic Fusion Titanium Blue 42mm/3_BASE_LUX_REF_7.png',
-                'alt' => 'Hublot Hublot Classic Fusion Titanium Blue 42mm',
-                'title' => 'Hublot Hublot Classic Fusion Titanium Blue 42mm',
+                'alt' => 'Hublot Classic Fusion Titanium Blue 42mm',
+                'title' => 'Hublot Classic Fusion Titanium Blue 42mm',
                 'images' => [
                     "assets/img/hublot/Hublot Hublot Classic Fusion Titanium Blue 42mm/3_BASE_LUX_REF_7.png",
                     "assets/img/hublot/Hublot Hublot Classic Fusion Titanium Blue 42mm/2_BASE_LUX_REF_8.png",
@@ -504,7 +507,7 @@ class Home extends Controller
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/cartier/Santos bleu/3_w1242_tpadding12_3_2f740fcd-04fc-4bc0-9fd3-dccf51917741.jpg',
+                'image' => 'assets/img/cartier/Santos bleu/5_w1242_tpadding12_6_0d7abf1d-22d0-4d80-b446-01f6eba12e0a.jpg',
                 'alt' => 'Santos bleu',
                 'title' => 'Santos bleu',
                 'images' => [
@@ -554,7 +557,7 @@ class Home extends Controller
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/cartier/Cartier Tank Louiss Noir/1_w1242_tpadding12-23.jpg',
+                'image' => 'assets/img/cartier/Cartier Tank Louiss Noir/3_LadyDiorMyABC_4_d8924182-7721-4e27-b751-74f955a10931.png',
                 'alt' => 'Cartier Tank Louiss Noir',
                 'title' => 'Cartier Tank Louiss Noir',
                 'images' => [
@@ -588,7 +591,7 @@ class Home extends Controller
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/cartier/Cartier Drive/4_cartier-drive_2.png',
+                'image' => 'assets/img/cartier/Cartier Drive/2_BASELUXREF_21.jpg',
                 'alt' => 'Cartier Drive',
                 'title' => 'Cartier Drive',
                 'images' => [
@@ -606,8 +609,8 @@ class Home extends Controller
             [
                 'tag' => 'Sale',
                 'image' => 'assets/img/cartier/Cartier Santos WSSA0037 Pour Homme/4_Lady_Dior_My_ABC_7_7cff0dd5-27b5-4999-adc4-55db1393cca7.png',
-                'alt' => 'Cartier Santos WSSA0037 Pour Homme',
-                'title' => 'Cartier Santos WSSA0037 Pour Homme',
+                'alt' => 'Cartier Santos WSSA0037',
+                'title' => 'Cartier Santos WSSA0037',
                 'images' => [
                     "assets/img/cartier/Cartier Santos WSSA0037 Pour Homme/4_Lady_Dior_My_ABC_7_7cff0dd5-27b5-4999-adc4-55db1393cca7.png",
                     "assets/img/cartier/Cartier Santos WSSA0037 Pour Homme/2_w1242_tpadding12_4_e830a1b5-8712-43c8-b5cd-3921f67aa947.jpg",
@@ -618,11 +621,11 @@ class Home extends Controller
                 'brand_slug' => 'cartier',
                 'price' => '850',
                 'price_packaging' => '999',
-                'description' => "Un modèle iconique de Cartier avec un bracelet intégré. Ce design unique est à la fois chic et confortable, offrant un style raffiné tout en conservant l'esprit sportif de la collection Santos."
+                'description' => "Un modèle iconique de Cartier avec un bracelet intégré et une allure sophistiquée, alliant tradition et modernité."
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/cartier/cartier Santos blanc/1_w1242_tpadding12_3_3df03222-50e6-47a9-9927-7aa0ff666d95.jpg',
+                'image' => 'assets/img/cartier/cartier Santos blanc/3_Designsanstitre_51aa8ade-92ab-4416-85ec-ce6d1c241a6a.png',
                 'alt' => 'cartier Santos blanc',
                 'title' => 'cartier Santos blanc',
                 'images' => [
@@ -830,9 +833,9 @@ class Home extends Controller
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/rolex/Montre Datejust 41 Blanc Jubilé Pour Homme/ROLEX126334_891a437c-c86a-45d5-9a36-eafcd95d89fc.jpg',
-                'alt' => 'Montre Datejust 41 Blanc Jubilé Pour Homme',
-                'title' => 'Montre Datejust 41 Blanc Jubilé Pour Homme',
+                'image' => 'assets/img/rolex/Montre Datejust 41 Blanc Jubilé Pour Homme/Untitleddesign_64.png',
+                'alt' => 'Montre Datejust 41 Blanc Jubilé',
+                'title' => 'Montre Datejust 41 Blanc Jubilé',
                 'images' => [
                     "assets/img/rolex/Montre Datejust 41 Blanc Jubilé Pour Homme/ROLEX126334_891a437c-c86a-45d5-9a36-eafcd95d89fc.jpg",
                     "assets/img/rolex/Montre Datejust 41 Blanc Jubilé Pour Homme/ROLEX126334_eaceaaa2-d74c-4536-b7ff-bee5b37f2d23.jpg",
@@ -843,13 +846,13 @@ class Home extends Controller
                 'brand_slug' => 'rolex',
                 'price' => '750',
                 'price_packaging' => '900',
-                'description' => "Un modèle élégant de la collection Datejust, avec un cadran blanc épuré et un bracelet Jubilé distinctif, alliant le design classique et une touche de modernité. Cette montre incarne la sophistication intemporelle, parfaite pour ceux qui recherchent à la fois l'élégance et la performance."
+                'description' => "Un design épuré avec un cadran blanc et un bracelet Jubilé, incarnant le raffinement et la simplicité."
             ],
             [
                 'tag' => 'Sale',
                 'image' => 'assets/img/rolex/GMT-MASTER II Pepsi Montre Pour Homme/WhatsAppImage2020-10-13at21.45.35.jpg',
-                'alt' => 'GMT-MASTER II Pepsi Montre Pour Homme',
-                'title' => 'GMT-MASTER II Pepsi Montre Pour Homme',
+                'alt' => 'GMT-MASTER II Pepsi Montre',
+                'title' => 'GMT-MASTER II Pepsi Montre',
                 'images' => [
                     "assets/img/rolex/GMT-MASTER II Pepsi Montre Pour Homme/WhatsAppImage2020-10-13at21.45.35.jpg",
                     "assets/img/rolex/GMT-MASTER II Pepsi Montre Pour Homme/Rolex-GMT-Master-II-GMTMasterI2018-Pepsi.jpg",
@@ -860,13 +863,13 @@ class Home extends Controller
                 'brand_slug' => 'rolex',
                 'price' => '750',
                 'price_packaging' => '900',
-                'description' => "Une montre iconique dotée d'un cadran bi-couleur rouge et bleu, un hommage aux voyageurs du monde entier. Avec sa fonction de double fuseau horaire, elle permet une précision optimale pour les aventuriers, tout en arborant un design distinctif qui la rend immédiatement reconnaissable."
+                'description' => "Un classique intemporel avec une lunette rouge et bleue, conçu spécialement pour les globe-trotteurs."
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/rolex/GMT-Master II Jubilée Pour Homme/Rolex-GMT-Master-II-Steel-and-Yellow-Gold-Jubilee-Bracelet-2023-two-tone-126713GRNR-hands-on-review-8.jpg',
-                'alt' => 'GMT-Master II Jubilée Pour Homme',
-                'title' => 'GMT-Master II Jubilée Pour Homme',
+                'image' => 'assets/img/rolex/GMT-Master II Jubilée Pour Homme/effe.png',
+                'alt' => 'GMT-Master II Jubilée',
+                'title' => 'GMT-Master II Jubilée',
                 'images' => [
                     "assets/img/rolex/GMT-Master II Jubilée Pour Homme/Rolex-GMT-Master-II-Steel-and-Yellow-Gold-Jubilee-Bracelet-2023-two-tone-126713GRNR-hands-on-review-8.jpg",
                     "assets/img/rolex/GMT-Master II Jubilée Pour Homme/Rolex-GMT-MasterII-126713GRNR-Colognewatch-11-7348_f6e39b77-c743-44c8-9887-9bea41a29754.webp",
@@ -877,7 +880,7 @@ class Home extends Controller
                 'brand_slug' => 'rolex',
                 'price' => '750',
                 'price_packaging' => '900',
-                'description' => "Un autre modèle du GMT-Master II, cette fois avec un bracelet Jubilé en acier inoxydable, offrant une allure élégante et sportive. Parfait pour les passionnés de voyage qui recherchent une montre de luxe alliant confort et fonctionnalité."
+                'description' => "Une montre emblématique avec un bracelet Jubilé et une fonction GMT pour suivre plusieurs fuseaux horaires avec élégance."
             ],
             [
                 'tag' => 'Sale',
@@ -898,7 +901,7 @@ class Home extends Controller
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/rolex/bruce wayne/s-l1600_6.webp',
+                'image' => 'assets/img/rolex/bruce wayne/s-l1600_8.webp',
                 'alt' => 'bruce wayne',
                 'title' => 'bruce wayne',
                 'images' => [
@@ -916,8 +919,8 @@ class Home extends Controller
             [
                 'tag' => 'Sale',
                 'image' => 'assets/img/rolex/Montre Datejust 41 Noir Jubilé Pour Homme/9_ef81332d-44e9-43b6-ba9d-19c4b13261a6.png',
-                'alt' => 'Montre Datejust 41 Noir Jubilé Pour Homme',
-                'title' => 'Montre Datejust 41 Noir Jubilé Pour Homme',
+                'alt' => 'Montre Datejust 41 Noir Jubilé',
+                'title' => 'Montre Datejust 41 Noir Jubilé',
                 'images' => [
                     "assets/img/rolex/Montre Datejust 41 Noir Jubilé Pour Homme/9_ef81332d-44e9-43b6-ba9d-19c4b13261a6.png",
                     "assets/img/rolex/Montre Datejust 41 Noir Jubilé Pour Homme/ROLEXdatejust126334-0018_cb652f31-a450-47e2-9f0a-056c69a50d01.jpg",
@@ -928,7 +931,7 @@ class Home extends Controller
                 'brand_slug' => 'rolex',
                 'price' => '750',
                 'price_packaging' => '900',
-                'description' => "Le même design classique que le Datejust, mais avec un cadran noir, offrant un look plus audacieux et luxueux. Ce modèle est l'incarnation du raffinement et de la puissance, idéal pour ceux qui veulent se démarquer."
+                'description' => "Un modèle classique avec un cadran noir élégant et un bracelet Jubilé, parfait pour toutes les occasions."
             ],
             [
                 'tag' => 'Sale',
@@ -950,8 +953,8 @@ class Home extends Controller
             [
                 'tag' => 'Sale',
                 'image' => 'assets/img/rolex/Yacht-Master II 116688 44mm Pour Homme/4_MontreRolexYacht-MasterII11668844mmPourHomme_870f0cfe-3591-4ae8-8cf9-f1bfda51ec10.jpg',
-                'alt' => 'Yacht-Master II 116688 44mm Pour Homme',
-                'title' => 'Yacht-Master II 116688 44mm Pour Homme',
+                'alt' => 'Yacht-Master II 116688 44mm',
+                'title' => 'Yacht-Master II 116688 44mm',
                 'images' => [
                     "assets/img/rolex/Yacht-Master II 116688 44mm Pour Homme/4_MontreRolexYacht-MasterII11668844mmPourHomme_870f0cfe-3591-4ae8-8cf9-f1bfda51ec10.jpg",
                     "assets/img/rolex/Yacht-Master II 116688 44mm Pour Homme/1_yachtmasterdoree_821d08e0-8045-4e03-acce-6d3d3977cc33.jpg",
@@ -962,13 +965,13 @@ class Home extends Controller
                 'brand_slug' => 'rolex',
                 'price' => '750',
                 'price_packaging' => '900',
-                'description' => "Une montre nautique de luxe avec un diamètre de 44mm et un cadre en or. Ce modèle est conçu pour les passionnés de navigation et d'aventure en mer, alliant performance et style raffiné."
+                'description' => "Une version luxueuse en or jaune 18K, alliant esthétique raffinée et technologies de pointe."
             ],
             [
                 'tag' => 'Sale',
                 'image' => 'assets/img/rolex/Submariner Vert _Hulk_ 116610LV Pour Homme/WhatsApp_Image_2020-02-26_at_21.36.39_1_1.jpg',
-                'alt' => 'Submariner Vert _Hulk_ 116610LV Pour Homme',
-                'title' => 'Submariner Vert _Hulk_ 116610LV Pour Homme',
+                'alt' => 'Submariner Vert _Hulk_ 116610LV',
+                'title' => 'Submariner Vert _Hulk_ 116610LV',
                 'images' => [
                     "assets/img/rolex/Submariner Vert _Hulk_ 116610LV Pour Homme/WhatsApp_Image_2020-02-26_at_21.36.39_1_1.jpg",
                     "assets/img/rolex/Submariner Vert _Hulk_ 116610LV Pour Homme/84243620_275627480077467_8839299816938445999_n_2.jpg",
@@ -979,7 +982,7 @@ class Home extends Controller
                 'brand_slug' => 'rolex',
                 'price' => '750',
                 'price_packaging' => '900',
-                "description" => "Un modèle emblématique de la Submariner, avec un cadran vert vibrant, surnommé Hulk. Il se distingue par sa robustesse et son allure audacieuse, étant l'un des modèles les plus convoités parmi les passionnés de plongée."
+                "description" => "Un modèle reconnaissable à son cadran et sa lunette verte, qui associe robustesse et élégance intemporelle."
             ],
             [
                 'tag' => 'Sale',
@@ -1000,9 +1003,9 @@ class Home extends Controller
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/rolex/Yacht-Master II 116680 44mm Pour Homme/5_MontreRolexYacht-MasterII11668044mmPourHomme_096cc691-1ad5-4a71-95bf-72e304fb8bb4.jpg',
-                'alt' => 'Yacht-Master II 116680 44mm Pour Homme',
-                'title' => 'Yacht-Master II 116680 44mm Pour Homme',
+                'image' => 'assets/img/rolex/Yacht-Master II 116680 44mm Pour Homme/1_r44.png',
+                'alt' => 'Yacht-Master II 116680 44mm',
+                'title' => 'Yacht-Master II 116680 44mm',
                 'images' => [
                     "assets/img/rolex/Yacht-Master II 116680 44mm Pour Homme/5_MontreRolexYacht-MasterII11668044mmPourHomme_096cc691-1ad5-4a71-95bf-72e304fb8bb4.jpg",
                     "assets/img/rolex/Yacht-Master II 116680 44mm Pour Homme/1_r44.png",
@@ -1013,13 +1016,13 @@ class Home extends Controller
                 'brand_slug' => 'rolex',
                 'price' => '750',
                 'price_packaging' => '900',
-                "description" => "Une montre sportive conçue pour les passionnés de navigation, avec des caractéristiques avancées et un design raffiné. Ce modèle combine haute performance et style pour les amateurs d'aventures maritimes."
+                "description" => "Conçue pour les passionnés de navigation, cette montre nautique sophistiquée offre une fonctionnalité avancée et un design imposant."
             ],
             [
                 'tag' => 'Sale',
                 'image' => 'assets/img/rolex/Daytona Cosmographe Fond Blanc Montre Pour Homme/12.png',
-                'alt' => 'Daytona Cosmographe Fond Blanc Montre Pour Homme',
-                'title' => 'Daytona Cosmographe Fond Blanc Montre Pour Homme',
+                'alt' => 'Daytona Cosmographe Fond Blanc Montre',
+                'title' => 'Daytona Cosmographe Fond Blanc Montre',
                 'images' => [
                     "assets/img/rolex/Daytona Cosmographe Fond Blanc Montre Pour Homme/12.png",
                     "assets/img/rolex/Daytona Cosmographe Fond Blanc Montre Pour Homme/dayonafondblanc116500LN_9c91a3a6-2a59-40d5-93a6-341a17acff19.jpg",
@@ -1030,7 +1033,7 @@ class Home extends Controller
                 'brand_slug' => 'rolex',
                 'price' => '800',
                 'price_packaging' => '950',
-                'description' => "Un modèle emblématique de la Daytona, avec un cadran blanc qui équilibre élégance et performance sportive. Ce modèle est un incontournable pour les passionnés de chronographes et ceux qui recherchent une montre de haute précision."
+                'description' => "Un chronographe sportif et luxueux, réputé pour sa précision et son design emblématique, prisé par les amateurs de vitesse et de performance."
             ],
             [
                 'tag' => 'Sale',
@@ -1085,7 +1088,7 @@ class Home extends Controller
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/rolex/Milgauss Fond Bleu 116400GV/4_milgaussblue4.jpg',
+                'image' => 'assets/img/rolex/Milgauss Fond Bleu 116400GV/3_milgaussblue.jpg',
                 'alt' => 'Milgauss Fond Bleu 116400GV',
                 'title' => 'Milgauss Fond Bleu 116400GV',
                 'images' => [
@@ -1120,8 +1123,8 @@ class Home extends Controller
             [
                 'tag' => 'Sale',
                 'image' => 'assets/img/rolex/GMT-Master II _BATMAN_ 126710BLNR Jubilée Pour Homme/Rolex-GMT-Master-II-126710BLNR-Batman-Jubilee-Review-1.jpg',
-                'alt' => 'GMT-Master II _BATMAN_ 126710BLNR Jubilée Pour Homme',
-                'title' => 'GMT-Master II _BATMAN_ 126710BLNR Jubilée Pour Homme',
+                'alt' => 'GMT-Master II _BATMAN_ 126710BLNR Jubilée',
+                'title' => 'GMT-Master II _BATMAN_ 126710BLNR Jubilée',
                 'images' => [
                     "assets/img/rolex/GMT-Master II _BATMAN_ 126710BLNR Jubilée Pour Homme/Rolex-GMT-Master-II-126710BLNR-Batman-Jubilee-Review-1.jpg",
                     "assets/img/rolex/GMT-Master II _BATMAN_ 126710BLNR Jubilée Pour Homme/Untitleddesign_28.png",
@@ -1132,7 +1135,7 @@ class Home extends Controller
                 'brand_slug' => 'rolex',
                 'price' => '750',
                 'price_packaging' => '900',
-                'description' => "Un autre modèle de la GMT-Master II avec un cadran bleu et noir, surnommé Batman, conçu pour les voyageurs. Ce modèle est apprécié pour sa fonctionnalité et son design frappant."
+                'description' => "Dotée d’une lunette bicolore noire et bleue ainsi que d’un bracelet Jubilé raffiné, elle incarne le style et la fonctionnalité pour les voyageurs."
             ],
             [
                 'tag' => 'Sale',
@@ -1237,9 +1240,9 @@ class Home extends Controller
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/rolex/SUBMARINER LUNETTE VERTE MODÈLE 16610LV Pour Homme/ROLEXSUBMARINERLUNETTEVERTEMODELE16610LV5.jpg',
-                'alt' => 'SUBMARINER LUNETTE VERTE MODÈLE 16610LV Pour Homme',
-                'title' => 'SUBMARINER LUNETTE VERTE MODÈLE 16610LV Pour Homme',
+                'image' => 'assets/img/rolex/SUBMARINER LUNETTE VERTE MODÈLE 16610LV Pour Homme/4_a8953aa3-9545-4792-b935-dddb79569a19.png',
+                'alt' => 'SUBMARINER LUNETTE VERTE MODÈLE 16610LV',
+                'title' => 'SUBMARINER LUNETTE VERTE MODÈLE 16610LV',
                 'images' => [
                     "assets/img/rolex/SUBMARINER LUNETTE VERTE MODÈLE 16610LV Pour Homme/ROLEXSUBMARINERLUNETTEVERTEMODELE16610LV5.jpg",
                     "assets/img/rolex/SUBMARINER LUNETTE VERTE MODÈLE 16610LV Pour Homme/ROLEXSUBMARINERLUNETTEVERTEMODELE16610LV6.jpg",
@@ -1250,7 +1253,7 @@ class Home extends Controller
                 'brand_slug' => 'rolex',
                 'price' => '750',
                 'price_packaging' => '900',
-                "description" => "Une autre version de la Submariner avec un cadran vert, représentant à la fois la puissance et le luxe dans un design sportif. Ce modèle est parfait pour les amateurs de plongée à la recherche de robustesse et d’élégance."
+                "description" => "Un modèle emblématique avec une lunette verte distinctive, parfait pour les amateurs de plongée et d’élégance."
             ]
         ];
 
@@ -1309,194 +1312,305 @@ class Home extends Controller
         $watches = [
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/rolex/Daytona Cosmographe gris 116518LN/daytonagris2.png',
-                'alt' => 'Daytona Cosmographe gris 116518LN',
-                'title' => 'Daytona Cosmographe gris 116518LN',
+                'image' => 'assets/img/audemars/Audemars Offshore Diver 44 mm Vert/3_photo1664037810_7.jpg',
+                'alt' => 'Audemars Offshore Diver 44 mm Vert',
+                'title' => 'Audemars Offshore Diver 44 mm Vert',
                 'images' => [
-                    "assets/img/rolex/Daytona Cosmographe gris 116518LN/daytonagris2.png",
-                    "assets/img/rolex/Daytona Cosmographe gris 116518LN/r13.jpg",
-                    "assets/img/rolex/Daytona Cosmographe gris 116518LN/daytonagris5.png",
-                    "assets/img/rolex/Daytona Cosmographe gris 116518LN/daytonagris1.png",
+                    "assets/img/audemars/Audemars Offshore Diver 44 mm Vert/3_photo1664037810_7.jpg",
+                    "assets/img/audemars/Audemars Offshore Diver 44 mm Vert/4_photo1664037810_7.jpg",
+                    "assets/img/audemars/Audemars Offshore Diver 44 mm Vert/2_photo1664037810_5.jpg",
+                    "assets/img/audemars/Audemars Offshore Diver 44 mm Vert/1_photo1664037810_8.jpg",
                 ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '750',
-                'price_packaging' => '900',
+                'slug' => 'audemars',
+                'brand_slug' => 'audemars',
+                'price' => '850',
+                'price_packaging' => '999',
+                'description' => 'Dotée d’un boîtier robuste de 44 mm et d’une résistance à l’eau jusqu’à 300 mètres, cette montre est idéale pour les amateurs de plongée et d’activités nautiques. Son cadran vert profond apporte une touche unique et dynamique, tout en conservant la sophistication propre à la collection Offshore.'
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/rolex/datejust fond vert 41mm/3_126300-green-jub-126300-0020-3-510x680.webp',
-                'alt' => 'datejust fond vert 41mm',
-                'title' => 'datejust fond vert 41mm',
+                'image' => 'assets/img/audemars/Audemars Royal Oak Fond Noir 41mm Homme/5_apnoir2.png',
+                'alt' => 'Audemars Royal Oak Fond Noir 41mm',
+                'title' => 'Audemars Royal Oak Fond Noir 41mm',
                 'images' => [
-                    "assets/img/rolex/datejust fond vert 41mm/3_126300-green-jub-126300-0020-3-510x680.webp",
-                    "assets/img/rolex/datejust fond vert 41mm/4_126300-green-jub-126300-0020-2-510x680.webp",
-                    "assets/img/rolex/datejust fond vert 41mm/5_BASELUXMMOMENT_2.jpg",
-                    "assets/img/rolex/datejust fond vert 41mm/1_126300-green-jub-126300-0020-5-510x680.webp",
+                    "assets/img/audemars/Audemars Royal Oak Fond Noir 41mm Homme/5_apnoir2.png",
+                    "assets/img/audemars/Audemars Royal Oak Fond Noir 41mm Homme/2_ap2_716fb77f-2b54-442b-a46f-ca68283886c9.jpg",
+                    "assets/img/audemars/Audemars Royal Oak Fond Noir 41mm Homme/1_ap5.jpg",
+                    "assets/img/audemars/Audemars Royal Oak Fond Noir 41mm Homme/3_ap2_716fb77f-2b54-442b-a46f-ca68283886c9.jpg",
                 ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '750',
-                'price_packaging' => '900',
+                'slug' => 'audemars',
+                'brand_slug' => 'audemars',
+                'price' => '850',
+                'price_packaging' => '999',
+                'description' => 'Une montre élégante avec un cadran noir profond, offrant un contraste saisissant et un style moderne.'
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/rolex/Milgauss Fond Bleu 116400GV/4_milgaussblue4.jpg',
-                'alt' => 'Milgauss Fond Bleu 116400GV',
-                'title' => 'Milgauss Fond Bleu 116400GV',
+                'image' => 'assets/img/audemars/Audemars Offshore Diver 44 mm Noire/1_Lady_Dior_My_ABC_30.png',
+                'alt' => 'Audemars Offshore Diver 44 mm Noire',
+                'title' => 'Audemars Offshore Diver 44 mm Noire',
                 'images' => [
-                    "assets/img/rolex/Milgauss Fond Bleu 116400GV/4_milgaussblue4.jpg",
-                    "assets/img/rolex/Milgauss Fond Bleu 116400GV/2_milgaussblue1.jpg",
-                    "assets/img/rolex/Milgauss Fond Bleu 116400GV/1_milgaussblue2.jpg",
-                    "assets/img/rolex/Milgauss Fond Bleu 116400GV/5_milgaussblue2.jpg",
+                    "assets/img/audemars/Audemars Offshore Diver 44 mm Noire/1_Lady_Dior_My_ABC_30.png",
+                    "assets/img/audemars/Audemars Offshore Diver 44 mm Noire/2_WhatsAppImage2023-04-09at04.29.44_4.jpg"
                 ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '750',
-                'price_packaging' => '900',
+                'slug' => 'audemars',
+                'brand_slug' => 'audemars',
+                'price' => '850',
+                'price_packaging' => '999',
+                'description' => 'Cette version full black de l’Offshore Diver se distingue par son look audacieux et moderne. Conçue pour résister aux conditions extrêmes, elle offre une lisibilité parfaite sous l’eau grâce à ses index luminescents et son affichage précis. Une montre parfaite pour les amateurs de montres de sport de luxe.'
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/rolex/Datejust Wimbledon 41/rolex-datejust-41-wimbledon-126334-4-scaled.jpg',
-                'alt' => 'Datejust Wimbledon 41',
-                'title' => 'Datejust Wimbledon 41',
+                'image' => 'assets/img/audemars/Audemars Piguet Royal Oak Double Balance Wheel Openworked 41mm/3_image_1280x_df84a040-3219-4ad2-b6a9-eabb07be21db.jpg',
+                'alt' => 'Audemars Piguet Royal Oak Double Balance Wheel Openworked 41mm',
+                'title' => 'Audemars Piguet Royal Oak Double Balance Wheel Openworked 41mm',
                 'images' => [
-                    "assets/img/rolex/Datejust Wimbledon 41/rolex-datejust-41-wimbledon-126334-4-scaled.jpg",
-                    "assets/img/rolex/Datejust Wimbledon 41/IMG_2982-scaled.jpg",
-                    "assets/img/rolex/Datejust Wimbledon 41/IMG_0986.jpg",
-                    "assets/img/rolex/Datejust Wimbledon 41/IMG_0988.jpg",
+                    "assets/img/audemars/Audemars Piguet Royal Oak Double Balance Wheel Openworked 41mm/3_image_1280x_df84a040-3219-4ad2-b6a9-eabb07be21db.jpg",
+                    "assets/img/audemars/Audemars Piguet Royal Oak Double Balance Wheel Openworked 41mm/1_image_1280x_afe34699-f2bc-43f1-9f5c-fe6d280044ac.jpg",
+                    "assets/img/audemars/Audemars Piguet Royal Oak Double Balance Wheel Openworked 41mm/2_Audemars-Piguet-Royal-Oak-Double-Balance-Wheel-Openworked-Black-Ceramic-2020-front-scaled.jpg",
+                    "assets/img/audemars/Audemars Piguet Royal Oak Double Balance Wheel Openworked 41mm/5_image_1280x_273d7c90-386f-4ccf-b160-7754dfd76935.jpg",
                 ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '750',
-                'price_packaging' => '900',
+                'slug' => 'audemars',
+                'brand_slug' => 'audemars',
+                'price' => '850',
+                'price_packaging' => '999',
+                'description' => 'Une œuvre d’ingénierie horlogère remarquable. Son cadran squelette met en valeur la double roue d’échappement, une innovation qui améliore la précision du mouvement. Son boîtier en acier et ses finitions raffinées en font une montre d’exception pour les passionnés d’horlogerie fine.'
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/rolex/GMT-Master II _BATMAN_ 126710BLNR Jubilée Pour Homme/Rolex-GMT-Master-II-126710BLNR-Batman-Jubilee-Review-1.jpg',
-                'alt' => 'GMT-Master II _BATMAN_ 126710BLNR Jubilée Pour Homme',
-                'title' => 'GMT-Master II _BATMAN_ 126710BLNR Jubilée Pour Homme',
+                'image' => 'assets/img/audemars/Montre Homme Audemars Royal Oak Chronographe 41mm 26320ST.OO.1220ST/5_audemarsfdbleu.jpg',
+                'alt' => 'Montre Audemars Royal Oak Chronographe 41mm 26320ST.OO.1220ST',
+                'title' => 'Montre Audemars Royal Oak Chronographe 41mm 26320ST.OO.1220ST',
                 'images' => [
-                    "assets/img/rolex/GMT-Master II _BATMAN_ 126710BLNR Jubilée Pour Homme/Rolex-GMT-Master-II-126710BLNR-Batman-Jubilee-Review-1.jpg",
-                    "assets/img/rolex/GMT-Master II _BATMAN_ 126710BLNR Jubilée Pour Homme/Untitleddesign_28.png",
-                    "assets/img/rolex/GMT-Master II _BATMAN_ 126710BLNR Jubilée Pour Homme/batman-new.jpg",
-                    "assets/img/rolex/GMT-Master II _BATMAN_ 126710BLNR Jubilée Pour Homme/rolex-gmt-master-ii-batman-batgirl-jubilee-mens-watch-126710blnr-0002-luxury-swiss-176.webp",
+                    "assets/img/audemars/Montre Homme Audemars Royal Oak Chronographe 41mm 26320ST.OO.1220ST/5_audemarsfdbleu.jpg",
+                    "assets/img/audemars/Montre Homme Audemars Royal Oak Chronographe 41mm 26320ST.OO.1220ST/4_audemarsfdbleu4.jpg",
+                    "assets/img/audemars/Montre Homme Audemars Royal Oak Chronographe 41mm 26320ST.OO.1220ST/3_audemarsfdbleu6.jpg",
+                    "assets/img/audemars/Montre Homme Audemars Royal Oak Chronographe 41mm 26320ST.OO.1220ST/2_AudemarsPiguetRoyalOakChronograph41mm26320STOO1220ST02_a0cfe115-2a4b-4770-8c76-422e12f896e4.jpg",
                 ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '750',
-                'price_packaging' => '900',
+                'slug' => 'audemars',
+                'brand_slug' => 'audemars',
+                'price' => '850',
+                'price_packaging' => '999',
+                'description' => 'Un chronographe sportif et prestigieux, reconnaissable à son boîtier octogonal et son design intemporel.'
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/rolex/Rolex Sky-Dweller/35427216-h4bxdu4hp883znmr5pk5gjco-ExtraLarge.jpg',
-                'alt' => 'Rolex Sky-Dweller',
-                'title' => 'Rolex Sky-Dweller',
+                'image' => 'assets/img/audemars/audemars piguet royal oak chronograph panda/2_Audemars_Piguet_Royal_Oak_Chronograph_Panda_Watch_Vault_10_2048x_6d2cd53d-7562-4f7e-8b64-f7ea365079dd.jpg',
+                'alt' => 'audemars piguet royal oak chronograph panda',
+                'title' => 'audemars piguet royal oak chronograph panda',
                 'images' => [
-                    "assets/img/rolex/Rolex Sky-Dweller/35427216-h4bxdu4hp883znmr5pk5gjco-ExtraLarge.jpg",
-                    "assets/img/rolex/Rolex Sky-Dweller/OrangeSimpleIllustratiionOnlineShopLogo_6_19c1e6a2-3e2d-4e06-8197-c060566a99ab.jpg",
-                    "assets/img/rolex/Rolex Sky-Dweller/35427216-9t3pcixfbxyv3x3omg762sno-ExtraLarge.jpg",
-                    "assets/img/rolex/Rolex Sky-Dweller/35427216-tetk0e3do7gjpcanx039ljj2-ExtraLarge.jpg",
+                    "assets/img/audemars/audemars piguet royal oak chronograph panda/2_Audemars_Piguet_Royal_Oak_Chronograph_Panda_Watch_Vault_10_2048x_6d2cd53d-7562-4f7e-8b64-f7ea365079dd.jpg",
+                    "assets/img/audemars/audemars piguet royal oak chronograph panda/4_Audemars_Piguet_Royal_Oak_Chronograph_Panda_Watch_Vault_03_2048x_15be114c-167b-4d87-b766-b4c876e9a36c.jpg",
+                    "assets/img/audemars/audemars piguet royal oak chronograph panda/1_Untitleddesign_96.png",
+                    "assets/img/audemars/audemars piguet royal oak chronograph panda/5_2-6.jpg",
                 ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '750',
-                'price_packaging' => '900',
+                'slug' => 'audemars',
+                'brand_slug' => 'audemars',
+                'price' => '850',
+                'price_packaging' => '999',
+                'description' => 'Un modèle au cadran blanc avec des sous-compteurs noirs, inspiré des célèbres montres « Panda ». Son design distinctif, combiné à la robustesse du boîtier en acier et au bracelet intégré, en fait une montre très prisée par les collectionneurs et amateurs de chronographes sportifs.'
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/rolex/Rolex Datejust/d8807c521235d6a3363740073ff1c8ca.jpg',
-                'alt' => 'Rolex Datejust',
-                'title' => 'Rolex Datejust',
+                'image' => 'assets/img/audemars/Audemars Diver Chronographe 42 mm Bleu/1_photo1664037830_1.jpg',
+                'alt' => 'Audemars Diver Chronographe 42 mm Bleu',
+                'title' => 'Audemars Diver Chronographe 42 mm Bleu',
                 'images' => [
-                    "assets/img/rolex/Rolex Datejust/d8807c521235d6a3363740073ff1c8ca.jpg",
-                    "assets/img/rolex/Rolex Datejust/BASELUXREF_11.jpg",
-                    "assets/img/rolex/Rolex Datejust/28aefff68c26b70c824095f9e4a79fbd.jpg",
-                    "assets/img/rolex/Rolex Datejust/2b475619815182f72be28e5d61860014.jpg",
+                    "assets/img/audemars/Audemars Diver Chronographe 42 mm Bleu/1_photo1664037830_1.jpg",
+                    "assets/img/audemars/Audemars Diver Chronographe 42 mm Bleu/2_photo1664037852_2.jpg",
+                    "assets/img/audemars/Audemars Diver Chronographe 42 mm Bleu/5_008_Royal-Oak-Offshore-Stainless-Steel-Gents-15710ST.jpg",
+                    "assets/img/audemars/Audemars Diver Chronographe 42 mm Bleu/4_Untitleddesign_40.png",
                 ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '750',
-                'price_packaging' => '900',
+                'slug' => 'audemars',
+                'brand_slug' => 'audemars',
+                'price' => '850',
+                'price_packaging' => '999',
+                'description' => 'Conçue pour l’action, cette montre de plongée est équipée d’un chronographe précis et d’un cadran bleu profond qui évoque l’océan. Son boîtier en acier inoxydable et son étanchéité élevée en font un choix parfait pour les passionnés de sports nautiques et de montres techniques.'
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/rolex/Daytona Cosmographe Doré 116518LN/daytonagold9.jpg',
-                'alt' => 'Daytona Cosmographe Doré 116518LN',
-                'title' => 'Daytona Cosmographe Doré 116518LN',
+                'image' => 'assets/img/hublot/Hublot Classic Fusion noir/2_s3b6530-4.jpg',
+                'alt' => 'Hublot Classic Fusion noir',
+                'title' => 'Hublot Classic Fusion noir',
                 'images' => [
-                    "assets/img/rolex/Daytona Cosmographe Doré 116518LN/daytonagold9.jpg",
-                    "assets/img/rolex/Daytona Cosmographe Doré 116518LN/Lady_Dior_My_ABC_8.png",
-                    "assets/img/rolex/Daytona Cosmographe Doré 116518LN/daytonagold.jpg",
-                    "assets/img/rolex/Daytona Cosmographe Doré 116518LN/daytonagold8.jpg",
+                    "assets/img/audemars/Hublot Classic Fusion noir/2_s3b6530-4.jpg",
+                    "assets/img/audemars/Hublot Classic Fusion noir/3_0_s3b6514-1.jpg",
+                    "assets/img/audemars/Hublot Classic Fusion noir/4_0_s3b6565-2.jpg",
+                    "assets/img/audemars/Hublot Classic Fusion noir/1_BASE_LUXMMOMENT_2.jpg",
                 ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '750',
-                'price_packaging' => '900',
+                'slug' => 'hublot',
+                'brand_slug' => 'hublot',
+                'price' => '850',
+                'price_packaging' => '999',
+                'description' => 'Un modèle classique et raffiné qui incarne l’élégance intemporelle. Son cadran noir profond, associé à un boîtier en céramique ou en titane, confère à cette montre une allure sophistiquée et polyvalente. Elle est idéale pour ceux qui recherchent une montre sobre et luxueuse à la fois.'
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/rolex/Rolex Submariner Noir/Untitleddesign_46.png',
-                'alt' => 'Rolex Submariner Noir',
-                'title' => 'Rolex Submariner Noir',
+                'image' => 'assets/img/hublot/Hublot CLASSIC FUSION VERT/1_66f550b104dda0.jpg',
+                'alt' => 'Hublot CLASSIC FUSION VERT',
+                'title' => 'Hublot CLASSIC FUSION VERT',
                 'images' => [
-                    "assets/img/rolex/Rolex Submariner Noir/Untitleddesign_46.png",
-                    "assets/img/rolex/Rolex Submariner Noir/WhatsAppImage2020-10-06at14.42.56.jpg",
-                    "assets/img/rolex/Rolex Submariner Noir/WhatsAppImage2020-10-06at14.42.58_1_1.jpg",
-                    "assets/img/rolex/Rolex Submariner Noir/WhatsAppImage2020-10-06at14.42.58.jpg",
+                    "assets/img/hublot/Hublot CLASSIC FUSION VERT/1_66f550b104dda0.jpg",
+                    "assets/img/hublot/Hublot CLASSIC FUSION VERT/4_66f550b105d661.jpg",
+                    "assets/img/hublot/Hublot CLASSIC FUSION VERT/3_mdyJj3uzuWbpWqNnDU3EjFi7TiAnAZras9HH1EuN_1.jpg",
+                    "assets/img/hublot/Hublot CLASSIC FUSION VERT/2_66f550b105d661.jpg"
                 ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
+                'slug' => 'hublot',
+                'brand_slug' => 'hublot',
                 'price' => '750',
                 'price_packaging' => '900',
+                'description' => 'Cette version en vert profond apporte une touche d’originalité à l’iconique Classic Fusion. Son design épuré et contemporain en fait une montre parfaite pour les amateurs d’élégance moderne. Son cadran soleillé capte la lumière et lui donne une profondeur unique.'
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/rolex/Rolex Day-Date 40/2_436470291_18020638049150134_885594530807949034_n.jpg',
-                'alt' => 'Rolex Day-Date 40',
-                'title' => 'Rolex Day-Date 40',
+                'image' => 'assets/img/hublot/Hublot Big Bang/1_BASELUXREF_2.png',
+                'alt' => 'Hublot Big Bang',
+                'title' => 'Hublot Big Bang',
                 'images' => [
-                    "assets/img/rolex/Rolex Day-Date 40/2_436470291_18020638049150134_885594530807949034_n.jpg",
-                    "assets/img/rolex/Rolex Day-Date 40/1_LadyDiorMyABC_10.png",
-                    "assets/img/rolex/Rolex Day-Date 40/3_435480946_18020638040150134_5999913618993311055_n.jpg"
+                    "assets/img/hublot/Hublot Big Bang/1_BASELUXREF_2.png",
+                    "assets/img/hublot/Hublot Big Bang/4_hublot-big-bang-44-mm_2.png",
+                    "assets/img/hublot/Hublot Big Bang/3_hublot-big-bang-44-mm_1.png",
+                    "assets/img/hublot/Hublot Big Bang/2_hublot-big-bang-44-mm.png"
                 ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
+                'slug' => 'hublot',
+                'brand_slug' => 'hublot',
                 'price' => '750',
                 'price_packaging' => '900',
+                'description' => 'Véritable emblème de la marque, la Big Bang incarne l’esprit audacieux de Hublot avec son design puissant et sa technologie de pointe. Dotée d’un boîtier robuste et de matériaux innovants, elle est conçue pour les passionnés de montres sportives haut de gamme. Son allure dynamique et sa mécanique de précision en font une montre prisée par les amateurs d’horlogerie moderne.'
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/rolex/Rolex Day-Date 40 gris/25941909-3kvnj3viske92fkhpzpddhte-ExtraLarge.jpg',
-                'alt' => 'Rolex Day-Date 40 gris',
-                'title' => 'Rolex Day-Date 40 gris',
+                'image' => 'assets/img/hublot/Hublot Classic Fusion Racing/1_32390263-iefgrx2ipwi3mwd90aremz3a-ExtraLarge.jpg',
+                'alt' => 'Hublot Classic Fusion Racing',
+                'title' => 'Hublot Classic Fusion Racing',
                 'images' => [
-                    "assets/img/rolex/Rolex Day-Date 40 gris/25941909-3kvnj3viske92fkhpzpddhte-ExtraLarge.jpg",
-                    "assets/img/rolex/Rolex Day-Date 40 gris/25941909-wusrh2d2bx4fovt8e5fx8a2u-ExtraLarge.jpg",
-                    "assets/img/rolex/Rolex Day-Date 40 gris/25941909-81f358h4uxcqonjuewjigz0j-ExtraLarge.jpg",
-                    "assets/img/rolex/Rolex Day-Date 40 gris/OrangeSimpleIllustratiionOnlineShopLogo_6.jpg",
+                    "assets/img/hublot/Hublot Classic Fusion Racing/1_32390263-iefgrx2ipwi3mwd90aremz3a-ExtraLarge.jpg",
+                    "assets/img/hublot/Hublot Classic Fusion Racing/2_BASELUXREF_2.jpg",
+                    "assets/img/hublot/Hublot Classic Fusion Racing/3_32390263-f9b0nwo8kuzhgcpmpwqurnhz-ExtraLarge.jpg"
                 ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
+                'slug' => 'hublot',
+                'brand_slug' => 'hublot',
                 'price' => '750',
                 'price_packaging' => '900',
+                'description' => 'Inspirée du monde du sport automobile, cette montre arbore un design dynamique qui évoque la vitesse et la performance. Son cadran épuré et son boîtier léger en font une pièce idéale pour les amateurs de sensations fortes et de montres à l’allure sportive.'
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/rolex/SUBMARINER LUNETTE VERTE MODÈLE 16610LV Pour Homme/ROLEXSUBMARINERLUNETTEVERTEMODELE16610LV5.jpg',
-                'alt' => 'SUBMARINER LUNETTE VERTE MODÈLE 16610LV Pour Homme',
-                'title' => 'SUBMARINER LUNETTE VERTE MODÈLE 16610LV Pour Homme',
+                'image' => 'assets/img/hublot/Hublot Hublot Classic Fusion Titanium Blue 42mm/3_BASE_LUX_REF_7.png',
+                'alt' => 'Hublot Classic Fusion Titanium Blue 42mm',
+                'title' => 'Hublot Classic Fusion Titanium Blue 42mm',
                 'images' => [
-                    "assets/img/rolex/SUBMARINER LUNETTE VERTE MODÈLE 16610LV Pour Homme/ROLEXSUBMARINERLUNETTEVERTEMODELE16610LV5.jpg",
-                    "assets/img/rolex/SUBMARINER LUNETTE VERTE MODÈLE 16610LV Pour Homme/ROLEXSUBMARINERLUNETTEVERTEMODELE16610LV6.jpg",
-                    "assets/img/rolex/SUBMARINER LUNETTE VERTE MODÈLE 16610LV Pour Homme/ROLEXSUBMARINERLUNETTEVERTEMODELE16610LV3.jpg",
-                    "assets/img/rolex/SUBMARINER LUNETTE VERTE MODÈLE 16610LV Pour Homme/4_a8953aa3-9545-4792-b935-dddb79569a19.png",
+                    "assets/img/hublot/Hublot Hublot Classic Fusion Titanium Blue 42mm/3_BASE_LUX_REF_7.png",
+                    "assets/img/hublot/Hublot Hublot Classic Fusion Titanium Blue 42mm/2_BASE_LUX_REF_8.png",
+                    "assets/img/hublot/Hublot Hublot Classic Fusion Titanium Blue 42mm/1_BASELUXREF_5.png",
+                    "assets/img/hublot/Hublot Hublot Classic Fusion Titanium Blue 42mm/4_BASE_LUX_REF_6.png"
                 ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
+                'slug' => 'hublot',
+                'brand_slug' => 'hublot',
                 'price' => '750',
                 'price_packaging' => '900',
+                'description' => 'Une alliance parfaite entre élégance et confort. Son boîtier en titane ultra-léger garantit une sensation de légèreté au poignet, tandis que son cadran bleu vibrant apporte une touche de modernité et de distinction. Un choix idéal pour ceux qui recherchent une montre à la fois robuste et raffinée.'
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/hublot/Hublot CLASSIC FUSION JAUNE/2_D058DEF7-9F66-4DC9-A8C7-FE73B9DE5560.jpg',
+                'alt' => 'Hublot CLASSIC FUSION JAUNE',
+                'title' => 'Hublot CLASSIC FUSION JAUNE',
+                'images' => [
+                    "assets/img/hublot/Hublot CLASSIC FUSION JAUNE/2_D058DEF7-9F66-4DC9-A8C7-FE73B9DE5560.jpg",
+                    "assets/img/hublot/Hublot CLASSIC FUSION JAUNE/1_465903007_17888466036128454_6048976367199474925_n.jpg",
+                    "assets/img/hublot/Hublot CLASSIC FUSION JAUNE/3_EA2FA525-AC06-4418-999E-1792F93637B0.jpg"
+                ],
+                'slug' => 'hublot',
+                'brand_slug' => 'hublot',
+                'price' => '750',
+                'price_packaging' => '900',
+                'description' => 'Avec son cadran jaune éclatant, cette montre audacieuse se distingue par son design vibrant et énergique. Elle incarne l’esprit novateur de Hublot, parfait pour ceux qui veulent une montre qui attire tous les regards. Son boîtier élégant met en valeur son style unique.'
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/hublot/Hublot Classic Fusion Titanium Green 42mm/5_BASE_LUXMMOMENT_16.jpg',
+                'alt' => 'Hublot Classic Fusion Titanium Green 42mm',
+                'title' => 'Hublot Classic Fusion Titanium Green 42mm',
+                'images' => [
+                    "assets/img/hublot/Hublot Classic Fusion Titanium Green 42mm/5_BASE_LUXMMOMENT_16.jpg",
+                    "assets/img/hublot/Hublot Classic Fusion Titanium Green 42mm/2_17170946_5.jpg",
+                    "assets/img/hublot/Hublot Classic Fusion Titanium Green 42mm/4_17170946_7.jpg",
+                    "assets/img/hublot/Hublot Classic Fusion Titanium Green 42mm/1_17170946_8.jpg",
+                ],
+                'slug' => 'hublot',
+                'brand_slug' => 'hublot',
+                'price' => '750',
+                'price_packaging' => '900',
+                'description' => 'Un modèle qui associe la légèreté du titane à l’élégance d’un cadran vert sophistiqué. Son design minimaliste et ses finitions haut de gamme en font une montre incontournable pour les amateurs de montres contemporaines et distinctives.'
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/hublot/Hublot Classic Fusion King Gold Blue/3_Classic-Fusion-King-Gold-Blue-42-mm-ad-shot.jpg',
+                'alt' => 'Hublot Classic Fusion King Gold Blue',
+                'title' => 'Hublot Classic Fusion King Gold Blue',
+                'images' => [
+                    "assets/img/hublot/Hublot Classic Fusion King Gold Blue/3_Classic-Fusion-King-Gold-Blue-42-mm-ad-shot.jpg",
+                    "assets/img/hublot/Hublot Classic Fusion King Gold Blue/1_LadyDiorMyABC_4.png",
+                    "assets/img/hublot/Hublot Classic Fusion King Gold Blue/4_Classic-Fusion-King-Gold-Blue-42-mm-lifestyle-shot.jpg",
+                    "assets/img/hublot/Hublot Classic Fusion King Gold Blue/5_Classic-Fusion-King-Gold-Blue-42-mm-close-up-shot.jpg",
+                ],
+                'slug' => 'hublot',
+                'brand_slug' => 'hublot',
+                'price' => '750',
+                'price_packaging' => '900',
+                'description' => 'Une pièce d’exception qui marie le prestige de l’or King Gold 18 carats à la profondeur d’un cadran bleu intense. Ce contraste saisissant confère à cette montre une allure royale et somptueuse, idéale pour ceux qui recherchent une montre de luxe au design raffiné.'
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/richardmille/Richard Mille RM 011 Jaune/4_15523190-13z7kdxnycki7tc3wuy1x93j-Zoom.jpg',
+                'alt' => 'Richard Mille RM 011 Jaune',
+                'title' => 'Richard Mille RM 011 Jaune',
+                'images' => [
+                    "assets/img/richardmille/Richard Mille RM 011 Jaune/4_15523190-13z7kdxnycki7tc3wuy1x93j-Zoom.jpg",
+                    "assets/img/richardmille/Richard Mille RM 011 Jaune/5_15523190-ycysta8msunsqf6n4xpgnp14-Zoom.jpg",
+                    "assets/img/richardmille/Richard Mille RM 011 Jaune/3_15523190-w5ohjseyjm7jtco9v2essx6l-Zoom.jpg",
+                    "assets/img/richardmille/Richard Mille RM 011 Jaune/1_123603946_425909642138497_5770804937536754074_n.jpg",
+                ],
+                'slug' => 'richardmille',
+                'brand_slug' => 'richardmille',
+                'price' => '850',
+                'price_packaging' => '999',
+                'description' => 'Une montre sportive emblématique au design audacieux, dotée d’un boîtier au style architectural unique et de touches jaunes vives qui lui confèrent une allure dynamique et moderne. Son mouvement automatique sophistiqué et son cadran squelette témoignent du savoir-faire exceptionnel de la maison Richard Mille.'
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/richardmille/Richard mille RM65-01 noir/1_33317392-6cyp262i3r38iaxaz4xritzu-Zoom.jpg',
+                'alt' => 'Richard mille RM65-01 noir',
+                'title' => 'Richard mille RM65-01 noir',
+                'images' => [
+                    "assets/img/richardmille/Richard mille RM65-01 noir/1_33317392-6cyp262i3r38iaxaz4xritzu-Zoom.jpg",
+                    "assets/img/richardmille/Richard mille RM65-01 noir/2_33317392-jbrvw3ravk779ct6j5shpxmr-Zoom.jpg",
+                    "assets/img/richardmille/Richard mille RM65-01 noir/3_Untitleddesign_92.png",
+                    "assets/img/richardmille/Richard mille RM65-01 noir/4_33317392-wb2xbpptx5lp902laa6gpuus-Zoom.jpg"
+                ],
+                'slug' => 'richardmille',
+                'brand_slug' => 'richardmille',
+                'price' => '850',
+                'price_packaging' => '999',
+                'description' => 'Un modèle qui incarne la fusion parfaite entre esthétique et haute technologie. Son boîtier noir robuste, associé à un cadran complexe aux détails raffinés, met en avant le caractère avant-gardiste de la marque. Conçue pour les passionnés d’horlogerie à la recherche d’une montre alliant performance et élégance discrète.'
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/richardmille/Richard mille RM65-01 Gold/2_28949872-56epikwacv3yi25cuceo7fiy-Zoom.jpg',
+                'alt' => 'Richard mille RM65-01 Gold',
+                'title' => 'Richard mille RM65-01 Gold',
+                'images' => [
+                    "assets/img/richardmille/Richard mille RM65-01 Gold/2_28949872-56epikwacv3yi25cuceo7fiy-Zoom.jpg",
+                    "assets/img/richardmille/Richard mille RM65-01 Gold/4_28949872-6r1z8i9tbgtpqzt9iqsughhs-Zoom.jpg",
+                    "assets/img/richardmille/Richard mille RM65-01 Gold/1_28949872-56epikwacv3yi25cuceo7fiy-Zoom.jpg",
+                    "assets/img/richardmille/Richard mille RM65-01 Gold/3_28949872-56epikwacv3yi25cuceo7fiy-Zoom.jpg"
+                ],
+                'slug' => 'richardmille',
+                'brand_slug' => 'richardmille',
+                'price' => '850',
+                'price_packaging' => '999',
+                'description' => 'Une variation luxueuse du modèle précédent, où l’or remplace le titane pour un rendu plus prestigieux. Cette montre allie sophistication et excellence mécanique, avec un mouvement de chronographe de haute précision logé dans un boîtier en or raffiné. Une pièce d’exception pour ceux qui recherchent l’exclusivité.'
             ]
         ];
 
