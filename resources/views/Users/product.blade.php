@@ -95,7 +95,7 @@
         }
 
         .form-radio div {
-            width: 50%;
+            width: 100%;
             display: flex;
             gap: 10px;
             align-items: center;
