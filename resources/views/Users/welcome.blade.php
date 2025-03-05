@@ -27,8 +27,7 @@
                 <div class="home__data">
                     <h1 class="home__title">{{ $product['brand_slug'] }}<br>{{ $product['title'] }}</h1>
                     <p class="home__description">
-                        Discover the latest arrival of the new imported watches of the Day-Just series,
-                        featuring a modern and resistant design.
+                        {{ $product['description'] }}
                     </p>
                     <span class="home__price">{{ $product['price'] }}DH</span>
 
