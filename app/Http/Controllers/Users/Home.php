@@ -1277,7 +1277,7 @@ class Home extends Controller
                 'alt' => 'Patek Philippe',
                 'title' => 'Patek Philippe',
                 'video' => 'assets/img/patekphilippe/Patek Philippe four new Nautilus models.mp4',
-                'slug' => 'patek',
+                'slug' => 'patekphilippe',
             ],
             [
                 'image' => 'assets/img/hublot/HUBLOT-LOGO.png',
