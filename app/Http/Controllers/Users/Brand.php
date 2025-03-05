@@ -595,6 +595,74 @@ class Brand extends Controller
             ],
             [
                 'tag' => 'Sale',
+                'image' => 'assets/img/cartier/Cartier Ballon Bleu/1_Designsanstitre_b53dc35a-872a-4375-ad8c-d6a0e4696606.png',
+                'alt' => 'Cartier Ballon Bleu',
+                'title' => 'Cartier Ballon Bleu',
+                'images' => [
+                    "assets/img/cartier/Cartier Ballon Bleu/2_w1242_tpadding12_2_dc6d9ec3-0fa4-45b3-aff5-79d72d26c438.jpg",
+                    "assets/img/cartier/Cartier Ballon Bleu/3_w1242_tpadding12_deb8c11d-d4ff-4198-962e-66733db44f4d.jpg",
+                    "assets/img/cartier/Cartier Ballon Bleu/1_Designsanstitre_b53dc35a-872a-4375-ad8c-d6a0e4696606.png",
+                    "assets/img/cartier/Cartier Ballon Bleu/4_w1242_tpadding12_1_72d1e703-b796-4800-a79e-3f698dd130f2.jpg",
+                ],
+                'slug' => 'cartier',
+                'brand_slug' => 'cartier',
+                'price' => '850',
+                'price_packaging' => '999',
+                'description' => "Un design arrondi et élégant avec un cadran raffiné, représentant le luxe et le prestige intemporel de Cartier."
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/cartier/Cartier Ballon Bleu 42mm/2_BASELUXREF_15.jpg',
+                'alt' => 'Cartier Ballon Bleu 42mm',
+                'title' => 'Cartier Ballon Bleu 42mm',
+                'images' => [
+                    "assets/img/cartier/Cartier Ballon Bleu 42mm/3_cartier-12646-annee-2011-ecrin-boite-dorigine-certificat-dorigine-certificat-dorigine-garantie-kronos-2-ans-genre-homme-sous-titre-ballon-bleu-42mm-ref-3001-sous-titre-fiche-produit-m_af8273d8-540f-4e06-86e2-e345de745d03.jpg",
+                    "assets/img/cartier/Cartier Ballon Bleu 42mm/4_cartier-12646-annee-2011-ecrin-boite-dorigine-certificat-dorigine-certificat-dorigine-garantie-kronos-2-ans-genre-homme-sous-titre-ballon-bleu-42mm-ref-3001-sous-titre-fiche-produit-m_34eaa569-2f74-4d51-8a6e-5ac5dc537958.jpg",
+                    "assets/img/cartier/Cartier Ballon Bleu 42mm/2_BASELUXREF_15.jpg",
+                    "assets/img/cartier/Cartier Ballon Bleu 42mm/5_cartier-12646-annee-2011-ecrin-boite-dorigine-certificat-dorigine-certificat-dorigine-garantie-kronos-2-ans-genre-homme-sous-titre-ballon-bleu-42mm-ref-3001-sous-titre-fiche-produit-m_32596bdd-85d0-4ee0-9324-945716892751.jpg",
+                ],
+                'slug' => 'cartier',
+                'brand_slug' => 'cartier',
+                'price' => '850',
+                'price_packaging' => '999',
+                'description' => "Une version plus imposante de la Ballon Bleu, offrant un équilibre parfait entre élégance et présence au poignet."
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/cartier/Cartier santos 36 Mm/1_Designsanstitre_87495aa1-7085-475d-856d-c88b565068cc.png',
+                'alt' => 'Cartier santos 36 Mm',
+                'title' => 'Cartier santos 36 Mm',
+                'images' => [
+                    "assets/img/cartier/Cartier santos 36 Mm/2_w1242_tpadding12-2022-02-26T191347.869_e4443a38-2281-4281-a88d-4259899f990d.jpg",
+                    "assets/img/cartier/Cartier santos 36 Mm/3_w1242_tpadding12_8_bc638c5a-96b1-400d-82d2-7f662a503661.jpg",
+                    "assets/img/cartier/Cartier santos 36 Mm/1_Designsanstitre_87495aa1-7085-475d-856d-c88b565068cc.png",
+                    "assets/img/cartier/Cartier santos 36 Mm/4_w1242_tpadding12_2_aa03b136-29e2-4b3f-88fb-f699def77231.jpg",
+                ],
+                'slug' => 'cartier',
+                'brand_slug' => 'cartier',
+                'price' => '850',
+                'price_packaging' => '999',
+                'description' => "Une montre iconique au design carré intemporel, idéale pour ceux qui recherchent un modèle à la fois classique et moderne."
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/cartier/Cartier Santos vert/5_BASELUXREF_6_ae3b22f8-aa83-459b-a122-08131322a8ec.jpg',
+                'alt' => 'Cartier Santos vert',
+                'title' => 'Cartier Santos vert',
+                'images' => [
+                    "assets/img/cartier/Cartier Santos vert/1_w260_tpadding12_3.jpg",
+                    "assets/img/cartier/Cartier Santos vert/3_w260_tpadding12_4.jpg",
+                    "assets/img/cartier/Cartier Santos vert/5_BASELUXREF_6_ae3b22f8-aa83-459b-a122-08131322a8ec.jpg",
+                    "assets/img/cartier/Cartier Santos vert/4_w260_tpadding12_1.jpg",
+                ],
+                'slug' => 'cartier',
+                'brand_slug' => 'cartier',
+                'price' => '850',
+                'price_packaging' => '999',
+                'description' => "Une déclinaison audacieuse avec un cadran vert profond, apportant une touche de fraîcheur et d’originalité."
+            ],
+            [
+                'tag' => 'Sale',
                 'image' => 'assets/img/tissot/TISSOT PRX POWERMATIC 80Noir/1_205.png',
                 'alt' => 'TISSOT PRX POWERMATIC 80Noir',
                 'title' => 'TISSOT PRX POWERMATIC 80Noir',
@@ -649,6 +717,40 @@ class Brand extends Controller
                 'price' => '750',
                 'price_packaging' => '900',
                 'description' => "Élégante et lumineuse, cette édition arbore un cadran blanc immaculé qui incarne à la perfection le raffinement minimaliste. Son bracelet en acier inoxydable et son boîtier aux lignes épurées offrent une allure sophistiquée et intemporelle. Grâce à son mouvement automatique Powermatic 80, cette montre assure une précision exceptionnelle et un confort optimal pour une utilisation quotidienne. Son design raffiné en fait une pièce de choix pour les amateurs de montres qui allient modernité et tradition horlogère suisse."
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/tissot/Montre Homme TT - PXR Powermatic 80 Cadran Blanc/4_montre-homme-tt-pxr-powermatic-80-cadran-blanc-velvera-ma-1_1800x1800.png',
+                'alt' => 'Montre Homme TT - PXR Powermatic 80 Cadran Blanc',
+                'title' => 'Montre Homme TT - PXR Powermatic 80 Cadran Blanc',
+                'images' => [
+                    "assets/img/tissot/Montre Homme TT - PXR Powermatic 80 Cadran Blanc/4_montre-homme-tt-pxr-powermatic-80-cadran-blanc-velvera-ma-1_1800x1800.png",
+                    "assets/img/tissot/Montre Homme TT - PXR Powermatic 80 Cadran Blanc/1_montre-homme-tt-pxr-powermatic-80-cadran-blanc-velvera-ma-3_1800x1800.png",
+                    "assets/img/tissot/Montre Homme TT - PXR Powermatic 80 Cadran Blanc/2_montre-homme-tt-pxr-powermatic-80-cadran-blanc-velvera-ma-2_1800x1800.png",
+                    "assets/img/tissot/Montre Homme TT - PXR Powermatic 80 Cadran Blanc/3_montre-homme-tt-pxr-powermatic-80-cadran-blanc-velvera-ma-4_1800x1800.png",
+                ],
+                'slug' => 'tissot',
+                'brand_slug' => 'tissot',
+                'price' => '750',
+                'price_packaging' => '900',
+                'description' => "Un modèle classique avec un cadran blanc lumineux, idéal pour une allure élégante et sobre."
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/tissot/Montre Homme TT - PXR Powermatic 80 Ice Blue/4_montre-homme-tt-pxr-powermatic-80-ice-blue-velvera-ma-1_1800x1800.png',
+                'alt' => 'Montre Homme TT - PXR Powermatic 80 Ice Blue',
+                'title' => 'Montre Homme TT - PXR Powermatic 80 Ice Blue',
+                'images' => [
+                    "assets/img/tissot/Montre Homme TT - PXR Powermatic 80 Ice Blue/4_montre-homme-tt-pxr-powermatic-80-ice-blue-velvera-ma-1_1800x1800.png",
+                    "assets/img/tissot/Montre Homme TT - PXR Powermatic 80 Ice Blue/2_montre-homme-tt-pxr-powermatic-80-ice-blue-velvera-ma-2_1800x1800.png",
+                    "assets/img/tissot/Montre Homme TT - PXR Powermatic 80 Ice Blue/3_montre-homme-tt-pxr-powermatic-80-ice-blue-velvera-ma-4_1800x1800.png",
+                    "assets/img/tissot/Montre Homme TT - PXR Powermatic 80 Ice Blue/5_montre-homme-tt-pxr-powermatic-80-ice-blue-velvera-ma-5_1800x1800.png",
+                ],
+                'slug' => 'tissot',
+                'brand_slug' => 'tissot',
+                'price' => '750',
+                'price_packaging' => '900',
+                'description' => "Une montre moderne avec un cadran bleu glacé, alliant raffinement et technologie avancée."
             ],
             [
                 'tag' => 'Sale',
@@ -769,7 +871,7 @@ class Brand extends Controller
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/patekphilippe/Patek Philippe Nautilus blanc/5_BASELUXREF_30.png',
+                'image' => 'assets/img/patekphilippe/Patek Philippe Aquanaut noir/4_BASE_LUX_REF_ebab2695-9dc6-4966-8f9a-fee8df9235ef.jpg',
                 'alt' => 'Patek Philippe Aquanaut noir',
                 'title' => 'Patek Philippe Aquanaut noir',
                 'images' => [
@@ -783,6 +885,105 @@ class Brand extends Controller
                 'price' => '850',
                 'price_packaging' => '1000',
                 'description' => "Un modèle sportif et moderne avec un cadran noir texturé et un bracelet en composite ultra-résistant. Son look sobre et puissant en fait une montre idéale pour les aventuriers et les amateurs de design raffiné."
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/patekphilippe/Montre Homme Patek Aquanaut Automatique Noir/1_montre-homme-patek-aquanaut-automatique-noir-velvera-ma-1_1800x1800.png',
+                'alt' => 'Montre Homme Patek Aquanaut Automatique Noir',
+                'title' => 'Montre Homme Patek Aquanaut Automatique Noir',
+                'images' => [
+                    "assets/img/patekphilippe/Montre Homme Patek Aquanaut Automatique Noir/3_montre-homme-patek-aquanaut-automatique-noir-velvera-ma-3_1800x1800.png",
+                    "assets/img/patekphilippe/Montre Homme Patek Aquanaut Automatique Noir/2_montre-homme-patek-aquanaut-automatique-noir-velvera-ma-2_1800x1800.png",
+                    "assets/img/patekphilippe/Montre Homme Patek Aquanaut Automatique Noir/1_montre-homme-patek-aquanaut-automatique-noir-velvera-ma-1_1800x1800.png"
+                ],
+                'slug' => 'patekphilippe',
+                'brand_slug' => 'patekphilippe',
+                'price' => '850',
+                'price_packaging' => '1000',
+                'description' => "Un modèle sportif et élégant avec un cadran noir sophistiqué, parfait pour un usage quotidien ou des occasions spéciales."
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/patekphilippe/Montre Homme Patek Aquanaut Automatique Orange/1_montre-homme-patek-aquanaut-automatique-orange-velvera-ma-1_1800x1800.png',
+                'alt' => 'Montre Homme Patek Aquanaut Automatique Orange',
+                'title' => 'Montre Homme Patek Aquanaut Automatique Orange',
+                'images' => [
+                    "assets/img/patekphilippe/Montre Homme Patek Aquanaut Automatique Orange/4_montre-homme-patek-aquanaut-automatique-orange-velvera-ma-5_1800x1800.png",
+                    "assets/img/patekphilippe/Montre Homme Patek Aquanaut Automatique Orange/3_montre-homme-patek-aquanaut-automatique-orange-velvera-ma-3_1800x1800.png",
+                    "assets/img/patekphilippe/Montre Homme Patek Aquanaut Automatique Orange/2_montre-homme-patek-aquanaut-automatique-orange-velvera-ma-2_1800x1800.png",
+                    "assets/img/patekphilippe/Montre Homme Patek Aquanaut Automatique Orange/1_montre-homme-patek-aquanaut-automatique-orange-velvera-ma-1_1800x1800.png"
+                ],
+                'slug' => 'patekphilippe',
+                'brand_slug' => 'patekphilippe',
+                'price' => '850',
+                'price_packaging' => '1000',
+                'description' => "Une version audacieuse et dynamique avec un bracelet et des détails orange, offrant un style unique et moderne."
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/patekphilippe/Montre Homme Patek - Nautilus Tiffany Automatique/2_montre-homme-patek-nautilus-tiffany-automatique-velvera-ma-1_1800x1800.png',
+                'alt' => 'Montre Homme Patek - Nautilus Tiffany Automatique',
+                'title' => 'Montre Homme Patek - Nautilus Tiffany Automatique',
+                'images' => [
+                    "assets/img/patekphilippe/Montre Homme Patek - Nautilus Tiffany Automatique/1_montre-homme-patek-nautilus-tiffany-automatique-velvera-ma-3_1800x1800.png",
+                    "assets/img/patekphilippe/Montre Homme Patek - Nautilus Tiffany Automatique/3_montre-homme-patek-nautilus-tiffany-automatique-velvera-ma-2_1800x1800.png",
+                    "assets/img/patekphilippe/Montre Homme Patek - Nautilus Tiffany Automatique/4_montre-homme-patek-nautilus-tiffany-automatique-velvera-ma-4_1800x1800.png",
+                    "assets/img/patekphilippe/Montre Homme Patek - Nautilus Tiffany Automatique/2_montre-homme-patek-nautilus-tiffany-automatique-velvera-ma-1_1800x1800.png"
+                ],
+                'slug' => 'patekphilippe',
+                'brand_slug' => 'patekphilippe',
+                'price' => '850',
+                'price_packaging' => '1000',
+                'description' => "Un modèle exclusif avec un cadran bleu Tiffany, combinant luxe et rareté."
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/patekphilippe/Patek Philippe geneve/2_BASELUXREF_28.jpg',
+                'alt' => 'Patek Philippe geneve',
+                'title' => 'Patek Philippe geneve',
+                'images' => [
+                    "assets/img/patekphilippe/Patek Philippe geneve/1_522042045.jpg",
+                    "assets/img/patekphilippe/Patek Philippe geneve/3_522042042.jpg",
+                    "assets/img/patekphilippe/Patek Philippe geneve/4_522042046.jpg",
+                    "assets/img/patekphilippe/Patek Philippe geneve/2_BASELUXREF_28.jpg"
+                ],
+                'slug' => 'patekphilippe',
+                'brand_slug' => 'patekphilippe',
+                'price' => '850',
+                'price_packaging' => '1000',
+                'description' => "Symbole d’excellence horlogère, cette montre incarne le savoir-faire et le raffinement de la maison Patek Philippe."
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/patekphilippe/Patek Philippe Nautilus Chronograph/1_BASELUXREF_50.png',
+                'alt' => 'Patek Philippe Nautilus Chronograph',
+                'title' => 'Patek Philippe Nautilus Chronograph',
+                'images' => [
+                    "assets/img/patekphilippe/Patek Philippe Nautilus Chronograph/2_82444896_117913433065602_3906581031284637696_n.jpg",
+                    "assets/img/patekphilippe/Patek Philippe Nautilus Chronograph/1_BASELUXREF_50.png"
+                ],
+                'slug' => 'patekphilippe',
+                'brand_slug' => 'patekphilippe',
+                'price' => '850',
+                'price_packaging' => '1000',
+                'description' => "Une montre prestigieuse avec fonction chronographe, alliant performance et élégance intemporelle."
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/patekphilippe/Patek Philippe Nautilus chronographe vert/5_BASELUXREF_6f01b9c8-dbe4-4f44-856b-005cb06cf0b9.jpg',
+                'alt' => 'Patek Philippe Nautilus chronographe vert',
+                'title' => 'Patek Philippe Nautilus chronographe vert',
+                'images' => [
+                    "assets/img/patekphilippe/Patek Philippe Nautilus chronographe vert/1_20220918140400_64aa622bdb753f7b61c5187748c57b1c_tr2k_1.jpg",
+                    "assets/img/patekphilippe/Patek Philippe Nautilus chronographe vert/2_20220918140402_64aa622bdb753f7b61c5187748c57b1c_4n7e_1.jpg",
+                    "assets/img/patekphilippe/Patek Philippe Nautilus chronographe vert/3_20220918140401_64aa622bdb753f7b61c5187748c57b1c_2c8x_2.jpg",
+                    "assets/img/patekphilippe/Patek Philippe Nautilus chronographe vert/5_BASELUXREF_6f01b9c8-dbe4-4f44-856b-005cb06cf0b9.jpg"
+                ],
+                'slug' => 'patekphilippe',
+                'brand_slug' => 'patekphilippe',
+                'price' => '850',
+                'price_packaging' => '1000',
+                'description' => "Une version élégante et distinctive avec un cadran vert intense, associant sportivité et sophistication."
             ],
             [
                 'tag' => 'Sale',
