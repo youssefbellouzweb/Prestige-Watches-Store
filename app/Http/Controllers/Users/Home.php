@@ -969,14 +969,14 @@ class Home extends Controller
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/patekphilippe/Patek Philippe Aquanaut noir/WhatsApp Image 2025-03-06 at 02.57.31 (1).jpeg',
-                'alt' => 'Patek Philippe Aquanaut noir',
-                'title' => 'Patek Philippe Aquanaut noir',
+                'image' => 'assets/img/patekphilippe/patek Philippe nautilus bleu/WhatsApp Image 2025-03-06 at 02.57.31 (1).jpeg',
+                'alt' => 'patek Philippe nautilus bleu',
+                'title' => 'patek Philippe nautilus bleu',
                 'images' => [
-                    "assets/img/patekphilippe/Patek Philippe Aquanaut noir/WhatsApp Image 2025-03-06 at 02.57.27.jpeg",
-                    "assets/img/patekphilippe/Patek Philippe Aquanaut noir/WhatsApp Image 2025-03-06 at 02.57.30.jpeg",
-                    "assets/img/patekphilippe/Patek Philippe Aquanaut noir/WhatsApp Image 2025-03-06 at 02.57.31.jpeg",
-                    "assets/img/patekphilippe/Patek Philippe Aquanaut noir/WhatsApp Image 2025-03-06 at 02.57.31 (1).jpeg"
+                    "assets/img/patekphilippe/patek Philippe nautilus bleu/WhatsApp Image 2025-03-06 at 02.57.27.jpeg",
+                    "assets/img/patekphilippe/patek Philippe nautilus bleu/WhatsApp Image 2025-03-06 at 02.57.30.jpeg",
+                    "assets/img/patekphilippe/patek Philippe nautilus bleu/WhatsApp Image 2025-03-06 at 02.57.31.jpeg",
+                    "assets/img/patekphilippe/patek Philippe nautilus bleu/WhatsApp Image 2025-03-06 at 02.57.31 (1).jpeg"
                 ],
                 'slug' => 'patekphilippe',
                 'brand_slug' => 'patekphilippe',
