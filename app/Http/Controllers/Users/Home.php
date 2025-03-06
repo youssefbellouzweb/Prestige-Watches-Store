@@ -1121,23 +1121,6 @@ class Home extends Controller
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/rolex/Rolex Day-Date 40 blanc/OrangeSimpleIllustratiionOnlineShopLogo_6_fb010ff7-ecb7-4f52-be25-689d38eaa320.jpg',
-                'alt' => 'Rolex Day-Date 40 blanc',
-                'title' => 'Rolex Day-Date 40 blanc',
-                'images' => [
-                    "assets/img/rolex/Rolex Day-Date 40 blanc/OrangeSimpleIllustratiionOnlineShopLogo_6_fb010ff7-ecb7-4f52-be25-689d38eaa320.jpg",
-                    "assets/img/rolex/Rolex Day-Date 40 blanc/31230811-4qzebcbz4nrfcy0ecakmxfq5-ExtraLarge.jpg",
-                    "assets/img/rolex/Rolex Day-Date 40 blanc/31231738-k33auxwa53y3rtqp3h8z3mow-ExtraLarge.jpg",
-                    "assets/img/rolex/Rolex Day-Date 40 blanc/31230811-e60hlm1pnwhfv6elf91un5xp-ExtraLarge.jpg",
-                ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '750',
-                'price_packaging' => '900',
-                'description' => "Une montre prestigieuse qui affiche le jour et la date, avec un cadran blanc raffiné. Le Day-Date est un choix incontournable pour les amateurs de montres haut de gamme, alliant élégance et sophistication pour des occasions formelles ou informelles."
-            ],
-            [
-                'tag' => 'Sale',
                 'image' => 'assets/img/rolex/bruce wayne/s-l1600_8.webp',
                 'alt' => 'bruce wayne',
                 'title' => 'bruce wayne',
@@ -1172,40 +1155,6 @@ class Home extends Controller
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/rolex/ROLEX PLATINUM DAY-DATE 41MM/5_rolex-day-date-228206-iceblueromind-multiple-1_1.jpg',
-                'alt' => 'ROLEX PLATINUM DAY-DATE 41MM',
-                'title' => 'ROLEX PLATINUM DAY-DATE 41MM',
-                'images' => [
-                    "assets/img/rolex/ROLEX PLATINUM DAY-DATE 41MM/5_rolex-day-date-228206-iceblueromind-multiple-1_1.jpg",
-                    "assets/img/rolex/ROLEX PLATINUM DAY-DATE 41MM/2_rolex-day-date-228206-iceblueromind-multiple-6_1.jpg",
-                    "assets/img/rolex/ROLEX PLATINUM DAY-DATE 41MM/3_181705-2_1680x_3fcadb7b-2aea-4c16-9785-1626a3cd6547.jpg",
-                    "assets/img/rolex/ROLEX PLATINUM DAY-DATE 41MM/4_rolex-day-date-228206-iceblueromind-multiple-4_1.jpg",
-                ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '750',
-                'price_packaging' => '900',
-                'description' => "Un modèle exceptionnel de la collection Day-Date, fabriqué en platine pur, un matériau rare et précieux. Ce modèle incarne le summum de la luxe Rolex, offrant une montre d'une beauté époustouflante et d'une qualité inégalée."
-            ],
-            [
-                'tag' => 'Sale',
-                'image' => 'assets/img/rolex/Yacht-Master II 116688 44mm Pour Homme/4_MontreRolexYacht-MasterII11668844mmPourHomme_870f0cfe-3591-4ae8-8cf9-f1bfda51ec10.jpg',
-                'alt' => 'Yacht-Master II 116688 44mm',
-                'title' => 'Yacht-Master II 116688 44mm',
-                'images' => [
-                    "assets/img/rolex/Yacht-Master II 116688 44mm Pour Homme/4_MontreRolexYacht-MasterII11668844mmPourHomme_870f0cfe-3591-4ae8-8cf9-f1bfda51ec10.jpg",
-                    "assets/img/rolex/Yacht-Master II 116688 44mm Pour Homme/1_yachtmasterdoree_821d08e0-8045-4e03-acce-6d3d3977cc33.jpg",
-                    "assets/img/rolex/Yacht-Master II 116688 44mm Pour Homme/3_MontreRolexYacht-MasterII11668844mmPourHomme_9e6e5630-9d46-4cd9-8121-1087cc99e8e6.jpg",
-                    "assets/img/rolex/Yacht-Master II 116688 44mm Pour Homme/2_r446.jpg"
-                ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '750',
-                'price_packaging' => '900',
-                'description' => "Une version luxueuse en or jaune 18K, alliant esthétique raffinée et technologies de pointe."
-            ],
-            [
-                'tag' => 'Sale',
                 'image' => 'assets/img/rolex/Submariner Vert _Hulk_ 116610LV Pour Homme/WhatsApp_Image_2020-02-26_at_21.36.39_1_1.jpg',
                 'alt' => 'Submariner Vert _Hulk_ 116610LV',
                 'title' => 'Submariner Vert _Hulk_ 116610LV',
@@ -1220,40 +1169,6 @@ class Home extends Controller
                 'price' => '750',
                 'price_packaging' => '900',
                 "description" => "Un modèle reconnaissable à son cadran et sa lunette verte, qui associe robustesse et élégance intemporelle."
-            ],
-            [
-                'tag' => 'Sale',
-                'image' => 'assets/img/rolex/Datejust 36 mm Bleu 126234 Modèle 2021/datejustnew7_417de841-743f-4f24-a517-508857cd1a3a.jpg',
-                'alt' => 'Datejust 36 mm Bleu 126234 Modèle 2021',
-                'title' => 'Datejust 36 mm Bleu 126234 Modèle 2021',
-                'images' => [
-                    "assets/img/rolex/Datejust 36 mm Bleu 126234 Modèle 2021/datejustnew7_417de841-743f-4f24-a517-508857cd1a3a.jpg",
-                    "assets/img/rolex/Datejust 36 mm Bleu 126234 Modèle 2021/datejustnew8_fd87adad-ee58-4768-8a42-ee5c94f4c87c.jpg",
-                    "assets/img/rolex/Datejust 36 mm Bleu 126234 Modèle 2021/r4.jpg",
-                    "assets/img/rolex/Datejust 36 mm Bleu 126234 Modèle 2021/datejustnew2_8c420bbc-c9a6-4ff6-a50d-eeda072fd541.jpg",
-                ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '750',
-                'price_packaging' => '900',
-                "description" => "Un modèle élégant avec un cadran bleu profond et un diamètre de 36mm, offrant un design sophistiqué et une élégance inégalée. Parfait pour ceux qui recherchent une montre à la fois compacte et luxueuse."
-            ],
-            [
-                'tag' => 'Sale',
-                'image' => 'assets/img/rolex/Yacht-Master II 116680 44mm Pour Homme/1_r44.png',
-                'alt' => 'Yacht-Master II 116680 44mm',
-                'title' => 'Yacht-Master II 116680 44mm',
-                'images' => [
-                    "assets/img/rolex/Yacht-Master II 116680 44mm Pour Homme/5_MontreRolexYacht-MasterII11668044mmPourHomme_096cc691-1ad5-4a71-95bf-72e304fb8bb4.jpg",
-                    "assets/img/rolex/Yacht-Master II 116680 44mm Pour Homme/1_r44.png",
-                    "assets/img/rolex/Yacht-Master II 116680 44mm Pour Homme/4_MontreRolexYacht-MasterII11668044mmPourHomme_fd2116ee-b477-4137-b6a4-1192395fc812.jpg",
-                    "assets/img/rolex/Yacht-Master II 116680 44mm Pour Homme/3_MontreRolexYacht-MasterII11668044mmPourHomme_0eeeab37-aaaa-4809-a5e6-0b1b1fdb2c41.jpg",
-                ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '750',
-                'price_packaging' => '900',
-                "description" => "Conçue pour les passionnés de navigation, cette montre nautique sophistiquée offre une fonctionnalité avancée et un design imposant."
             ],
             [
                 'tag' => 'Sale',
@@ -1441,39 +1356,6 @@ class Home extends Controller
                 'price' => '750',
                 'price_packaging' => '900',
                 'description' => "Un modèle classique de la Submariner, avec un cadran noir intemporel, conçu pour les plongeurs professionnels et amateurs. Il combine robustesse et style, et est l'un des modèles les plus populaires de la collection Rolex."
-            ],
-            [
-                'tag' => 'Sale',
-                'image' => 'assets/img/rolex/Rolex Day-Date 40/2_436470291_18020638049150134_885594530807949034_n.jpg',
-                'alt' => 'Rolex Day-Date 40',
-                'title' => 'Rolex Day-Date 40',
-                'images' => [
-                    "assets/img/rolex/Rolex Day-Date 40/2_436470291_18020638049150134_885594530807949034_n.jpg",
-                    "assets/img/rolex/Rolex Day-Date 40/1_LadyDiorMyABC_10.png",
-                    "assets/img/rolex/Rolex Day-Date 40/3_435480946_18020638040150134_5999913618993311055_n.jpg"
-                ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '750',
-                'price_packaging' => '900',
-                'description' => "Symbole d’élégance et de prestige, cette montre affiche le jour et la date en toutes lettres. Disponible en métaux précieux comme l’or et le platine, elle incarne le raffinement absolu."
-            ],
-            [
-                'tag' => 'Sale',
-                'image' => 'assets/img/rolex/Rolex Day-Date 40 gris/25941909-3kvnj3viske92fkhpzpddhte-ExtraLarge.jpg',
-                'alt' => 'Rolex Day-Date 40 gris',
-                'title' => 'Rolex Day-Date 40 gris',
-                'images' => [
-                    "assets/img/rolex/Rolex Day-Date 40 gris/25941909-3kvnj3viske92fkhpzpddhte-ExtraLarge.jpg",
-                    "assets/img/rolex/Rolex Day-Date 40 gris/25941909-wusrh2d2bx4fovt8e5fx8a2u-ExtraLarge.jpg",
-                    "assets/img/rolex/Rolex Day-Date 40 gris/25941909-81f358h4uxcqonjuewjigz0j-ExtraLarge.jpg",
-                    "assets/img/rolex/Rolex Day-Date 40 gris/OrangeSimpleIllustratiionOnlineShopLogo_6.jpg",
-                ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '750',
-                'price_packaging' => '900',
-                'description' => "Un modèle élégant et raffiné avec un cadran gris, combinant sophistication et modernité. C'est un choix idéal pour l'homme moderne à la recherche d'une montre polyvalente et luxueuse."
             ],
             [
                 'tag' => 'Sale',

@@ -40,104 +40,362 @@ class Product extends Controller
         $watches = [
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/rolex/Rolex Datejust/d8807c521235d6a3363740073ff1c8ca.jpg',
-                'alt' => 'Rolex Datejust',
-                'title' => 'Rolex Datejust',
+                'image' => 'assets/img/cartier/Cartier Santos vert/5_BASELUXREF_6_ae3b22f8-aa83-459b-a122-08131322a8ec.jpg',
+                'alt' => 'Cartier Santos vert',
+                'title' => 'Cartier Santos vert',
                 'images' => [
-                    "assets/img/rolex/Rolex Datejust/d8807c521235d6a3363740073ff1c8ca.jpg",
-                    "assets/img/rolex/Rolex Datejust/BASELUXREF_11.jpg",
-                    "assets/img/rolex/Rolex Datejust/28aefff68c26b70c824095f9e4a79fbd.jpg",
-                    "assets/img/rolex/Rolex Datejust/2b475619815182f72be28e5d61860014.jpg",
+                    "assets/img/cartier/Cartier Santos vert/1_w260_tpadding12_3.jpg",
+                    "assets/img/cartier/Cartier Santos vert/3_w260_tpadding12_4.jpg",
+                    "assets/img/cartier/Cartier Santos vert/5_BASELUXREF_6_ae3b22f8-aa83-459b-a122-08131322a8ec.jpg",
+                    "assets/img/cartier/Cartier Santos vert/4_w260_tpadding12_1.jpg",
                 ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '750',
-                'price_packaging' => '900',
-                'description' => "Un modèle intemporel qui allie sophistication et polyvalence. Avec son affichage de la date et son design emblématique, elle reste un choix incontournable pour toutes les occasions."
+                'slug' => 'cartier',
+                'brand_slug' => 'cartier',
+                'price' => '850',
+                'price_packaging' => '999',
+                'description' => "Une déclinaison audacieuse avec un cadran vert profond, apportant une touche de fraîcheur et d’originalité."
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/rolex/Daytona Cosmographe Doré 116518LN/daytonagold9.jpg',
-                'alt' => 'Daytona Cosmographe Doré 116518LN',
-                'title' => 'Daytona Cosmographe Doré 116518LN',
+                'image' => 'assets/img/tissot/TISSOT PRX POWERMATIC 80Noir/1_205.png',
+                'alt' => 'TISSOT PRX POWERMATIC 80Noir',
+                'title' => 'TISSOT PRX POWERMATIC 80Noir',
                 'images' => [
-                    "assets/img/rolex/Daytona Cosmographe Doré 116518LN/daytonagold9.jpg",
-                    "assets/img/rolex/Daytona Cosmographe Doré 116518LN/Lady_Dior_My_ABC_8.png",
-                    "assets/img/rolex/Daytona Cosmographe Doré 116518LN/daytonagold.jpg",
-                    "assets/img/rolex/Daytona Cosmographe Doré 116518LN/daytonagold8.jpg",
+                    "assets/img/tissot/TISSOT PRX POWERMATIC 80Noir/1_205.png"
                 ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '800',
-                'price_packaging' => '950',
-                "description" => "Un modèle de la Daytona en or, alliant performance et esthétique de haute qualité. Ce modèle incarne l'excellence de Rolex et est parfait pour ceux qui recherchent une montre de prestige."
+                'slug' => 'tissot',
+                'brand_slug' => 'tissot',
+                'price' => '750',
+                'price_packaging' => '900',
+                'description' => "Un garde-temps élégant qui fusionne le classique et le moderne, doté d’un cadran noir raffiné et d’un bracelet intégré en acier inoxydable. Équipée du mouvement automatique Powermatic 80, cette montre offre une réserve de marche exceptionnelle allant jusqu'à 80 heures, garantissant une précision et une fiabilité remarquables. Son design épuré et sa polyvalence en font une pièce idéale pour toutes les occasions, alliant confort et sophistication."
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/rolex/Rolex Submariner Noir/Untitleddesign_46.png',
-                'alt' => 'Rolex Submariner Noir',
-                'title' => 'Rolex Submariner Noir',
+                'image' => 'assets/img/tissot/TISSOT PRX POWERMATIC 80 Bleu/1_T137.407.11.041.00_AMB_S_1.webp',
+                'alt' => 'TISSOT PRX POWERMATIC 80 Bleu',
+                'title' => 'TISSOT PRX POWERMATIC 80 Bleu',
                 'images' => [
-                    "assets/img/rolex/Rolex Submariner Noir/Untitleddesign_46.png",
-                    "assets/img/rolex/Rolex Submariner Noir/WhatsAppImage2020-10-06at14.42.56.jpg",
-                    "assets/img/rolex/Rolex Submariner Noir/WhatsAppImage2020-10-06at14.42.58_1_1.jpg",
-                    "assets/img/rolex/Rolex Submariner Noir/WhatsAppImage2020-10-06at14.42.58.jpg",
+                    "assets/img/tissot/TISSOT PRX POWERMATIC 80 Bleu/1_T137.407.11.041.00_AMB_S_1.webp",
+                    "assets/img/tissot/TISSOT PRX POWERMATIC 80 Bleu/2_204.png"
                 ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
+                'slug' => 'tissot',
+                'brand_slug' => 'tissot',
                 'price' => '750',
                 'price_packaging' => '900',
-                'description' => "Un modèle classique de la Submariner, avec un cadran noir intemporel, conçu pour les plongeurs professionnels et amateurs. Il combine robustesse et style, et est l'un des modèles les plus populaires de la collection Rolex."
+                'description' => "Ce modèle séduit par son cadran bleu intense, apportant une touche contemporaine au design intemporel de la collection PRX. Son boîtier en acier inoxydable brossé, associé à une finition soignée, reflète l'excellence du savoir-faire horloger suisse. Étanche jusqu'à 100 mètres, cette montre est un choix parfait pour les amateurs de montres élégantes et fonctionnelles, offrant un équilibre parfait entre esthétique et performance."
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/rolex/Rolex Day-Date 40/2_436470291_18020638049150134_885594530807949034_n.jpg',
-                'alt' => 'Rolex Day-Date 40',
-                'title' => 'Rolex Day-Date 40',
+                'image' => 'assets/img/tissot/TISSOT PRX POWERMATIC 80 Vert/1_207.png',
+                'alt' => 'TISSOT PRX POWERMATIC 80 Vert',
+                'title' => 'TISSOT PRX POWERMATIC 80 Vert',
                 'images' => [
-                    "assets/img/rolex/Rolex Day-Date 40/2_436470291_18020638049150134_885594530807949034_n.jpg",
-                    "assets/img/rolex/Rolex Day-Date 40/1_LadyDiorMyABC_10.png",
-                    "assets/img/rolex/Rolex Day-Date 40/3_435480946_18020638040150134_5999913618993311055_n.jpg"
+                    "assets/img/tissot/TISSOT PRX POWERMATIC 80 Vert/1_207.png"
                 ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
+                'slug' => 'tissot',
+                'brand_slug' => 'tissot',
                 'price' => '750',
                 'price_packaging' => '900',
-                'description' => "Symbole d’élégance et de prestige, cette montre affiche le jour et la date en toutes lettres. Disponible en métaux précieux comme l’or et le platine, elle incarne le raffinement absolu."
+                'description' => "Avec son cadran vert profond, ce modèle affirme un style audacieux et raffiné. Inspirée du design emblématique des années 70, cette montre arbore un boîtier fin et un bracelet intégré qui épousent parfaitement le poignet. Son mouvement Powermatic 80 assure une autonomie prolongée, tandis que le verre saphir antirayures garantit une lisibilité optimale et une résistance accrue aux chocs du quotidien. Un choix idéal pour ceux qui recherchent une montre distinctive, à la fois vintage et contemporaine."
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/rolex/Rolex Day-Date 40 gris/25941909-3kvnj3viske92fkhpzpddhte-ExtraLarge.jpg',
-                'alt' => 'Rolex Day-Date 40 gris',
-                'title' => 'Rolex Day-Date 40 gris',
+                'image' => 'assets/img/tissot/TISSOT PRX POWERMATIC 80 Blanche/1_206.png',
+                'alt' => 'TISSOT PRX POWERMATIC 80 Blanche',
+                'title' => 'TISSOT PRX POWERMATIC 80 Blanche',
                 'images' => [
-                    "assets/img/rolex/Rolex Day-Date 40 gris/25941909-3kvnj3viske92fkhpzpddhte-ExtraLarge.jpg",
-                    "assets/img/rolex/Rolex Day-Date 40 gris/25941909-wusrh2d2bx4fovt8e5fx8a2u-ExtraLarge.jpg",
-                    "assets/img/rolex/Rolex Day-Date 40 gris/25941909-81f358h4uxcqonjuewjigz0j-ExtraLarge.jpg",
-                    "assets/img/rolex/Rolex Day-Date 40 gris/OrangeSimpleIllustratiionOnlineShopLogo_6.jpg",
+                    "assets/img/tissot/TISSOT PRX POWERMATIC 80 Blanche/1_206.png",
                 ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
+                'slug' => 'tissot',
+                'brand_slug' => 'tissot',
                 'price' => '750',
                 'price_packaging' => '900',
-                'description' => "Un modèle élégant et raffiné avec un cadran gris, combinant sophistication et modernité. C'est un choix idéal pour l'homme moderne à la recherche d'une montre polyvalente et luxueuse."
+                'description' => "Élégante et lumineuse, cette édition arbore un cadran blanc immaculé qui incarne à la perfection le raffinement minimaliste. Son bracelet en acier inoxydable et son boîtier aux lignes épurées offrent une allure sophistiquée et intemporelle. Grâce à son mouvement automatique Powermatic 80, cette montre assure une précision exceptionnelle et un confort optimal pour une utilisation quotidienne. Son design raffiné en fait une pièce de choix pour les amateurs de montres qui allient modernité et tradition horlogère suisse."
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/rolex/SUBMARINER LUNETTE VERTE MODÈLE 16610LV Pour Homme/4_a8953aa3-9545-4792-b935-dddb79569a19.png',
-                'alt' => 'SUBMARINER LUNETTE VERTE MODÈLE 16610LV',
-                'title' => 'SUBMARINER LUNETTE VERTE MODÈLE 16610LV',
+                'image' => 'assets/img/tissot/Montre Homme TT - PXR Powermatic 80 Cadran Blanc/4_montre-homme-tt-pxr-powermatic-80-cadran-blanc-velvera-ma-1_1800x1800.png',
+                'alt' => 'Montre Homme TT - PXR Powermatic 80 Cadran Blanc',
+                'title' => 'Montre Homme TT - PXR Powermatic 80 Cadran Blanc',
                 'images' => [
-                    "assets/img/rolex/SUBMARINER LUNETTE VERTE MODÈLE 16610LV Pour Homme/ROLEXSUBMARINERLUNETTEVERTEMODELE16610LV5.jpg",
-                    "assets/img/rolex/SUBMARINER LUNETTE VERTE MODÈLE 16610LV Pour Homme/ROLEXSUBMARINERLUNETTEVERTEMODELE16610LV6.jpg",
-                    "assets/img/rolex/SUBMARINER LUNETTE VERTE MODÈLE 16610LV Pour Homme/ROLEXSUBMARINERLUNETTEVERTEMODELE16610LV3.jpg",
-                    "assets/img/rolex/SUBMARINER LUNETTE VERTE MODÈLE 16610LV Pour Homme/4_a8953aa3-9545-4792-b935-dddb79569a19.png",
+                    "assets/img/tissot/Montre Homme TT - PXR Powermatic 80 Cadran Blanc/4_montre-homme-tt-pxr-powermatic-80-cadran-blanc-velvera-ma-1_1800x1800.png",
+                    "assets/img/tissot/Montre Homme TT - PXR Powermatic 80 Cadran Blanc/1_montre-homme-tt-pxr-powermatic-80-cadran-blanc-velvera-ma-3_1800x1800.png",
+                    "assets/img/tissot/Montre Homme TT - PXR Powermatic 80 Cadran Blanc/2_montre-homme-tt-pxr-powermatic-80-cadran-blanc-velvera-ma-2_1800x1800.png",
+                    "assets/img/tissot/Montre Homme TT - PXR Powermatic 80 Cadran Blanc/3_montre-homme-tt-pxr-powermatic-80-cadran-blanc-velvera-ma-4_1800x1800.png",
                 ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
+                'slug' => 'tissot',
+                'brand_slug' => 'tissot',
                 'price' => '750',
                 'price_packaging' => '900',
-                "description" => "Un modèle emblématique avec une lunette verte distinctive, parfait pour les amateurs de plongée et d’élégance."
+                'description' => "Un modèle classique avec un cadran blanc lumineux, idéal pour une allure élégante et sobre."
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/tissot/Montre Homme TT - PXR Powermatic 80 Ice Blue/4_montre-homme-tt-pxr-powermatic-80-ice-blue-velvera-ma-1_1800x1800.png',
+                'alt' => 'Montre Homme TT - PXR Powermatic 80 Ice Blue',
+                'title' => 'Montre Homme TT - PXR Powermatic 80 Ice Blue',
+                'images' => [
+                    "assets/img/tissot/Montre Homme TT - PXR Powermatic 80 Ice Blue/4_montre-homme-tt-pxr-powermatic-80-ice-blue-velvera-ma-1_1800x1800.png",
+                    "assets/img/tissot/Montre Homme TT - PXR Powermatic 80 Ice Blue/2_montre-homme-tt-pxr-powermatic-80-ice-blue-velvera-ma-2_1800x1800.png",
+                    "assets/img/tissot/Montre Homme TT - PXR Powermatic 80 Ice Blue/3_montre-homme-tt-pxr-powermatic-80-ice-blue-velvera-ma-4_1800x1800.png",
+                    "assets/img/tissot/Montre Homme TT - PXR Powermatic 80 Ice Blue/5_montre-homme-tt-pxr-powermatic-80-ice-blue-velvera-ma-5_1800x1800.png",
+                ],
+                'slug' => 'tissot',
+                'brand_slug' => 'tissot',
+                'price' => '750',
+                'price_packaging' => '900',
+                'description' => "Une montre moderne avec un cadran bleu glacé, alliant raffinement et technologie avancée."
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/patekphilippe/Patek Philippe Nautilus/4_36981801-nafjj287x70xecxy7wooxrd8-ExtraLarge.jpg',
+                'alt' => 'Patek Philippe Nautilus',
+                'title' => 'Patek Philippe Nautilus',
+                'images' => [
+                    "assets/img/patekphilippe/Patek Philippe Nautilus/4_36981801-nafjj287x70xecxy7wooxrd8-ExtraLarge.jpg",
+                    "assets/img/patekphilippe/Patek Philippe Nautilus/5_BASELUXREF_22.png",
+                    "assets/img/patekphilippe/Patek Philippe Nautilus/2_36981801-1em4otbsnmckgpv9aqzjf6wy-ExtraLarge.jpg",
+                    "assets/img/patekphilippe/Patek Philippe Nautilus/1_36981801-la0p6uhx4v3vs9xiwrjhci26-ExtraLarge.jpg",
+                ],
+                'slug' => 'patekphilippe',
+                'brand_slug' => 'patekphilippe',
+                'price' => '850',
+                'price_packaging' => '1000',
+                'description' => "L'une des montres les plus emblématiques et convoitées au monde, la Nautilus combine à la perfection un design élégant et un caractère sportif. Dotée d’un cadran rond à huit côtés et d’un bracelet métallique intégré, elle reflète une touche de luxe intemporel tout en restant suffisamment polyvalente pour s’adapter à toutes les occasions. Son style unique et sa qualité exceptionnelle en font une montre de collection très prisée des connaisseurs."
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/patekphilippe/Patek Philippe Aquanaut bleu/1_32833548-hdk663juo1ipvv6qw9zc1t57-ExtraLarge.jpg',
+                'alt' => 'Patek Philippe Aquanaut bleu',
+                'title' => 'Patek Philippe Aquanaut bleu',
+                'images' => [
+                    "assets/img/patekphilippe/Patek Philippe Aquanaut bleu/1_32833548-hdk663juo1ipvv6qw9zc1t57-ExtraLarge.jpg",
+                    "assets/img/patekphilippe/Patek Philippe Aquanaut bleu/3_20417041-6421klt0oct9kesgggf91w2g-ExtraLarge.jpg",
+                    "assets/img/patekphilippe/Patek Philippe Aquanaut bleu/5_ptk_1800x1800_f2be5509-1997-4d94-b978-d2705cf788f3.jpg",
+                    "assets/img/patekphilippe/Patek Philippe Aquanaut bleu/2_20417041-3fsbbi3dkhaotnu851vpad7z-ExtraLarge.jpg",
+                ],
+                'slug' => 'patekphilippe',
+                'brand_slug' => 'patekphilippe',
+                'price' => '850',
+                'price_packaging' => '1000',
+                'description' => "Ce modèle incarne la fusion parfaite entre la haute performance et l’élégance, avec un cadran bleu éclatant qui ajoute une touche dynamique à son allure. Le bracelet en caoutchouc de haute qualité assure confort et flexibilité, faisant de cette montre un choix privilégié pour les amateurs de sports nautiques et les aventuriers, tout en restant sophistiquée pour les occasions les plus élégantes."
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/patekphilippe/Patek Philippe 5968A - AQUANAUT/1_BASE_LUX_REF_32.png',
+                'alt' => 'Patek Philippe 5968A - AQUANAUT',
+                'title' => 'Patek Philippe 5968A - AQUANAUT',
+                'images' => [
+                    "assets/img/patekphilippe/Patek Philippe 5968A - AQUANAUT/1_BASE_LUX_REF_32.png",
+                    "assets/img/patekphilippe/Patek Philippe 5968A - AQUANAUT/2_E8BE86E7-6F21-4287-A289-E901782BDD58.webp"
+                ],
+                'slug' => 'patekphilippe',
+                'brand_slug' => 'patekphilippe',
+                'price' => '850',
+                'price_packaging' => '1000',
+                'description' => "Une montre sportive et élégante en acier inoxydable, dotée d’un cadran noir embossé et d’un chronographe flyback. Son bracelet en composite résistant à l’eau renforce son allure dynamique et moderne."
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/patekphilippe/Patek Philippe 5968G - AQUANAUT/2_Screen_Shot_2020-07-20_at_4.59.06_PM.png',
+                'alt' => 'Patek Philippe 5968G - AQUANAUT',
+                'title' => 'Patek Philippe 5968G - AQUANAUT',
+                'images' => [
+                    "assets/img/patekphilippe/Patek Philippe 5968G - AQUANAUT/2_Screen_Shot_2020-07-20_at_4.59.06_PM.png",
+                    "assets/img/patekphilippe/Patek Philippe 5968G - AQUANAUT/3_5968G_010_12_2x_0b3e95fb-4f7f-4d8d-9975-98036eb0c78a.jpg",
+                    "assets/img/patekphilippe/Patek Philippe 5968G - AQUANAUT/1_150.png",
+                    "assets/img/patekphilippe/Patek Philippe 5968G - AQUANAUT/4_5968G_010_16_2x_323d8fdc-5424-4570-b2a7-9269da7f03e9.jpg",
+                ],
+                'slug' => 'patekphilippe',
+                'brand_slug' => 'patekphilippe',
+                'price' => '850',
+                'price_packaging' => '1000',
+                'description' => "Une version en or blanc de l’Aquanaut Chronographe, offrant un cadran bleu sophistiqué et un design raffiné. Son boîtier luxueux et son bracelet en caoutchouc apportent une combinaison parfaite entre élégance et performance."
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/patekphilippe/Patek Philippe Nautilus Vert Dial/2_23478503-8ctt9h19stumdrghzenbti6f-ExtraLarge.webp',
+                'alt' => 'Patek Philippe Nautilus Vert Dial',
+                'title' => 'Patek Philippe Nautilus Vert Dial',
+                'images' => [
+                    "assets/img/patekphilippe/Patek Philippe Nautilus Vert Dial/2_23478503-8ctt9h19stumdrghzenbti6f-ExtraLarge.webp",
+                    "assets/img/patekphilippe/Patek Philippe Nautilus Vert Dial/4_Untitleddesign_26.png",
+                    "assets/img/patekphilippe/Patek Philippe Nautilus Vert Dial/1_patek-philippe-nautilus-5711-1a-014-stainless-steel-green-dial-patek-philippe-40740412326132_1280x_bfa96ad3-08f9-4522-b13b-0f8e2e09ba42.webp",
+                    "assets/img/patekphilippe/Patek Philippe Nautilus Vert Dial/3_patek-5711-014-06.jpg",
+                ],
+                'slug' => 'patekphilippe',
+                'brand_slug' => 'patekphilippe',
+                'price' => '850',
+                'price_packaging' => '1000',
+                'description' => "Édition rare de la célèbre Nautilus, le Vert Dial se distingue par son cadran vert vibrant et audacieux, tout en préservant l’essence de son design classique. Ce modèle, unique en son genre, attire les regards par son style moderne et audacieux, tout en restant fidèle à l'héritage et à l'élégance intemporelle de la collection Nautilus."
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/patekphilippe/Patek Philippe Aquanaut marron/3_27621978-8glaj1qci3ujw9dbl0fpz6b4-ExtraLarge.jpg',
+                'alt' => 'Patek Philippe Aquanaut marron',
+                'title' => 'Patek Philippe Aquanaut marron',
+                'images' => [
+                    "assets/img/patekphilippe/Patek Philippe Aquanaut marron/3_27621978-8glaj1qci3ujw9dbl0fpz6b4-ExtraLarge.jpg",
+                    "assets/img/patekphilippe/Patek Philippe Aquanaut marron/2_27621978-s97suhk2gkafvtk4rticogo2-ExtraLarge.jpg",
+                    "assets/img/patekphilippe/Patek Philippe Aquanaut marron/5_BASELUXREF_1.jpg",
+                    "assets/img/patekphilippe/Patek Philippe Aquanaut marron/6_BASELUXREF_1.jpg",
+                ],
+                'slug' => 'patekphilippe',
+                'brand_slug' => 'patekphilippe',
+                'price' => '850',
+                'price_packaging' => '1000',
+                'description' => "Une montre au style distinctif avec un cadran marron raffiné et un bracelet en caoutchouc assorti. Son design sportif et luxueux en fait un choix parfait pour les amateurs d'élégance contemporaine."
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/patekphilippe/Patek Philippe Nautilus blanc/5_BASELUXREF_30.png',
+                'alt' => 'Patek Philippe Nautilus blanc',
+                'title' => 'Patek Philippe Nautilus blanc',
+                'images' => [
+                    "assets/img/patekphilippe/Patek Philippe Nautilus blanc/5_BASELUXREF_30.png",
+                    "assets/img/patekphilippe/Patek Philippe Nautilus blanc/1_kzbhnv01p22272-600x600_1.webp",
+                    "assets/img/patekphilippe/Patek Philippe Nautilus blanc/2_girwwktdeox277-600x600.webp",
+                    "assets/img/patekphilippe/Patek Philippe Nautilus blanc/3_czmy4unr22d273-600x600.webp",
+                ],
+                'slug' => 'patekphilippe',
+                'brand_slug' => 'patekphilippe',
+                'price' => '850',
+                'price_packaging' => '1000',
+                'description' => "Une version emblématique de la Nautilus, avec un cadran blanc épuré qui accentue son allure sophistiquée. Son boîtier en acier et son bracelet intégré assurent un confort et une élégance intemporels."
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/patekphilippe/Patek Philippe Aquanaut noir/4_BASE_LUX_REF_ebab2695-9dc6-4966-8f9a-fee8df9235ef.jpg',
+                'alt' => 'Patek Philippe Aquanaut noir',
+                'title' => 'Patek Philippe Aquanaut noir',
+                'images' => [
+                    "assets/img/patekphilippe/Patek Philippe Aquanaut noir/1_33603791-wb9f226xog89k5vh5xunsvex-ExtraLarge.jpg",
+                    "assets/img/patekphilippe/Patek Philippe Aquanaut noir/2_33603791-mysmfex5r8murmmjfp78jgof-ExtraLarge.jpg",
+                    "assets/img/patekphilippe/Patek Philippe Aquanaut noir/3_23549924-ipffv7qdao61vpzem2v8djg2-ExtraLarge.jpg",
+                    "assets/img/patekphilippe/Patek Philippe Aquanaut noir/4_BASE_LUX_REF_ebab2695-9dc6-4966-8f9a-fee8df9235ef.jpg"
+                ],
+                'slug' => 'patekphilippe',
+                'brand_slug' => 'patekphilippe',
+                'price' => '850',
+                'price_packaging' => '1000',
+                'description' => "Un modèle sportif et moderne avec un cadran noir texturé et un bracelet en composite ultra-résistant. Son look sobre et puissant en fait une montre idéale pour les aventuriers et les amateurs de design raffiné."
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/patekphilippe/Patek Philippe diamant/4fb4f390-1d71-46c6-b77d-eb2ff1748252.jpeg',
+                'alt' => 'Patek Philippe diamant',
+                'title' => 'Patek Philippe diamant',
+                'images' => [
+                    "assets/img/patekphilippe/Patek Philippe diamant/4fb4f390-1d71-46c6-b77d-eb2ff1748252.jpeg",
+                    "assets/img/patekphilippe/Patek Philippe diamant/9ef35d5d-8a87-4160-a02d-273eecfe25b5.jpeg",
+                    "assets/img/patekphilippe/Patek Philippe diamant/b873f882-5409-474c-9385-ce01fa83f442.jpeg",
+                ],
+                'slug' => 'patekphilippe',
+                'brand_slug' => 'patekphilippe',
+                'price' => '850',
+                'price_packaging' => '1000',
+                'description' => "Une pièce d’exception ornée de diamants, incarnant le luxe absolu et le savoir-faire horloger suisse."
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/patekphilippe/Patek Philippe nautilus bleu/WhatsApp Image 2025-03-06 at 02.57.31 (1).jpeg',
+                'alt' => 'Patek Philippe nautilus bleu',
+                'title' => 'Patek Philippe nautilus bleu',
+                'images' => [
+                    "assets/img/patekphilippe/Patek Philippe nautilus bleu/WhatsApp Image 2025-03-06 at 02.57.27.jpeg",
+                    "assets/img/patekphilippe/Patek Philippe nautilus bleu/WhatsApp Image 2025-03-06 at 02.57.30.jpeg",
+                    "assets/img/patekphilippe/Patek Philippe nautilus bleu/WhatsApp Image 2025-03-06 at 02.57.31.jpeg",
+                    "assets/img/patekphilippe/Patek Philippe nautilus bleu/WhatsApp Image 2025-03-06 at 02.57.31 (1).jpeg",
+                    "assets/img/patekphilippe/Patek Philippe nautilus bleu/WhatsApp Image 2025-03-06 at 02.57.27.jpeg"
+                ],
+                'slug' => 'patekphilippe',
+                'brand_slug' => 'patekphilippe',
+                'price' => '850',
+                'price_packaging' => '1000',
+                'description' => "Une montre emblématique avec un cadran bleu raffiné, alliant sophistication et sportivité."
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/patekphilippe/Montre Homme Patek Aquanaut Automatique Orange/1_montre-homme-patek-aquanaut-automatique-orange-velvera-ma-1_1800x1800.png',
+                'alt' => 'Montre Homme Patek Aquanaut Automatique Orange',
+                'title' => 'Montre Homme Patek Aquanaut Automatique Orange',
+                'images' => [
+                    "assets/img/patekphilippe/Montre Homme Patek Aquanaut Automatique Orange/4_montre-homme-patek-aquanaut-automatique-orange-velvera-ma-5_1800x1800.png",
+                    "assets/img/patekphilippe/Montre Homme Patek Aquanaut Automatique Orange/3_montre-homme-patek-aquanaut-automatique-orange-velvera-ma-3_1800x1800.png",
+                    "assets/img/patekphilippe/Montre Homme Patek Aquanaut Automatique Orange/2_montre-homme-patek-aquanaut-automatique-orange-velvera-ma-2_1800x1800.png",
+                    "assets/img/patekphilippe/Montre Homme Patek Aquanaut Automatique Orange/1_montre-homme-patek-aquanaut-automatique-orange-velvera-ma-1_1800x1800.png"
+                ],
+                'slug' => 'patekphilippe',
+                'brand_slug' => 'patekphilippe',
+                'price' => '850',
+                'price_packaging' => '1000',
+                'description' => "Une version audacieuse et dynamique avec un bracelet et des détails orange, offrant un style unique et moderne."
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/patekphilippe/Montre Homme Patek - Nautilus Tiffany Automatique/2_montre-homme-patek-nautilus-tiffany-automatique-velvera-ma-1_1800x1800.png',
+                'alt' => 'Montre Homme Patek - Nautilus Tiffany Automatique',
+                'title' => 'Montre Homme Patek - Nautilus Tiffany Automatique',
+                'images' => [
+                    "assets/img/patekphilippe/Montre Homme Patek - Nautilus Tiffany Automatique/1_montre-homme-patek-nautilus-tiffany-automatique-velvera-ma-3_1800x1800.png",
+                    "assets/img/patekphilippe/Montre Homme Patek - Nautilus Tiffany Automatique/3_montre-homme-patek-nautilus-tiffany-automatique-velvera-ma-2_1800x1800.png",
+                    "assets/img/patekphilippe/Montre Homme Patek - Nautilus Tiffany Automatique/4_montre-homme-patek-nautilus-tiffany-automatique-velvera-ma-4_1800x1800.png",
+                    "assets/img/patekphilippe/Montre Homme Patek - Nautilus Tiffany Automatique/2_montre-homme-patek-nautilus-tiffany-automatique-velvera-ma-1_1800x1800.png"
+                ],
+                'slug' => 'patekphilippe',
+                'brand_slug' => 'patekphilippe',
+                'price' => '850',
+                'price_packaging' => '1000',
+                'description' => "Un modèle exclusif avec un cadran bleu Tiffany, combinant luxe et rareté."
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/patekphilippe/Patek Philippe geneve/2_BASELUXREF_28.jpg',
+                'alt' => 'Patek Philippe geneve',
+                'title' => 'Patek Philippe geneve',
+                'images' => [
+                    "assets/img/patekphilippe/Patek Philippe geneve/1_522042045.jpg",
+                    "assets/img/patekphilippe/Patek Philippe geneve/3_522042042.jpg",
+                    "assets/img/patekphilippe/Patek Philippe geneve/4_522042046.jpg",
+                    "assets/img/patekphilippe/Patek Philippe geneve/2_BASELUXREF_28.jpg"
+                ],
+                'slug' => 'patekphilippe',
+                'brand_slug' => 'patekphilippe',
+                'price' => '850',
+                'price_packaging' => '1000',
+                'description' => "Symbole d’excellence horlogère, cette montre incarne le savoir-faire et le raffinement de la maison Patek Philippe."
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/patekphilippe/Patek Philippe Nautilus Chronograph/1_BASELUXREF_50.png',
+                'alt' => 'Patek Philippe Nautilus Chronograph',
+                'title' => 'Patek Philippe Nautilus Chronograph',
+                'images' => [
+                    "assets/img/patekphilippe/Patek Philippe Nautilus Chronograph/2_82444896_117913433065602_3906581031284637696_n.jpg",
+                    "assets/img/patekphilippe/Patek Philippe Nautilus Chronograph/1_BASELUXREF_50.png"
+                ],
+                'slug' => 'patekphilippe',
+                'brand_slug' => 'patekphilippe',
+                'price' => '850',
+                'price_packaging' => '1000',
+                'description' => "Une montre prestigieuse avec fonction chronographe, alliant performance et élégance intemporelle."
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/patekphilippe/Patek Philippe Nautilus chronographe vert/5_BASELUXREF_6f01b9c8-dbe4-4f44-856b-005cb06cf0b9.jpg',
+                'alt' => 'Patek Philippe Nautilus chronographe vert',
+                'title' => 'Patek Philippe Nautilus chronographe vert',
+                'images' => [
+                    "assets/img/patekphilippe/Patek Philippe Nautilus chronographe vert/1_20220918140400_64aa622bdb753f7b61c5187748c57b1c_tr2k_1.jpg",
+                    "assets/img/patekphilippe/Patek Philippe Nautilus chronographe vert/2_20220918140402_64aa622bdb753f7b61c5187748c57b1c_4n7e_1.jpg",
+                    "assets/img/patekphilippe/Patek Philippe Nautilus chronographe vert/3_20220918140401_64aa622bdb753f7b61c5187748c57b1c_2c8x_2.jpg",
+                    "assets/img/patekphilippe/Patek Philippe Nautilus chronographe vert/5_BASELUXREF_6f01b9c8-dbe4-4f44-856b-005cb06cf0b9.jpg"
+                ],
+                'slug' => 'patekphilippe',
+                'brand_slug' => 'patekphilippe',
+                'price' => '850',
+                'price_packaging' => '1000',
+                'description' => "Une version élégante et distinctive avec un cadran vert intense, associant sportivité et sophistication."
             ]
         ];
 
@@ -1010,23 +1268,6 @@ class Product extends Controller
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/patekphilippe/Montre Homme Patek Aquanaut Automatique Orange/1_montre-homme-patek-aquanaut-automatique-orange-velvera-ma-1_1800x1800.png',
-                'alt' => 'Montre Homme Patek Aquanaut Automatique Orange',
-                'title' => 'Montre Homme Patek Aquanaut Automatique Orange',
-                'images' => [
-                    "assets/img/patekphilippe/Montre Homme Patek Aquanaut Automatique Orange/4_montre-homme-patek-aquanaut-automatique-orange-velvera-ma-5_1800x1800.png",
-                    "assets/img/patekphilippe/Montre Homme Patek Aquanaut Automatique Orange/3_montre-homme-patek-aquanaut-automatique-orange-velvera-ma-3_1800x1800.png",
-                    "assets/img/patekphilippe/Montre Homme Patek Aquanaut Automatique Orange/2_montre-homme-patek-aquanaut-automatique-orange-velvera-ma-2_1800x1800.png",
-                    "assets/img/patekphilippe/Montre Homme Patek Aquanaut Automatique Orange/1_montre-homme-patek-aquanaut-automatique-orange-velvera-ma-1_1800x1800.png"
-                ],
-                'slug' => 'patekphilippe',
-                'brand_slug' => 'patekphilippe',
-                'price' => '850',
-                'price_packaging' => '1000',
-                'description' => "Une version audacieuse et dynamique avec un bracelet et des détails orange, offrant un style unique et moderne."
-            ],
-            [
-                'tag' => 'Sale',
                 'image' => 'assets/img/patekphilippe/Patek Philippe diamant/4fb4f390-1d71-46c6-b77d-eb2ff1748252.jpeg',
                 'alt' => 'Patek Philippe diamant',
                 'title' => 'Patek Philippe diamant',
@@ -1058,6 +1299,23 @@ class Product extends Controller
                 'price' => '850',
                 'price_packaging' => '1000',
                 'description' => "Une montre emblématique avec un cadran bleu raffiné, alliant sophistication et sportivité."
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/patekphilippe/Montre Homme Patek Aquanaut Automatique Orange/1_montre-homme-patek-aquanaut-automatique-orange-velvera-ma-1_1800x1800.png',
+                'alt' => 'Montre Homme Patek Aquanaut Automatique Orange',
+                'title' => 'Montre Homme Patek Aquanaut Automatique Orange',
+                'images' => [
+                    "assets/img/patekphilippe/Montre Homme Patek Aquanaut Automatique Orange/4_montre-homme-patek-aquanaut-automatique-orange-velvera-ma-5_1800x1800.png",
+                    "assets/img/patekphilippe/Montre Homme Patek Aquanaut Automatique Orange/3_montre-homme-patek-aquanaut-automatique-orange-velvera-ma-3_1800x1800.png",
+                    "assets/img/patekphilippe/Montre Homme Patek Aquanaut Automatique Orange/2_montre-homme-patek-aquanaut-automatique-orange-velvera-ma-2_1800x1800.png",
+                    "assets/img/patekphilippe/Montre Homme Patek Aquanaut Automatique Orange/1_montre-homme-patek-aquanaut-automatique-orange-velvera-ma-1_1800x1800.png"
+                ],
+                'slug' => 'patekphilippe',
+                'brand_slug' => 'patekphilippe',
+                'price' => '850',
+                'price_packaging' => '1000',
+                'description' => "Une version audacieuse et dynamique avec un bracelet et des détails orange, offrant un style unique et moderne."
             ],
             [
                 'tag' => 'Sale',
@@ -1178,23 +1436,6 @@ class Product extends Controller
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/rolex/Rolex Day-Date 40 blanc/OrangeSimpleIllustratiionOnlineShopLogo_6_fb010ff7-ecb7-4f52-be25-689d38eaa320.jpg',
-                'alt' => 'Rolex Day-Date 40 blanc',
-                'title' => 'Rolex Day-Date 40 blanc',
-                'images' => [
-                    "assets/img/rolex/Rolex Day-Date 40 blanc/OrangeSimpleIllustratiionOnlineShopLogo_6_fb010ff7-ecb7-4f52-be25-689d38eaa320.jpg",
-                    "assets/img/rolex/Rolex Day-Date 40 blanc/31230811-4qzebcbz4nrfcy0ecakmxfq5-ExtraLarge.jpg",
-                    "assets/img/rolex/Rolex Day-Date 40 blanc/31231738-k33auxwa53y3rtqp3h8z3mow-ExtraLarge.jpg",
-                    "assets/img/rolex/Rolex Day-Date 40 blanc/31230811-e60hlm1pnwhfv6elf91un5xp-ExtraLarge.jpg",
-                ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '750',
-                'price_packaging' => '900',
-                'description' => "Une montre prestigieuse qui affiche le jour et la date, avec un cadran blanc raffiné. Le Day-Date est un choix incontournable pour les amateurs de montres haut de gamme, alliant élégance et sophistication pour des occasions formelles ou informelles."
-            ],
-            [
-                'tag' => 'Sale',
                 'image' => 'assets/img/rolex/bruce wayne/s-l1600_8.webp',
                 'alt' => 'bruce wayne',
                 'title' => 'bruce wayne',
@@ -1229,40 +1470,6 @@ class Product extends Controller
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/rolex/ROLEX PLATINUM DAY-DATE 41MM/5_rolex-day-date-228206-iceblueromind-multiple-1_1.jpg',
-                'alt' => 'ROLEX PLATINUM DAY-DATE 41MM',
-                'title' => 'ROLEX PLATINUM DAY-DATE 41MM',
-                'images' => [
-                    "assets/img/rolex/ROLEX PLATINUM DAY-DATE 41MM/5_rolex-day-date-228206-iceblueromind-multiple-1_1.jpg",
-                    "assets/img/rolex/ROLEX PLATINUM DAY-DATE 41MM/2_rolex-day-date-228206-iceblueromind-multiple-6_1.jpg",
-                    "assets/img/rolex/ROLEX PLATINUM DAY-DATE 41MM/3_181705-2_1680x_3fcadb7b-2aea-4c16-9785-1626a3cd6547.jpg",
-                    "assets/img/rolex/ROLEX PLATINUM DAY-DATE 41MM/4_rolex-day-date-228206-iceblueromind-multiple-4_1.jpg",
-                ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '750',
-                'price_packaging' => '900',
-                'description' => "Un modèle exceptionnel de la collection Day-Date, fabriqué en platine pur, un matériau rare et précieux. Ce modèle incarne le summum de la luxe Rolex, offrant une montre d'une beauté époustouflante et d'une qualité inégalée."
-            ],
-            [
-                'tag' => 'Sale',
-                'image' => 'assets/img/rolex/Yacht-Master II 116688 44mm Pour Homme/4_MontreRolexYacht-MasterII11668844mmPourHomme_870f0cfe-3591-4ae8-8cf9-f1bfda51ec10.jpg',
-                'alt' => 'Yacht-Master II 116688 44mm',
-                'title' => 'Yacht-Master II 116688 44mm',
-                'images' => [
-                    "assets/img/rolex/Yacht-Master II 116688 44mm Pour Homme/4_MontreRolexYacht-MasterII11668844mmPourHomme_870f0cfe-3591-4ae8-8cf9-f1bfda51ec10.jpg",
-                    "assets/img/rolex/Yacht-Master II 116688 44mm Pour Homme/1_yachtmasterdoree_821d08e0-8045-4e03-acce-6d3d3977cc33.jpg",
-                    "assets/img/rolex/Yacht-Master II 116688 44mm Pour Homme/3_MontreRolexYacht-MasterII11668844mmPourHomme_9e6e5630-9d46-4cd9-8121-1087cc99e8e6.jpg",
-                    "assets/img/rolex/Yacht-Master II 116688 44mm Pour Homme/2_r446.jpg"
-                ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '750',
-                'price_packaging' => '900',
-                'description' => "Une version luxueuse en or jaune 18K, alliant esthétique raffinée et technologies de pointe."
-            ],
-            [
-                'tag' => 'Sale',
                 'image' => 'assets/img/rolex/Submariner Vert _Hulk_ 116610LV Pour Homme/WhatsApp_Image_2020-02-26_at_21.36.39_1_1.jpg',
                 'alt' => 'Submariner Vert _Hulk_ 116610LV',
                 'title' => 'Submariner Vert _Hulk_ 116610LV',
@@ -1277,40 +1484,6 @@ class Product extends Controller
                 'price' => '750',
                 'price_packaging' => '900',
                 "description" => "Un modèle reconnaissable à son cadran et sa lunette verte, qui associe robustesse et élégance intemporelle."
-            ],
-            [
-                'tag' => 'Sale',
-                'image' => 'assets/img/rolex/Datejust 36 mm Bleu 126234 Modèle 2021/datejustnew7_417de841-743f-4f24-a517-508857cd1a3a.jpg',
-                'alt' => 'Datejust 36 mm Bleu 126234 Modèle 2021',
-                'title' => 'Datejust 36 mm Bleu 126234 Modèle 2021',
-                'images' => [
-                    "assets/img/rolex/Datejust 36 mm Bleu 126234 Modèle 2021/datejustnew7_417de841-743f-4f24-a517-508857cd1a3a.jpg",
-                    "assets/img/rolex/Datejust 36 mm Bleu 126234 Modèle 2021/datejustnew8_fd87adad-ee58-4768-8a42-ee5c94f4c87c.jpg",
-                    "assets/img/rolex/Datejust 36 mm Bleu 126234 Modèle 2021/r4.jpg",
-                    "assets/img/rolex/Datejust 36 mm Bleu 126234 Modèle 2021/datejustnew2_8c420bbc-c9a6-4ff6-a50d-eeda072fd541.jpg",
-                ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '750',
-                'price_packaging' => '900',
-                "description" => "Un modèle élégant avec un cadran bleu profond et un diamètre de 36mm, offrant un design sophistiqué et une élégance inégalée. Parfait pour ceux qui recherchent une montre à la fois compacte et luxueuse."
-            ],
-            [
-                'tag' => 'Sale',
-                'image' => 'assets/img/rolex/Yacht-Master II 116680 44mm Pour Homme/1_r44.png',
-                'alt' => 'Yacht-Master II 116680 44mm',
-                'title' => 'Yacht-Master II 116680 44mm',
-                'images' => [
-                    "assets/img/rolex/Yacht-Master II 116680 44mm Pour Homme/5_MontreRolexYacht-MasterII11668044mmPourHomme_096cc691-1ad5-4a71-95bf-72e304fb8bb4.jpg",
-                    "assets/img/rolex/Yacht-Master II 116680 44mm Pour Homme/1_r44.png",
-                    "assets/img/rolex/Yacht-Master II 116680 44mm Pour Homme/4_MontreRolexYacht-MasterII11668044mmPourHomme_fd2116ee-b477-4137-b6a4-1192395fc812.jpg",
-                    "assets/img/rolex/Yacht-Master II 116680 44mm Pour Homme/3_MontreRolexYacht-MasterII11668044mmPourHomme_0eeeab37-aaaa-4809-a5e6-0b1b1fdb2c41.jpg",
-                ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '750',
-                'price_packaging' => '900',
-                "description" => "Conçue pour les passionnés de navigation, cette montre nautique sophistiquée offre une fonctionnalité avancée et un design imposant."
             ],
             [
                 'tag' => 'Sale',
@@ -1457,7 +1630,7 @@ class Product extends Controller
                     "assets/img/rolex/Rolex Datejust/d8807c521235d6a3363740073ff1c8ca.jpg",
                     "assets/img/rolex/Rolex Datejust/BASELUXREF_11.jpg",
                     "assets/img/rolex/Rolex Datejust/28aefff68c26b70c824095f9e4a79fbd.jpg",
-                    "assets/img/rolex/Rolex Datejust/2b475619815182f72be28e5d61860014.jpg",
+                    "assets/img/rolex/Rolex Datejust/BASELUXREF_11.jpg",
                 ],
                 'slug' => 'rolex',
                 'brand_slug' => 'rolex',
@@ -1498,39 +1671,6 @@ class Product extends Controller
                 'price' => '750',
                 'price_packaging' => '900',
                 'description' => "Un modèle classique de la Submariner, avec un cadran noir intemporel, conçu pour les plongeurs professionnels et amateurs. Il combine robustesse et style, et est l'un des modèles les plus populaires de la collection Rolex."
-            ],
-            [
-                'tag' => 'Sale',
-                'image' => 'assets/img/rolex/Rolex Day-Date 40/2_436470291_18020638049150134_885594530807949034_n.jpg',
-                'alt' => 'Rolex Day-Date 40',
-                'title' => 'Rolex Day-Date 40',
-                'images' => [
-                    "assets/img/rolex/Rolex Day-Date 40/2_436470291_18020638049150134_885594530807949034_n.jpg",
-                    "assets/img/rolex/Rolex Day-Date 40/1_LadyDiorMyABC_10.png",
-                    "assets/img/rolex/Rolex Day-Date 40/3_435480946_18020638040150134_5999913618993311055_n.jpg"
-                ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '750',
-                'price_packaging' => '900',
-                'description' => "Symbole d’élégance et de prestige, cette montre affiche le jour et la date en toutes lettres. Disponible en métaux précieux comme l’or et le platine, elle incarne le raffinement absolu."
-            ],
-            [
-                'tag' => 'Sale',
-                'image' => 'assets/img/rolex/Rolex Day-Date 40 gris/25941909-3kvnj3viske92fkhpzpddhte-ExtraLarge.jpg',
-                'alt' => 'Rolex Day-Date 40 gris',
-                'title' => 'Rolex Day-Date 40 gris',
-                'images' => [
-                    "assets/img/rolex/Rolex Day-Date 40 gris/25941909-3kvnj3viske92fkhpzpddhte-ExtraLarge.jpg",
-                    "assets/img/rolex/Rolex Day-Date 40 gris/25941909-wusrh2d2bx4fovt8e5fx8a2u-ExtraLarge.jpg",
-                    "assets/img/rolex/Rolex Day-Date 40 gris/25941909-81f358h4uxcqonjuewjigz0j-ExtraLarge.jpg",
-                    "assets/img/rolex/Rolex Day-Date 40 gris/OrangeSimpleIllustratiionOnlineShopLogo_6.jpg",
-                ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '750',
-                'price_packaging' => '900',
-                'description' => "Un modèle élégant et raffiné avec un cadran gris, combinant sophistication et modernité. C'est un choix idéal pour l'homme moderne à la recherche d'une montre polyvalente et luxueuse."
             ],
             [
                 'tag' => 'Sale',
