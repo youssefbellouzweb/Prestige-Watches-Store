@@ -1382,7 +1382,7 @@ class Home extends Controller
                     "assets/img/rolex/Rolex Datejust/d8807c521235d6a3363740073ff1c8ca.jpg",
                     "assets/img/rolex/Rolex Datejust/BASELUXREF_11.jpg",
                     "assets/img/rolex/Rolex Datejust/28aefff68c26b70c824095f9e4a79fbd.jpg",
-                    "assets/img/rolex/Rolex Datejust/2b475619815182f72be28e5d61860014.jpg",
+                    "assets/img/rolex/Rolex Datejust/BASELUXREF_11.jpg",
                 ],
                 'slug' => 'rolex',
                 'brand_slug' => 'rolex',
