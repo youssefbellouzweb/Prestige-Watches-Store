@@ -953,19 +953,36 @@ class Home extends Controller
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/patekphilippe/Montre Homme Patek Aquanaut Automatique Noir/1_montre-homme-patek-aquanaut-automatique-noir-velvera-ma-1_1800x1800.png',
-                'alt' => 'Montre Homme Patek Aquanaut Automatique Noir',
-                'title' => 'Montre Homme Patek Aquanaut Automatique Noir',
+                'image' => 'assets/img/patekphilippe/Patek Philippe diamant/4fb4f390-1d71-46c6-b77d-eb2ff1748252.jpeg',
+                'alt' => 'Patek Philippe diamant',
+                'title' => 'Patek Philippe diamant',
                 'images' => [
-                    "assets/img/patekphilippe/Montre Homme Patek Aquanaut Automatique Noir/3_montre-homme-patek-aquanaut-automatique-noir-velvera-ma-3_1800x1800.png",
-                    "assets/img/patekphilippe/Montre Homme Patek Aquanaut Automatique Noir/2_montre-homme-patek-aquanaut-automatique-noir-velvera-ma-2_1800x1800.png",
-                    "assets/img/patekphilippe/Montre Homme Patek Aquanaut Automatique Noir/1_montre-homme-patek-aquanaut-automatique-noir-velvera-ma-1_1800x1800.png"
+                    "assets/img/patekphilippe/Patek Philippe diamant/4fb4f390-1d71-46c6-b77d-eb2ff1748252.jpeg",
+                    "assets/img/patekphilippe/Patek Philippe diamant/9ef35d5d-8a87-4160-a02d-273eecfe25b5.jpeg",
+                    "assets/img/patekphilippe/Patek Philippe diamant/b873f882-5409-474c-9385-ce01fa83f442.jpeg",
                 ],
                 'slug' => 'patekphilippe',
                 'brand_slug' => 'patekphilippe',
                 'price' => '850',
                 'price_packaging' => '1000',
-                'description' => "Un modèle sportif et élégant avec un cadran noir sophistiqué, parfait pour un usage quotidien ou des occasions spéciales."
+                'description' => "Une pièce d’exception ornée de diamants, incarnant le luxe absolu et le savoir-faire horloger suisse."
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/patekphilippe/Patek Philippe Aquanaut noir/WhatsApp Image 2025-03-06 at 02.57.31 (1).jpeg',
+                'alt' => 'Patek Philippe Aquanaut noir',
+                'title' => 'Patek Philippe Aquanaut noir',
+                'images' => [
+                    "assets/img/patekphilippe/Patek Philippe Aquanaut noir/WhatsApp Image 2025-03-06 at 02.57.27.jpeg",
+                    "assets/img/patekphilippe/Patek Philippe Aquanaut noir/WhatsApp Image 2025-03-06 at 02.57.30.jpeg",
+                    "assets/img/patekphilippe/Patek Philippe Aquanaut noir/WhatsApp Image 2025-03-06 at 02.57.31.jpeg",
+                    "assets/img/patekphilippe/Patek Philippe Aquanaut noir/WhatsApp Image 2025-03-06 at 02.57.31 (1).jpeg"
+                ],
+                'slug' => 'patekphilippe',
+                'brand_slug' => 'patekphilippe',
+                'price' => '850',
+                'price_packaging' => '1000',
+                'description' => "Une montre emblématique avec un cadran bleu raffiné, alliant sophistication et sportivité."
             ],
             [
                 'tag' => 'Sale',

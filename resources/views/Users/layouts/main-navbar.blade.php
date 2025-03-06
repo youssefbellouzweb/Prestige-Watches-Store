@@ -3,7 +3,7 @@
     <nav class="nav container">
         <a href="{{route("home")}}" class="nav__logo">
             {{-- <i class='bx bxs-watch nav__logo-icon'></i> Prestige Watches --}}
-            <img style="width: 100%; height: 100%;" src="{{ secure_asset('assets/img/logo.jpeg') }}" alt="">
+            <img style="width: 100%; height: 100%;" src="{{ secure_asset('assets/img/logo.webp') }}" alt="">
         </a>
 
         <div class="nav__menu" id="nav-menu">
