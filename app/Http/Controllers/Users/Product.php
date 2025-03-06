@@ -1050,7 +1050,8 @@ class Product extends Controller
                     "assets/img/patekphilippe/patek Philippe nautilus bleu/WhatsApp Image 2025-03-06 at 02.57.27.jpeg",
                     "assets/img/patekphilippe/patek Philippe nautilus bleu/WhatsApp Image 2025-03-06 at 02.57.30.jpeg",
                     "assets/img/patekphilippe/patek Philippe nautilus bleu/WhatsApp Image 2025-03-06 at 02.57.31.jpeg",
-                    "assets/img/patekphilippe/patek Philippe nautilus bleu/WhatsApp Image 2025-03-06 at 02.57.31 (1).jpeg"
+                    "assets/img/patekphilippe/patek Philippe nautilus bleu/WhatsApp Image 2025-03-06 at 02.57.31 (1).jpeg",
+                    "assets/img/patekphilippe/patek Philippe nautilus bleu/WhatsApp Image 2025-03-06 at 02.57.27.jpeg"
                 ],
                 'slug' => 'patekphilippe',
                 'brand_slug' => 'patekphilippe',
