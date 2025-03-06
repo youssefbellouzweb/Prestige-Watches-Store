@@ -23,6 +23,6 @@
 </footer>
 
 <!--=============== SCROLL UP ===============-->
-<a href="#" class="scrollup" id="scroll-up">
+<a href="https://www.instagram.com/prestigewatches" class="scrollup" id="scroll-up">
     <i class='bx bx-up-arrow-alt scrollup__icon'></i>
 </a>

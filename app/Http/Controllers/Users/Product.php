@@ -363,6 +363,23 @@ class Product extends Controller
             ],
             [
                 'tag' => 'Sale',
+                'image' => 'assets/img/audemars/audemart piguet skeleton rose gold/IMG_8517.PNG',
+                'alt' => 'audemart piguet skeleton rose gold',
+                'title' => 'audemart piguet skeleton rose gold',
+                'images' => [
+                    "assets/img/audemars/audemart piguet skeleton rose gold/IMG_8517.PNG",
+                    "assets/img/audemars/audemart piguet skeleton rose gold/IMG_8518.PNG",
+                    "assets/img/audemars/audemart piguet skeleton rose gold/IMG_8519.PNG",
+                    "assets/img/audemars/audemart piguet skeleton rose gold/IMG_8520.PNG",
+                ],
+                'slug' => 'audemars',
+                'brand_slug' => 'audemars',
+                'price' => '850',
+                'price_packaging' => '999',
+                'description' => "Un chef-d'œuvre horloger avec un cadran squelette qui révèle la complexité du mouvement, sublimé par un boîtier en or rose 18K."
+            ],
+            [
+                'tag' => 'Sale',
                 'image' => 'assets/img/hublot/Hublot Classic Fusion noir/2_s3b6530-4.jpg',
                 'alt' => 'Hublot Classic Fusion noir',
                 'title' => 'Hublot Classic Fusion noir',
@@ -1513,6 +1530,23 @@ class Product extends Controller
                 'price' => '750',
                 'price_packaging' => '900',
                 "description" => "Un modèle emblématique avec une lunette verte distinctive, parfait pour les amateurs de plongée et d’élégance."
+            ],
+            [
+                'tag' => 'Sale',
+                'image' => 'assets/img/rolex/Rolex Daytona rainbow/IMG_8515.PNG',
+                'alt' => 'Rolex Daytona rainbow',
+                'title' => 'Rolex Daytona rainbow',
+                'images' => [
+                    "assets/img/rolex/Rolex Daytona rainbow/IMG_8513.PNG",
+                    "assets/img/rolex/Rolex Daytona rainbow/IMG_8514.PNG",
+                    "assets/img/rolex/Rolex Daytona rainbow/IMG_8515.PNG",
+                    "assets/img/rolex/Rolex Daytona rainbow/IMG_8515.PNG",
+                ],
+                'slug' => 'rolex',
+                'brand_slug' => 'rolex',
+                'price' => '850',
+                'price_packaging' => '1000',
+                "description" => "Une montre iconique sertie de saphirs multicolores sur la lunette, combinant le design légendaire de la Daytona avec une touche éclatante et luxueuse."
             ]
         ];
 

@@ -20,7 +20,7 @@
                 </div>
 
                 <div class="home__social">
-                    <a href="#" target="_blank" class="home__social-link">
+                    <a href="https://www.instagram.com/prestigewatches" target="_blank" class="home__social-link">
                         Instagram
                     </a>
                 </div>
@@ -95,8 +95,11 @@
                         <div class="container">
 
                             <p class="our-story__text">
-                                Prestige Watches, we blend the charm of Moroccan craftsmanship with unmatched quality and
-                                fair prices. Discover luxury without compromise.
+                                Fondée en 2022, Prestige Watches s'est imposée comme une référence pour les amateurs de montres de luxe au Maroc. Nous avons une mission claire : offrir à nos clients les plus belles pièces horlogères au meilleur prix, sans compromis sur l'authenticité et la qualité.
+
+Ce qui nous distingue ? Nous importons nous-mêmes chaque montre depuis l’étranger, en sélectionnant soigneusement nos modèles auprès de fournisseurs de confiance. Cela nous permet de garantir l'originalité et l'excellence de nos produits, tout en offrant des tarifs compétitifs.
+
+Chez Prestige Watches, chaque montre est plus qu’un accessoire : c’est un symbole d’élégance, de prestige et de savoir-faire. Faites confiance à notre expertise pour trouver la pièce parfaite qui sublimera votre poignet.
                             </p>
                         </div>
                     </section>
