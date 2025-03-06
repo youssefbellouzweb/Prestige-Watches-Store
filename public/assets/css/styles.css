@@ -431,6 +431,7 @@ body.dark-theme .product-item a.button:hover {
     font-size: var(--biggest-font-size);
     font-weight: var(--font-bold);
     margin-bottom: var(--mb-1);
+    text-transform: capitalize;
 }
 
 .home__description {
