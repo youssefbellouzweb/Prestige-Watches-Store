@@ -10,7 +10,7 @@
 @endsection
 
 @section('style')
-    <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}" />
+    <link rel="stylesheet" href="{{ secure_asset('assets/css/main.css') }}" />
     <style>
         /* Form Section Styles */
         .form-section {
@@ -108,12 +108,12 @@
         <div class="detail-container">
             <div class="detail-row">
                 <div class="detail-col-2">
-                    <img src="{{ asset($product['image']) }}" class="detail-product-image" id="emphasisPicture" />
+                    <img src="{{ secure_asset($product['image']) }}" class="detail-product-image" id="emphasisPicture" />
                     <div class="detail-smallImg detail-product-image">
                         @if (!empty($product['images']))
                             @foreach ($product['images'] as $image)
                                 <div class="detail-col-4">
-                                    <img src="{{ asset($image) }}" class="smallpictures {{ $loop->first ? 'active' : '' }}"
+                                    <img src="{{ secure_asset($image) }}" class="smallpictures {{ $loop->first ? 'active' : '' }}"
                                         alt="Product Image" />
                                 </div>
                             @endforeach
@@ -132,9 +132,9 @@
                     {{-- <span class="detail-totalValue">$250.00</span> --}}
                     <div class="detail-buttonsRow">
                         <div class="detail-increment">
-                            <img src="{{ asset('images/icon-minus.svg') }}" id="minus" />
+                            <img src="{{ secure_asset('images/icon-minus.svg') }}" id="minus" />
                             <input type="number" name="totalItems" id="totalItems" value="1" min="1" />
-                            <img src="{{ asset('images/icon-plus.svg') }}" id="plus" />
+                            <img src="{{ secure_asset('images/icon-plus.svg') }}" id="plus" />
                         </div>
                         {{-- <div class="detail-callToAction">
                             <button id="btn">
@@ -185,7 +185,7 @@
                     <article class="featured__card">
                         <span class="featured__tag">{{ $watche['tag'] }}</span>
 
-                        <img src="{{ asset($watche['image']) }}" alt="{{ $watche['alt'] }}" class="featured__img">
+                        <img src="{{ secure_asset($watche['image']) }}" alt="{{ $watche['alt'] }}" class="featured__img">
 
                         <div class="featured__data">
                             <h3 class="featured__title">{{ $watche['title'] }}</h3>
@@ -208,5 +208,5 @@
 @endsection
 
 @section('js')
-    <script src="{{ asset('assets/js/script.js') }}"></script>
+    <script src="{{ secure_asset('assets/js/script.js') }}"></script>
 @endsection
