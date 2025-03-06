@@ -6,6 +6,26 @@ document.addEventListener("DOMContentLoaded", () => {
     // const price = document.getElementById("price").value;
 
     document
+        .getElementById("avec_emballage")
+        .addEventListener("click", function () {
+            const price = document.getElementById("price").value;
+            const price_packaging =
+                document.getElementById("price_packaging").value;
+            const emballages = document.getElementsByName("emballage");
+
+            if (
+                emballages[0].checked &&
+                emballages[0].value == "avec_emballage"
+            ) {
+                document.getElementById("price-product").innerHTML =
+                    price_packaging + "DH";
+            } else {
+                document.getElementById("price-product").innerHTML =
+                    parseFloat(price) + "DH";
+            }
+        });
+
+    document
         .getElementById("formSubmitBtn")
         .addEventListener("click", function () {
             const name = document.getElementById("name").value;
@@ -14,14 +34,19 @@ document.addEventListener("DOMContentLoaded", () => {
             const ville = document.getElementById("ville").value;
             const name_product = document.getElementById("name_product").value;
             const price = document.getElementById("price").value;
-            const price_packaging = document.getElementById("price_packaging").value;
+            const price_packaging =
+                document.getElementById("price_packaging").value;
             const totalItems = document.getElementById("totalItems").value;
             const emballages = document.getElementsByName("emballage");
             const numberphone = +212716456227;
 
-            for(i = 0; i < emballages.length; i++) {
-                if (emballages[i].checked && emballages[i].value == "avec_emballage") {
-                    document.getElementById("price-product").innerHTML = parseFloat(price_packaging)
+            for (i = 0; i < emballages.length; i++) {
+                if (
+                    emballages[i].checked &&
+                    emballages[i].value == "avec_emballage"
+                ) {
+                    document.getElementById("price-product").innerHTML =
+                        parseFloat(price_packaging);
                     // alert(emballages[i].value)
                     const message = `Nom et Prénom: ${name}\nNuméro de Téléphone: ${phone}\nAdresse: ${address}\nCity: ${ville}\nProduct Name: ${name_product}\nPrice: ${price_packaging}\nQuantity: ${parseInt(
                         totalItems
@@ -33,7 +58,8 @@ document.addEventListener("DOMContentLoaded", () => {
                     )}`;
                     window.location.href = whatsappUrl;
                 } else {
-                    document.getElementById("price-product").innerHTML = parseFloat(price)
+                    document.getElementById("price-product").innerHTML =
+                        parseFloat(price);
                     const message = `Nom et Prénom: ${name}\nNuméro de Téléphone: ${phone}\nAdresse: ${address}\nCity: ${ville}\nProduct Name: ${name_product}\nPrice: ${price}\nQuantity: ${parseInt(
                         totalItems
                     )}\nPrix Total: ${
@@ -45,8 +71,6 @@ document.addEventListener("DOMContentLoaded", () => {
                     window.location.href = whatsappUrl;
                 }
             }
-
-
         });
 
     plus.addEventListener(
