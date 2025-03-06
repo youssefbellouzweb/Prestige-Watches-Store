@@ -168,7 +168,7 @@
                             <div class="form-radio">
                                 <div>
                                     <input type="checkbox" id="avec_emballage" name="emballage" value="avec_emballage">
-                                    <label for="avec_emballage">avec emballage</label>
+                                    <label for="avec_emballage">avec packaging (+149 DH)</label>
                                 </div>
                             </div>
                             <button type="button" id="formSubmitBtn">Buy Now</button>
