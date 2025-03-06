@@ -427,7 +427,7 @@ body.dark-theme .product-item a.button:hover {
     color: var(--title-color);
 }
 
-.home__title {
+.home__title , .home__title div {
     font-size: var(--biggest-font-size);
     font-weight: var(--font-bold);
     margin-bottom: var(--mb-1);

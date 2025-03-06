@@ -25,7 +25,7 @@
                     </a>
                 </div>
                 <div class="home__data">
-                    <h1 class="home__title">{{ $product['brand_slug'] }}<br>{{ $product['title'] }}</h1>
+                    <h1 class="home__title"><div>{{ $product['brand_slug'] }}</div><br>{{ $product['title'] }}</h1>
                     <p class="home__description">
                         {{ $product['description'] }}
                     </p>
