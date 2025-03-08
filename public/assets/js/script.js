@@ -39,6 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const totalItems = document.getElementById("totalItems").value;
             const emballages = document.getElementsByName("emballage");
             const numberphone = +212622314644;
+            // i will chnge number phone
 
             for (i = 0; i < emballages.length; i++) {
                 if (
