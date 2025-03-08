@@ -129,7 +129,7 @@
                         <span class="detail-productValue" id="price-product" >{{ $product['price'] }}DH</span>
                         {{-- <span class="detail-percentage">50%</span> --}}
                     </div>
-                    {{-- <span class="detail-totalValue">$250.00</span> --}}
+                    <span class="detail-totalValue">{{ $product['price'] + 500 }}DH</span>
                     <div class="detail-buttonsRow">
                         <div class="detail-increment">
                             <img src="{{ secure_asset('images/icon-minus.svg') }}" id="minus" />

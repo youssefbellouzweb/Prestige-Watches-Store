@@ -61,7 +61,8 @@ class Product extends Controller
                 'alt' => 'TISSOT PRX POWERMATIC 80Noir',
                 'title' => 'TISSOT PRX POWERMATIC 80Noir',
                 'images' => [
-                    "assets/img/tissot/TISSOT PRX POWERMATIC 80Noir/1_205.png"
+                    "assets/img/tissot/TISSOT PRX POWERMATIC 80Noir/1_205.png",
+                    "assets/img/tissot/TISSOT PRX POWERMATIC 80Noir/IMG_5824.HEIC"
                 ],
                 'slug' => 'tissot',
                 'brand_slug' => 'tissot',
@@ -76,7 +77,8 @@ class Product extends Controller
                 'title' => 'TISSOT PRX POWERMATIC 80 Bleu',
                 'images' => [
                     "assets/img/tissot/TISSOT PRX POWERMATIC 80 Bleu/1_T137.407.11.041.00_AMB_S_1.webp",
-                    "assets/img/tissot/TISSOT PRX POWERMATIC 80 Bleu/2_204.png"
+                    "assets/img/tissot/TISSOT PRX POWERMATIC 80 Bleu/2_204.png",
+                    "assets/img/tissot/TISSOT PRX POWERMATIC 80 Bleu/IMG_5772.HEIC",
                 ],
                 'slug' => 'tissot',
                 'brand_slug' => 'tissot',
@@ -90,7 +92,8 @@ class Product extends Controller
                 'alt' => 'TISSOT PRX POWERMATIC 80 Vert',
                 'title' => 'TISSOT PRX POWERMATIC 80 Vert',
                 'images' => [
-                    "assets/img/tissot/TISSOT PRX POWERMATIC 80 Vert/1_207.png"
+                    "assets/img/tissot/TISSOT PRX POWERMATIC 80 Vert/1_207.png",
+                    "assets/img/tissot/TISSOT PRX POWERMATIC 80 Vert/IMG_8541.PNG",
                 ],
                 'slug' => 'tissot',
                 'brand_slug' => 'tissot',
@@ -1713,6 +1716,9 @@ class Product extends Controller
                 'title' => 'Daytona Cosmographe Bleu Glace 116506IB',
                 'images' => [
                     "assets/img/rolex/Daytona Cosmographe Bleu Glace 116506IB/1_2_bd2bd92b-4fb5-440e-8cd2-f43d729fe8e9.png",
+                    "assets/img/rolex/Daytona Cosmographe Bleu Glace 116506IB/IMG_7139.JPG",
+                    "assets/img/rolex/Daytona Cosmographe Bleu Glace 116506IB/IMG_8539.PNG",
+                    "assets/img/rolex/Daytona Cosmographe Bleu Glace 116506IB/IMG_8540.PNG",
                 ],
                 'slug' => 'rolex',
                 'brand_slug' => 'rolex',

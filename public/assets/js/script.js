@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 document.getElementById("price_packaging").value;
             const totalItems = document.getElementById("totalItems").value;
             const emballages = document.getElementsByName("emballage");
-            const numberphone = +212622314644;
+            // const numberphone = +212622314644;
             // +212605174019
             for (i = 0; i < emballages.length; i++) {
                 if (
