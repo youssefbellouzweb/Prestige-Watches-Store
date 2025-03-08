@@ -4,9 +4,9 @@
         <div class="footer__content">
             <h3 class="footer__title">Our Information</h3>
             <ul class="footer__list">
-                <li>Rabat, Morocco</li>
-                <li>Rabat</li>
-                <li>+212-61-456-7890</li>
+                <li>CasaBlanca, Morocco</li>
+                <li>CasaBlanca</li>
+                <li>0622314644</li>
             </ul>
         </div>
         <div class="footer__content">
