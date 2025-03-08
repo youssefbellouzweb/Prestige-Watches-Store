@@ -39,7 +39,6 @@ document.addEventListener("DOMContentLoaded", () => {
             const totalItems = document.getElementById("totalItems").value;
             const emballages = document.getElementsByName("emballage");
             const numberphone = +212622314644;
-            // i will chnge number phone
 
             for (i = 0; i < emballages.length; i++) {
                 if (
@@ -48,7 +47,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 ) {
                     document.getElementById("price-product").innerHTML =
                         parseFloat(price_packaging);
-                    // alert(emballages[i].value)
                     const message = `Nom et Prénom: ${name}\nNuméro de Téléphone: ${phone}\nAdresse: ${address}\nCity: ${ville}\nProduct Name: ${name_product}\nPrice: ${price_packaging}\nQuantity: ${parseInt(
                         totalItems
                     )}\nPrix Total: ${
