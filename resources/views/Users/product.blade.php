@@ -185,7 +185,7 @@
                     <article class="featured__card">
                         <span class="featured__tag">{{ $watche['tag'] }}</span>
 
-                        <img src="{{ secure_asset($watche['image']) }}" alt="{{ $watche['alt'] }}" class="featured__img">
+                        <img src="{{ secure_asset($watche['image']) }}" alt="{{ $watche['alt'] }} - {{ $watche['title'] }} : {{ $watche['price'] }}DH" class="featured__img">
 
                         <div class="featured__data">
                             <h3 class="featured__title">{{ $watche['title'] }}</h3>

@@ -2,6 +2,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const plus = document.getElementById("plus");
     const minus = document.getElementById("minus");
     const totalItems = document.getElementById("totalItems");
+    // const name_product = document.getElementById("name_product").value;
+    // const price = document.getElementById("price").value;
 
     document
         .getElementById("avec_emballage")
@@ -37,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const totalItems = document.getElementById("totalItems").value;
             const emballages = document.getElementsByName("emballage");
             const numberphone = +212622314644;
-
+            // +212605174019
             for (i = 0; i < emballages.length; i++) {
                 if (
                     emballages[i].checked &&
@@ -45,12 +47,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 ) {
                     document.getElementById("price-product").innerHTML =
                         parseFloat(price_packaging);
+                    // alert(emballages[i].value)
                     const message = `Nom et Prénom: ${name}\nNuméro de Téléphone: ${phone}\nAdresse: ${address}\nCity: ${ville}\nProduct Name: ${name_product}\nPrice: ${price_packaging}\nQuantity: ${parseInt(
                         totalItems
                     )}\nPrix Total: ${
                         parseFloat(price_packaging) * parseInt(totalItems)
                     }DH\n`;
-                    const whatsappUrl = `https://wa.me/${numberphone}?text=${encodeURIComponent(
+                    const whatsappUrl = `https://wa.me/+212622314644?text=${encodeURIComponent(
                         message
                     )}`;
                     window.location.href = whatsappUrl;
@@ -62,7 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     )}\nPrix Total: ${
                         parseFloat(price) * parseInt(totalItems)
                     }DH\n`;
-                    const whatsappUrl = `https://wa.me/${numberphone}?text=${encodeURIComponent(
+                    const whatsappUrl = `https://wa.me/+212622314644?text=${encodeURIComponent(
                         message
                     )}`;
                     window.location.href = whatsappUrl;
