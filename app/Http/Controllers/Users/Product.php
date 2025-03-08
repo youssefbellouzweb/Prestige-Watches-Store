@@ -770,74 +770,74 @@ class Product extends Controller
                 'price_packaging' => '900',
                 'description' => 'Une pièce d’exception qui marie le prestige de l’or King Gold 18 carats à la profondeur d’un cadran bleu intense. Ce contraste saisissant confère à cette montre une allure royale et somptueuse, idéale pour ceux qui recherchent une montre de luxe au design raffiné.'
             ],
-            [
-                'tag' => 'Sale',
-                'image' => 'assets/img/richardmille/Richard Mille RM 011 Jaune/4_15523190-13z7kdxnycki7tc3wuy1x93j-Zoom.jpg',
-                'alt' => 'Richard Mille RM 011 Jaune',
-                'title' => 'Richard Mille RM 011 Jaune',
-                'images' => [
-                    "assets/img/richardmille/Richard Mille RM 011 Jaune/4_15523190-13z7kdxnycki7tc3wuy1x93j-Zoom.jpg",
-                    "assets/img/richardmille/Richard Mille RM 011 Jaune/5_15523190-ycysta8msunsqf6n4xpgnp14-Zoom.jpg",
-                    "assets/img/richardmille/Richard Mille RM 011 Jaune/3_15523190-w5ohjseyjm7jtco9v2essx6l-Zoom.jpg",
-                    "assets/img/richardmille/Richard Mille RM 011 Jaune/1_123603946_425909642138497_5770804937536754074_n.jpg",
-                ],
-                'slug' => 'richardmille',
-                'brand_slug' => 'richardmille',
-                'price' => '850',
-                'price_packaging' => '999',
-                'description' => 'Une montre sportive emblématique au design audacieux, dotée d’un boîtier au style architectural unique et de touches jaunes vives qui lui confèrent une allure dynamique et moderne. Son mouvement automatique sophistiqué et son cadran squelette témoignent du savoir-faire exceptionnel de la maison Richard Mille.'
-            ],
-            [
-                'tag' => 'Sale',
-                'image' => 'assets/img/richardmille/Richard mille RM65-01 noir/1_33317392-6cyp262i3r38iaxaz4xritzu-Zoom.jpg',
-                'alt' => 'Richard mille RM65-01 noir',
-                'title' => 'Richard mille RM65-01 noir',
-                'images' => [
-                    "assets/img/richardmille/Richard mille RM65-01 noir/1_33317392-6cyp262i3r38iaxaz4xritzu-Zoom.jpg",
-                    "assets/img/richardmille/Richard mille RM65-01 noir/2_33317392-jbrvw3ravk779ct6j5shpxmr-Zoom.jpg",
-                    "assets/img/richardmille/Richard mille RM65-01 noir/3_Untitleddesign_92.png",
-                    "assets/img/richardmille/Richard mille RM65-01 noir/4_33317392-wb2xbpptx5lp902laa6gpuus-Zoom.jpg"
-                ],
-                'slug' => 'richardmille',
-                'brand_slug' => 'richardmille',
-                'price' => '850',
-                'price_packaging' => '999',
-                'description' => 'Un modèle qui incarne la fusion parfaite entre esthétique et haute technologie. Son boîtier noir robuste, associé à un cadran complexe aux détails raffinés, met en avant le caractère avant-gardiste de la marque. Conçue pour les passionnés d’horlogerie à la recherche d’une montre alliant performance et élégance discrète.'
-            ],
-            [
-                'tag' => 'Sale',
-                'image' => 'assets/img/richardmille/Richard mille RM65-01 Gold/2_28949872-56epikwacv3yi25cuceo7fiy-Zoom.jpg',
-                'alt' => 'Richard mille RM65-01 Gold',
-                'title' => 'Richard mille RM65-01 Gold',
-                'images' => [
-                    "assets/img/richardmille/Richard mille RM65-01 Gold/2_28949872-56epikwacv3yi25cuceo7fiy-Zoom.jpg",
-                    "assets/img/richardmille/Richard mille RM65-01 Gold/4_28949872-6r1z8i9tbgtpqzt9iqsughhs-Zoom.jpg",
-                    "assets/img/richardmille/Richard mille RM65-01 Gold/1_28949872-56epikwacv3yi25cuceo7fiy-Zoom.jpg",
-                    "assets/img/richardmille/Richard mille RM65-01 Gold/3_28949872-56epikwacv3yi25cuceo7fiy-Zoom.jpg"
-                ],
-                'slug' => 'richardmille',
-                'brand_slug' => 'richardmille',
-                'price' => '850',
-                'price_packaging' => '999',
-                'description' => 'Une variation luxueuse du modèle précédent, où l’or remplace le titane pour un rendu plus prestigieux. Cette montre allie sophistication et excellence mécanique, avec un mouvement de chronographe de haute précision logé dans un boîtier en or raffiné. Une pièce d’exception pour ceux qui recherchent l’exclusivité.'
-            ],
-            [
-                'tag' => 'Sale',
-                'image' => 'assets/img/richardmille/Richard mille RM 65-01 gris/2_2024-05-0713.53.42.jpg',
-                'alt' => 'Richard mille RM 65-01 gris',
-                'title' => 'Richard mille RM 65-01 gris',
-                'images' => [
-                    "assets/img/richardmille/Richard mille RM 65-01 gris/2_2024-05-0713.53.42.jpg",
-                    "assets/img/richardmille/Richard mille RM 65-01 gris/3_2024-05-0713.53.36.jpg",
-                    "assets/img/richardmille/Richard mille RM 65-01 gris/4_364681720_18381205465004303_6790657388004308783_n.jpg",
-                    "assets/img/richardmille/Richard mille RM 65-01 gris/1_2024-05-0713.53.45.jpg",
-                ],
-                'slug' => 'richardmille',
-                'brand_slug' => 'richardmille',
-                'price' => '850',
-                'price_packaging' => '999',
-                'description' => 'Une version élégante et contemporaine qui se distingue par son coloris gris sophistiqué. Son design technique et sa finition impeccable en font un modèle incontournable pour les amateurs de montres haut de gamme au style raffiné.'
-            ],
+            // [
+            //     'tag' => 'Sale',
+            //     'image' => 'assets/img/richardmille/Richard Mille RM 011 Jaune/4_15523190-13z7kdxnycki7tc3wuy1x93j-Zoom.jpg',
+            //     'alt' => 'Richard Mille RM 011 Jaune',
+            //     'title' => 'Richard Mille RM 011 Jaune',
+            //     'images' => [
+            //         "assets/img/richardmille/Richard Mille RM 011 Jaune/4_15523190-13z7kdxnycki7tc3wuy1x93j-Zoom.jpg",
+            //         "assets/img/richardmille/Richard Mille RM 011 Jaune/5_15523190-ycysta8msunsqf6n4xpgnp14-Zoom.jpg",
+            //         "assets/img/richardmille/Richard Mille RM 011 Jaune/3_15523190-w5ohjseyjm7jtco9v2essx6l-Zoom.jpg",
+            //         "assets/img/richardmille/Richard Mille RM 011 Jaune/1_123603946_425909642138497_5770804937536754074_n.jpg",
+            //     ],
+            //     'slug' => 'richardmille',
+            //     'brand_slug' => 'richardmille',
+            //     'price' => '850',
+            //     'price_packaging' => '999',
+            //     'description' => 'Une montre sportive emblématique au design audacieux, dotée d’un boîtier au style architectural unique et de touches jaunes vives qui lui confèrent une allure dynamique et moderne. Son mouvement automatique sophistiqué et son cadran squelette témoignent du savoir-faire exceptionnel de la maison Richard Mille.'
+            // ],
+            // [
+            //     'tag' => 'Sale',
+            //     'image' => 'assets/img/richardmille/Richard mille RM65-01 noir/1_33317392-6cyp262i3r38iaxaz4xritzu-Zoom.jpg',
+            //     'alt' => 'Richard mille RM65-01 noir',
+            //     'title' => 'Richard mille RM65-01 noir',
+            //     'images' => [
+            //         "assets/img/richardmille/Richard mille RM65-01 noir/1_33317392-6cyp262i3r38iaxaz4xritzu-Zoom.jpg",
+            //         "assets/img/richardmille/Richard mille RM65-01 noir/2_33317392-jbrvw3ravk779ct6j5shpxmr-Zoom.jpg",
+            //         "assets/img/richardmille/Richard mille RM65-01 noir/3_Untitleddesign_92.png",
+            //         "assets/img/richardmille/Richard mille RM65-01 noir/4_33317392-wb2xbpptx5lp902laa6gpuus-Zoom.jpg"
+            //     ],
+            //     'slug' => 'richardmille',
+            //     'brand_slug' => 'richardmille',
+            //     'price' => '850',
+            //     'price_packaging' => '999',
+            //     'description' => 'Un modèle qui incarne la fusion parfaite entre esthétique et haute technologie. Son boîtier noir robuste, associé à un cadran complexe aux détails raffinés, met en avant le caractère avant-gardiste de la marque. Conçue pour les passionnés d’horlogerie à la recherche d’une montre alliant performance et élégance discrète.'
+            // ],
+            // [
+            //     'tag' => 'Sale',
+            //     'image' => 'assets/img/richardmille/Richard mille RM65-01 Gold/2_28949872-56epikwacv3yi25cuceo7fiy-Zoom.jpg',
+            //     'alt' => 'Richard mille RM65-01 Gold',
+            //     'title' => 'Richard mille RM65-01 Gold',
+            //     'images' => [
+            //         "assets/img/richardmille/Richard mille RM65-01 Gold/2_28949872-56epikwacv3yi25cuceo7fiy-Zoom.jpg",
+            //         "assets/img/richardmille/Richard mille RM65-01 Gold/4_28949872-6r1z8i9tbgtpqzt9iqsughhs-Zoom.jpg",
+            //         "assets/img/richardmille/Richard mille RM65-01 Gold/1_28949872-56epikwacv3yi25cuceo7fiy-Zoom.jpg",
+            //         "assets/img/richardmille/Richard mille RM65-01 Gold/3_28949872-56epikwacv3yi25cuceo7fiy-Zoom.jpg"
+            //     ],
+            //     'slug' => 'richardmille',
+            //     'brand_slug' => 'richardmille',
+            //     'price' => '850',
+            //     'price_packaging' => '999',
+            //     'description' => 'Une variation luxueuse du modèle précédent, où l’or remplace le titane pour un rendu plus prestigieux. Cette montre allie sophistication et excellence mécanique, avec un mouvement de chronographe de haute précision logé dans un boîtier en or raffiné. Une pièce d’exception pour ceux qui recherchent l’exclusivité.'
+            // ],
+            // [
+            //     'tag' => 'Sale',
+            //     'image' => 'assets/img/richardmille/Richard mille RM 65-01 gris/2_2024-05-0713.53.42.jpg',
+            //     'alt' => 'Richard mille RM 65-01 gris',
+            //     'title' => 'Richard mille RM 65-01 gris',
+            //     'images' => [
+            //         "assets/img/richardmille/Richard mille RM 65-01 gris/2_2024-05-0713.53.42.jpg",
+            //         "assets/img/richardmille/Richard mille RM 65-01 gris/3_2024-05-0713.53.36.jpg",
+            //         "assets/img/richardmille/Richard mille RM 65-01 gris/4_364681720_18381205465004303_6790657388004308783_n.jpg",
+            //         "assets/img/richardmille/Richard mille RM 65-01 gris/1_2024-05-0713.53.45.jpg",
+            //     ],
+            //     'slug' => 'richardmille',
+            //     'brand_slug' => 'richardmille',
+            //     'price' => '850',
+            //     'price_packaging' => '999',
+            //     'description' => 'Une version élégante et contemporaine qui se distingue par son coloris gris sophistiqué. Son design technique et sa finition impeccable en font un modèle incontournable pour les amateurs de montres haut de gamme au style raffiné.'
+            // ],
             [
                 'tag' => 'Sale',
                 'image' => 'assets/img/cartier/Santos bleu/5_w1242_tpadding12_6_0d7abf1d-22d0-4d80-b446-01f6eba12e0a.jpg',
