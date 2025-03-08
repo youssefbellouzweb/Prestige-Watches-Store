@@ -20,8 +20,11 @@
                 </div>
 
                 <div class="home__social">
-                    <a href="https://www.instagram.com/prestigewatches" target="_blank" class="home__social-link">
+                    <a href="https://www.instagram.com/prestiges_watches.ma?igsh=MTNqdWR2YmtuY2Jldg%3D%3D" target="_blank" class="home__social-link">
                         Instagram
+                    </a>
+                    <a href="https://www.tiktok.com/@prestiges_watches?_t=ZM-8uSGq1vduCt&_r=1" target="_blank" class="home__social-link">
+                        Tik Tok
                     </a>
                 </div>
                 <div class="home__data">
