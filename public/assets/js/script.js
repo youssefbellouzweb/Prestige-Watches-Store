@@ -2,8 +2,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const plus = document.getElementById("plus");
     const minus = document.getElementById("minus");
     const totalItems = document.getElementById("totalItems");
-    // const name_product = document.getElementById("name_product").value;
-    // const price = document.getElementById("price").value;
 
     document
         .getElementById("avec_emballage")
