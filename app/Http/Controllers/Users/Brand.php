@@ -1494,8 +1494,8 @@ class Brand extends Controller
             [
                 'tag' => 'Sale',
                 'image' => 'assets/img/rolex/Rolex Datejust 00/2_BASELUXREF_64.png',
-                'alt' => 'Rolex Datejust',
-                'title' => 'Rolex Datejust',
+                'alt' => 'Rolex Day-Date',
+                'title' => 'Rolex Day-Date',
                 'images' => [
                     "assets/img/rolex/Rolex Datejust 00/3_463096458_2622350438152522_7753106389815902738_n.jpg",
                     "assets/img/rolex/Rolex Datejust 00/1_463279877_854182613542370_291879615179667017_n.jpg",
