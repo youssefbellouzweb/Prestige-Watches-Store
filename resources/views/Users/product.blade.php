@@ -109,7 +109,7 @@
             <div class="detail-row">
                 <div class="detail-col-2">
                     <img src="{{ secure_asset($product['image']) }}" class="detail-product-image" id="emphasisPicture" />
-                    <div class="detail-smallImg detail-product-image">
+                    <div class="detail-smallImg">
                         @if (!empty($product['images']))
                             @foreach ($product['images'] as $image)
                                 <div class="detail-col-4">

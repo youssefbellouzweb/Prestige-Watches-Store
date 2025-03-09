@@ -612,18 +612,18 @@ class Brand extends Controller
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/tissot/TISSOT PRX POWERMATIC 80 Vert/1_207.png',
-                'alt' => 'TISSOT PRX POWERMATIC 80 Vert',
-                'title' => 'TISSOT PRX POWERMATIC 80 Vert',
+                'image' => 'assets/img/tissot/TISSOT PRX POWERMATIC 80Noir/1_205.png',
+                'alt' => 'TISSOT PRX POWERMATIC 80 Noir',
+                'title' => 'TISSOT PRX POWERMATIC 80 Noir',
                 'images' => [
-                    "assets/img/tissot/TISSOT PRX POWERMATIC 80 Vert/1_207.png",
-                    "assets/img/tissot/TISSOT PRX POWERMATIC 80 Vert/IMG_8541.PNG",
+                    "assets/img/tissot/TISSOT PRX POWERMATIC 80Noir/1_205.png",
+                    "assets/img/tissot/TISSOT PRX POWERMATIC 80Noir/IMG_5824.HEIC"
                 ],
                 'slug' => 'tissot',
                 'brand_slug' => 'tissot',
                 'price' => '750',
                 'price_packaging' => '900',
-                'description' => "Avec son cadran vert profond, ce modèle affirme un style audacieux et raffiné. Inspirée du design emblématique des années 70, cette montre arbore un boîtier fin et un bracelet intégré qui épousent parfaitement le poignet. Son mouvement Powermatic 80 assure une autonomie prolongée, tandis que le verre saphir antirayures garantit une lisibilité optimale et une résistance accrue aux chocs du quotidien. Un choix idéal pour ceux qui recherchent une montre distinctive, à la fois vintage et contemporaine."
+                'description' => "Un garde-temps élégant qui fusionne le classique et le moderne, doté d’un cadran noir raffiné et d’un bracelet intégré en acier inoxydable. Équipée du mouvement automatique Powermatic 80, cette montre offre une réserve de marche exceptionnelle allant jusqu'à 80 heures, garantissant une précision et une fiabilité remarquables. Son design épuré et sa polyvalence en font une pièce idéale pour toutes les occasions, alliant confort et sophistication."
             ],
             [
                 'tag' => 'Sale',
@@ -1211,7 +1211,7 @@ class Brand extends Controller
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/rolex/Daytona Cosmographe Doré 116518LN/daytonagold9.jpg',
+                'image' => 'assets/img/rolex/Daytona Cosmographe Doré 116518LN/Lady_Dior_My_ABC_8.png',
                 'alt' => 'Daytona Cosmographe Doré 116518LN',
                 'title' => 'Daytona Cosmographe Doré 116518LN',
                 'images' => [

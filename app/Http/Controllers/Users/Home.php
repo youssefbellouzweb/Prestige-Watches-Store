@@ -661,8 +661,8 @@ class Home extends Controller
             [
                 'tag' => 'Sale',
                 'image' => 'assets/img/tissot/TISSOT PRX POWERMATIC 80Noir/1_205.png',
-                'alt' => 'TISSOT PRX POWERMATIC 80Noir',
-                'title' => 'TISSOT PRX POWERMATIC 80Noir',
+                'alt' => 'TISSOT PRX POWERMATIC 80 Noir',
+                'title' => 'TISSOT PRX POWERMATIC 80 Noir',
                 'images' => [
                     "assets/img/tissot/TISSOT PRX POWERMATIC 80Noir/1_205.png",
                     "assets/img/tissot/TISSOT PRX POWERMATIC 80Noir/IMG_5824.HEIC"
@@ -1260,7 +1260,7 @@ class Home extends Controller
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/rolex/Daytona Cosmographe Doré 116518LN/daytonagold9.jpg',
+                'image' => 'assets/img/rolex/Daytona Cosmographe Doré 116518LN/Lady_Dior_My_ABC_8.png',
                 'alt' => 'Daytona Cosmographe Doré 116518LN',
                 'title' => 'Daytona Cosmographe Doré 116518LN',
                 'images' => [
