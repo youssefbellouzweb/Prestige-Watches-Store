@@ -1575,6 +1575,23 @@ class Product extends Controller
             ],
             [
                 'tag' => 'Sale',
+                'image' => 'assets/img/rolex/Daytona Cosmographe Doré 116518LN/daytonagold9.jpg',
+                'alt' => 'Daytona Cosmographe Doré 116518LN',
+                'title' => 'Daytona Cosmographe Doré 116518LN',
+                'images' => [
+                    "assets/img/rolex/Daytona Cosmographe Doré 116518LN/daytonagold9.jpg",
+                    "assets/img/rolex/Daytona Cosmographe Doré 116518LN/Lady_Dior_My_ABC_8.png",
+                    "assets/img/rolex/Daytona Cosmographe Doré 116518LN/daytonagold.jpg",
+                    "assets/img/rolex/Daytona Cosmographe Doré 116518LN/daytonagold8.jpg",
+                ],
+                'slug' => 'rolex',
+                'brand_slug' => 'rolex',
+                'price' => '800',
+                'price_packaging' => '950',
+                "description" => "Un modèle de la Daytona en or, alliant performance et esthétique de haute qualité. Ce modèle incarne l'excellence de Rolex et est parfait pour ceux qui recherchent une montre de prestige."
+            ],
+            [
+                'tag' => 'Sale',
                 'image' => 'assets/img/rolex/Rolex Submariner Noir/Untitleddesign_46.png',
                 'alt' => 'Rolex Submariner Noir',
                 'title' => 'Rolex Submariner Noir',
@@ -1640,23 +1657,6 @@ class Product extends Controller
                 'price' => '850',
                 'price_packaging' => '1000',
                 "description" => "Un chronographe d’exception en platine avec un cadran bleu glacé raffiné et une lunette en céramique marron, offrant une combinaison unique d’élégance et de performance."
-            ],
-            [
-                'tag' => 'Sale',
-                'image' => 'assets/img/rolex/Daytona Cosmographe Doré 116518LN 00/3_Lady_Dior_My_ABC_8.png',
-                'alt' => 'Daytona Cosmographe Doré 116518LN',
-                'title' => 'Daytona Cosmographe Doré 116518LN',
-                'images' => [
-                    "assets/img/rolex/Daytona Cosmographe Doré 116518LN 00/1_daytonagold8.jpg",
-                    "assets/img/rolex/Daytona Cosmographe Doré 116518LN 00/2_daytonagold9.jpg",
-                    "assets/img/rolex/Daytona Cosmographe Doré 116518LN 00/3_Lady_Dior_My_ABC_8.png",
-                    "assets/img/rolex/Daytona Cosmographe Doré 116518LN 00/4_daytonagold4.jpg",
-                ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '850',
-                'price_packaging' => '1000',
-                "description" => "Un modèle emblématique en or jaune avec un bracelet Oysterflex et une lunette en céramique noire, idéal pour ceux qui recherchent un équilibre entre luxe et sportivité."
             ],
             [
                 'tag' => 'Sale',
