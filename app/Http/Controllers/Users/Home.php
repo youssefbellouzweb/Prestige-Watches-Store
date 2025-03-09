@@ -664,7 +664,8 @@ class Home extends Controller
                 'alt' => 'TISSOT PRX POWERMATIC 80Noir',
                 'title' => 'TISSOT PRX POWERMATIC 80Noir',
                 'images' => [
-                    "assets/img/tissot/TISSOT PRX POWERMATIC 80Noir/1_205.png"
+                    "assets/img/tissot/TISSOT PRX POWERMATIC 80Noir/1_205.png",
+                    "assets/img/tissot/TISSOT PRX POWERMATIC 80Noir/IMG_5824.HEIC"
                 ],
                 'slug' => 'tissot',
                 'brand_slug' => 'tissot',
@@ -674,12 +675,13 @@ class Home extends Controller
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/tissot/TISSOT PRX POWERMATIC 80 Bleu/1_T137.407.11.041.00_AMB_S_1.webp',
+                'image' => 'assets/img/tissot/TISSOT PRX POWERMATIC 80 Bleu/2_204.png',
                 'alt' => 'TISSOT PRX POWERMATIC 80 Bleu',
                 'title' => 'TISSOT PRX POWERMATIC 80 Bleu',
                 'images' => [
                     "assets/img/tissot/TISSOT PRX POWERMATIC 80 Bleu/1_T137.407.11.041.00_AMB_S_1.webp",
-                    "assets/img/tissot/TISSOT PRX POWERMATIC 80 Bleu/2_204.png"
+                    "assets/img/tissot/TISSOT PRX POWERMATIC 80 Bleu/2_204.png",
+                    "assets/img/tissot/TISSOT PRX POWERMATIC 80 Bleu/IMG_5772.HEIC",
                 ],
                 'slug' => 'tissot',
                 'brand_slug' => 'tissot',
@@ -693,7 +695,8 @@ class Home extends Controller
                 'alt' => 'TISSOT PRX POWERMATIC 80 Vert',
                 'title' => 'TISSOT PRX POWERMATIC 80 Vert',
                 'images' => [
-                    "assets/img/tissot/TISSOT PRX POWERMATIC 80 Vert/1_207.png"
+                    "assets/img/tissot/TISSOT PRX POWERMATIC 80 Vert/1_207.png",
+                    "assets/img/tissot/TISSOT PRX POWERMATIC 80 Vert/IMG_8541.PNG",
                 ],
                 'slug' => 'tissot',
                 'brand_slug' => 'tissot',
@@ -1453,23 +1456,6 @@ class Home extends Controller
                 'price' => '850',
                 'price_packaging' => '1000',
                 "description" => "Une montre de collection avec un cadran vert intense et un boîtier en or jaune, alliant prestige et performance."
-            ],
-            [
-                'tag' => 'Sale',
-                'image' => 'assets/img/rolex/Rolex Datejust 00/2_BASELUXREF_64.png',
-                'alt' => 'Rolex Day-Date',
-                'title' => 'Rolex Day-Date',
-                'images' => [
-                    "assets/img/rolex/Rolex Datejust 00/3_463096458_2622350438152522_7753106389815902738_n.jpg",
-                    "assets/img/rolex/Rolex Datejust 00/1_463279877_854182613542370_291879615179667017_n.jpg",
-                    "assets/img/rolex/Rolex Datejust 00/2_BASELUXREF_64.png",
-                    "assets/img/rolex/Rolex Datejust 00/4_463236668_1689427744991669_4200685602400223286_n.jpg",
-                ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '850',
-                'price_packaging' => '1000',
-                "description" => "Un modèle emblématique de Rolex, symbole de sophistication et de précision, avec un affichage de la date sous la loupe Cyclope."
             ],
             [
                 'tag' => 'Sale',

@@ -612,26 +612,28 @@ class Brand extends Controller
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/tissot/TISSOT PRX POWERMATIC 80Noir/1_205.png',
-                'alt' => 'TISSOT PRX POWERMATIC 80Noir',
-                'title' => 'TISSOT PRX POWERMATIC 80Noir',
+                'image' => 'assets/img/tissot/TISSOT PRX POWERMATIC 80 Vert/1_207.png',
+                'alt' => 'TISSOT PRX POWERMATIC 80 Vert',
+                'title' => 'TISSOT PRX POWERMATIC 80 Vert',
                 'images' => [
-                    "assets/img/tissot/TISSOT PRX POWERMATIC 80Noir/1_205.png"
+                    "assets/img/tissot/TISSOT PRX POWERMATIC 80 Vert/1_207.png",
+                    "assets/img/tissot/TISSOT PRX POWERMATIC 80 Vert/IMG_8541.PNG",
                 ],
                 'slug' => 'tissot',
                 'brand_slug' => 'tissot',
                 'price' => '750',
                 'price_packaging' => '900',
-                'description' => "Un garde-temps élégant qui fusionne le classique et le moderne, doté d’un cadran noir raffiné et d’un bracelet intégré en acier inoxydable. Équipée du mouvement automatique Powermatic 80, cette montre offre une réserve de marche exceptionnelle allant jusqu'à 80 heures, garantissant une précision et une fiabilité remarquables. Son design épuré et sa polyvalence en font une pièce idéale pour toutes les occasions, alliant confort et sophistication."
+                'description' => "Avec son cadran vert profond, ce modèle affirme un style audacieux et raffiné. Inspirée du design emblématique des années 70, cette montre arbore un boîtier fin et un bracelet intégré qui épousent parfaitement le poignet. Son mouvement Powermatic 80 assure une autonomie prolongée, tandis que le verre saphir antirayures garantit une lisibilité optimale et une résistance accrue aux chocs du quotidien. Un choix idéal pour ceux qui recherchent une montre distinctive, à la fois vintage et contemporaine."
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/tissot/TISSOT PRX POWERMATIC 80 Bleu/1_T137.407.11.041.00_AMB_S_1.webp',
+                'image' => 'assets/img/tissot/TISSOT PRX POWERMATIC 80 Bleu/2_204.png',
                 'alt' => 'TISSOT PRX POWERMATIC 80 Bleu',
                 'title' => 'TISSOT PRX POWERMATIC 80 Bleu',
                 'images' => [
                     "assets/img/tissot/TISSOT PRX POWERMATIC 80 Bleu/1_T137.407.11.041.00_AMB_S_1.webp",
-                    "assets/img/tissot/TISSOT PRX POWERMATIC 80 Bleu/2_204.png"
+                    "assets/img/tissot/TISSOT PRX POWERMATIC 80 Bleu/2_204.png",
+                    "assets/img/tissot/TISSOT PRX POWERMATIC 80 Bleu/IMG_5772.HEIC",
                 ],
                 'slug' => 'tissot',
                 'brand_slug' => 'tissot',
@@ -1405,23 +1407,6 @@ class Brand extends Controller
                 'price' => '850',
                 'price_packaging' => '1000',
                 "description" => "Une montre de collection avec un cadran vert intense et un boîtier en or jaune, alliant prestige et performance."
-            ],
-            [
-                'tag' => 'Sale',
-                'image' => 'assets/img/rolex/Rolex Datejust 00/2_BASELUXREF_64.png',
-                'alt' => 'Rolex Day-Date',
-                'title' => 'Rolex Day-Date',
-                'images' => [
-                    "assets/img/rolex/Rolex Datejust 00/3_463096458_2622350438152522_7753106389815902738_n.jpg",
-                    "assets/img/rolex/Rolex Datejust 00/1_463279877_854182613542370_291879615179667017_n.jpg",
-                    "assets/img/rolex/Rolex Datejust 00/2_BASELUXREF_64.png",
-                    "assets/img/rolex/Rolex Datejust 00/4_463236668_1689427744991669_4200685602400223286_n.jpg",
-                ],
-                'slug' => 'rolex',
-                'brand_slug' => 'rolex',
-                'price' => '850',
-                'price_packaging' => '1000',
-                "description" => "Un modèle emblématique de Rolex, symbole de sophistication et de précision, avec un affichage de la date sous la loupe Cyclope."
             ],
             [
                 'tag' => 'Sale',
