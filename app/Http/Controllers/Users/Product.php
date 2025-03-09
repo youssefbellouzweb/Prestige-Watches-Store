@@ -62,7 +62,10 @@ class Product extends Controller
                 'title' => 'TISSOT PRX POWERMATIC 80 Noir',
                 'images' => [
                     "assets/img/tissot/TISSOT PRX POWERMATIC 80Noir/1_205.png",
-                    "assets/img/tissot/TISSOT PRX POWERMATIC 80Noir/IMG_5824.png"
+                    "assets/img/tissot/TISSOT PRX POWERMATIC 80Noir/TISSOT PRX POWERMATIC 80 Noir.jpeg",
+                    "assets/img/tissot/TISSOT PRX POWERMATIC 80Noir/TISSOT PRX POWERMATIC 80 Noir 1.jpeg",
+                    "assets/img/tissot/TISSOT PRX POWERMATIC 80Noir/TISSOT PRX POWERMATIC 80 Noir 2.jpeg",
+                    "assets/img/tissot/TISSOT PRX POWERMATIC 80Noir/TISSOT PRX POWERMATIC 80 Noir 3.jpeg",
                 ],
                 'slug' => 'tissot',
                 'brand_slug' => 'tissot',
@@ -983,7 +986,10 @@ class Product extends Controller
                 'title' => 'TISSOT PRX POWERMATIC 80 Noir',
                 'images' => [
                     "assets/img/tissot/TISSOT PRX POWERMATIC 80Noir/1_205.png",
-                    "assets/img/tissot/TISSOT PRX POWERMATIC 80Noir/IMG_5824.HEIC"
+                    "assets/img/tissot/TISSOT PRX POWERMATIC 80Noir/TISSOT PRX POWERMATIC 80 Noir.jpeg",
+                    "assets/img/tissot/TISSOT PRX POWERMATIC 80Noir/TISSOT PRX POWERMATIC 80 Noir 1.jpeg",
+                    "assets/img/tissot/TISSOT PRX POWERMATIC 80Noir/TISSOT PRX POWERMATIC 80 Noir 2.jpeg",
+                    "assets/img/tissot/TISSOT PRX POWERMATIC 80Noir/TISSOT PRX POWERMATIC 80 Noir 3.jpeg",
                 ],
                 'slug' => 'tissot',
                 'brand_slug' => 'tissot',
