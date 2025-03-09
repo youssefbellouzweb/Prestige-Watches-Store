@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 document.getElementById("price_packaging").value;
             const totalItems = document.getElementById("totalItems").value;
             const emballages = document.getElementsByName("emballage");
-            // const numberphone = +212622314644;
+            const numberphone = +212622314644;
             // +212605174019
             for (i = 0; i < emballages.length; i++) {
                 if (
@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     )}\nPrix Total: ${
                         parseFloat(price_packaging) * parseInt(totalItems)
                     }DH\n`;
-                    const whatsappUrl = `https://wa.me/+212622314644?text=${encodeURIComponent(
+                    const whatsappUrl = `https://wa.me/${numberphone}?text=${encodeURIComponent(
                         message
                     )}`;
                     window.location.href = whatsappUrl;
@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     )}\nPrix Total: ${
                         parseFloat(price) * parseInt(totalItems)
                     }DH\n`;
-                    const whatsappUrl = `https://wa.me/+212622314644?text=${encodeURIComponent(
+                    const whatsappUrl = `https://wa.me/${numberphone}?text=${encodeURIComponent(
                         message
                     )}`;
                     window.location.href = whatsappUrl;
