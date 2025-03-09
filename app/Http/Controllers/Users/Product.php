@@ -993,12 +993,13 @@ class Product extends Controller
             ],
             [
                 'tag' => 'Sale',
-                'image' => 'assets/img/tissot/TISSOT PRX POWERMATIC 80 Bleu/1_T137.407.11.041.00_AMB_S_1.webp',
+                'image' => 'assets/img/tissot/TISSOT PRX POWERMATIC 80 Bleu/2_204.png',
                 'alt' => 'TISSOT PRX POWERMATIC 80 Bleu',
                 'title' => 'TISSOT PRX POWERMATIC 80 Bleu',
                 'images' => [
                     "assets/img/tissot/TISSOT PRX POWERMATIC 80 Bleu/1_T137.407.11.041.00_AMB_S_1.webp",
-                    "assets/img/tissot/TISSOT PRX POWERMATIC 80 Bleu/2_204.png"
+                    "assets/img/tissot/TISSOT PRX POWERMATIC 80 Bleu/2_204.png",
+                    "assets/img/tissot/TISSOT PRX POWERMATIC 80 Bleu/IMG_5772.HEIC",
                 ],
                 'slug' => 'tissot',
                 'brand_slug' => 'tissot',
