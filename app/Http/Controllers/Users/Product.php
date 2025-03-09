@@ -982,7 +982,8 @@ class Product extends Controller
                 'alt' => 'TISSOT PRX POWERMATIC 80 Noir',
                 'title' => 'TISSOT PRX POWERMATIC 80 Noir',
                 'images' => [
-                    "assets/img/tissot/TISSOT PRX POWERMATIC 80Noir/1_205.png"
+                    "assets/img/tissot/TISSOT PRX POWERMATIC 80Noir/1_205.png",
+                    "assets/img/tissot/TISSOT PRX POWERMATIC 80Noir/IMG_5824.HEIC"
                 ],
                 'slug' => 'tissot',
                 'brand_slug' => 'tissot',
